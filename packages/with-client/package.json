@@ -2,6 +2,11 @@
     "name": "@thetimes/with-client",
     "main": "lib/with-client.js",
     "version": "1.0.0",
+    "scripts": {
+        "build:types": "for x in src/*.js; do cp -- \"$x\" \"lib/$(basename $x).flow\"; done",
+        "build:flow": "babel src -d lib/",
+        "build": "npm run build:types && npm run build:flow"
+    },
     "dependencies": {
         "apollo-cache-inmemory": "^1.1.7",
         "apollo-client": "^2.2.2",

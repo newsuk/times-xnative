@@ -2,6 +2,11 @@
   "name": "@thetimes/author-profile",
   "main": "lib/with-client.js",
   "version": "1.0.0",
+  "scripts": {
+      "build:types": "for x in src/*.js; do cp -- \"$x\" \"lib/$(basename $x).flow\"; done",
+      "build:flow": "babel src -d lib/",
+      "build": "npm run build:types && npm run build:flow"
+  },
   "dependencies": {
     "@thetimes/with-client": "1.0.0",
     "@times-components/author-profile": "^0.41.21",
