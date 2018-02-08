@@ -13,7 +13,7 @@ interface Config {
 
 type FetchFunction = (input: string | Request, init?: RequestOptions) => Promise<string>;
 
-const withClient = <P: {}>({graphqlEndPoint}: Config) => (fetch: FetchFunction) => (WrappedComponent: ComponentType<P>): ComponentType<P> => {
+const withClient = <P: {}>(WrappedComponent: ComponentType<P>) => ({graphqlEndPoint}: Config) => (fetch: FetchFunction): ComponentType<P> => {
     const fragmentMatcher = new IntrospectionFragmentMatcher({
         introspectionQueryResultData: {
             __schema: {

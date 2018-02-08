@@ -4,7 +4,7 @@ import * as React from "react"
 import PropTypes from "prop-types"
 import AuthorProfile from "@times-components/author-profile"
 import { AuthorProfileProvider } from "@times-components/provider"
-import { withClient } from "@thetimes/with-client"
+import withClient from "@thetimes/with-client"
 
 type AuthorProfileProps = {
     authorSlug: string,
