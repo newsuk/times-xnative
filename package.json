@@ -2,5 +2,8 @@
     "private": true,
     "workspaces": [
         "packages/*"
-    ]
+    ],
+    "devDependencies": {
+        "flow-bin": "^0.65.0"
+    }
 }
