@@ -5,7 +5,8 @@
     "scripts": {
         "build:types": "for x in src/*.js; do cp -- \"$x\" \"lib/$(basename $x).flow\"; done",
         "build:flow": "babel src -d lib/",
-        "build": "npm run build:types && npm run build:flow"
+        "build": "npm run build:types && npm run build:flow",
+        "fmt": "prettier --write 'src/**/*.*'"
     },
     "dependencies": {
         "apollo-cache-inmemory": "^1.1.7",
@@ -20,6 +21,7 @@
         "babel-plugin-transform-object-rest-spread": "^6.26.0",
         "babel-preset-flow": "^6.23.0",
         "babel-preset-react": "^6.24.1",
-        "flow-bin": "^0.65.0"
+        "flow-bin": "^0.65.0",
+        "prettier": "^1.10.2"
     }
 }
