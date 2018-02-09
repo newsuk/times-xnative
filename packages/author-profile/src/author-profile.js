@@ -1,20 +1,25 @@
 // @flow
 
-import * as React from "react"
-import PropTypes from "prop-types"
-import AuthorProfile from "@times-components/author-profile"
-import { AuthorProfileProvider } from "@times-components/provider"
-import withClient from "@thetimes/with-client"
+import * as React from "react";
+import PropTypes from "prop-types";
+import AuthorProfile from "@times-components/author-profile";
+import { AuthorProfileProvider } from "@times-components/provider";
+import withClient from "@thetimes/with-client";
 
 type AuthorProfileProps = {
-    authorSlug: string,
-    // TODO: add types for these
-    onTwitterLinkPress: (extras: any) => void,
-    onArticlePress: (extras: any) => void,
-    analyticsStream: (data: any) => void
+  authorSlug: string,
+  // TODO: add types for these
+  onTwitterLinkPress: (extras: any) => void,
+  onArticlePress: (extras: any) => void,
+  analyticsStream: (data: any) => void
 };
 
-const AuthorProfilePage = ({ authorSlug, onTwitterLinkPress, onArticlePress, analyticsStream }: AuthorProfileProps) => (
+const AuthorProfilePage = ({
+  authorSlug,
+  onTwitterLinkPress,
+  onArticlePress,
+  analyticsStream
+}: AuthorProfileProps) => (
   <AuthorProfileProvider
     articleImageRatio="4:3"
     slug={authorSlug}
@@ -22,7 +27,16 @@ const AuthorProfilePage = ({ authorSlug, onTwitterLinkPress, onArticlePress, ana
     pageSize={20}
     debounceTimeMs={250}
   >
-    {({ author, isLoading, error, page, pageSize, onNext, onPrev, refetch }) => (
+    {({
+      author,
+      isLoading,
+      error,
+      page,
+      pageSize,
+      onNext,
+      onPrev,
+      refetch
+    }) => (
       <AuthorProfile
         author={author}
         slug={authorSlug}
@@ -39,6 +53,6 @@ const AuthorProfilePage = ({ authorSlug, onTwitterLinkPress, onArticlePress, ana
       />
     )}
   </AuthorProfileProvider>
-)
+);
 
-export default withClient(AuthorProfilePage)
+export default withClient(AuthorProfilePage);
