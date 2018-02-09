@@ -3,11 +3,11 @@
   "main": "lib/with-client.js",
   "version": "1.0.0",
   "scripts": {
-    "build:types":
-      "for x in src/*.js; do cp -- \"$x\" \"lib/$(basename $x).flow\"; done",
+    "build:types": "for x in src/*.js; do cp -- \"$x\" \"lib/$(basename $x).flow\"; done",
     "build:flow": "babel src -d lib/",
     "build": "npm run build:types && npm run build:flow",
-    "fmt": "prettier --write 'src/**/*.*'"
+    "lint:prettier": "prettier --list-different src/**/*.*",
+    "lint": "npm run lint:prettier"
   },
   "dependencies": {
     "@thetimes/with-client": "1.0.0",
