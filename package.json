@@ -1,7 +1,8 @@
 {
     "private": true,
     "scripts": {
-        "commit": "git-cz"
+        "commit": "git-cz",
+        "postinstall": "lerna run build"
     },
     "workspaces": [
         "packages/*"
