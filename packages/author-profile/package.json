@@ -1,6 +1,6 @@
 {
   "name": "@thetimes/author-profile",
-  "main": "lib/with-client.js",
+  "main": "lib/author-profile.js",
   "version": "1.0.0",
   "scripts": {
     "build:types": "for x in src/*.js; do cp -- \"$x\" \"lib/$(basename $x).flow\"; done",
@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@thetimes/with-client": "1.0.0",
-    "@times-components/author-profile": "^0.41.21",
+    "@times-components/author-profile": "0.41.5",
     "@times-components/provider": "^0.22.6",
     "react": "^16.2.0",
     "react-native": "^0.53.0"
