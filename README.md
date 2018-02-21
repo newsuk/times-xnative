@@ -9,16 +9,12 @@ Home of The Times' `react native` pages, shared code between the iOS and Android
 
 ### Dev Environment
 
-We require MacOS with [Node.js](https://nodejs.org) (version >=8 with npm v5),
-[yarn](https://yarnpkg.com) (latest) and
-[watchman](https://facebook.github.io/watchman) installed.
+We require MacOS with [Node.js](https://nodejs.org) (version >=8 with npm v5), and [yarn](https://yarnpkg.com) (latest) installed.
 You can try without these requirements, but you'd be on your own.
 
 ## Getting Started
 
 1. Run `yarn` to install dependencies
-
-TODO
 
 ## Contributing
 
