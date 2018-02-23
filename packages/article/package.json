@@ -1,0 +1,30 @@
+{
+  "name": "@thetimes/article",
+  "main": "lib/article.js",
+  "version": "1.0.0",
+  "license": "BSD-3-Clause",
+  "scripts": {
+    "build:types": "for x in src/*.js; do cp -- \"$x\" \"lib/$(basename $x).flow\"; done",
+    "build:flow": "babel src -d lib/",
+    "build": "npm run build:types && npm run build:flow",
+    "lint:prettier": "prettier --list-different src/**/*.*",
+    "lint": "npm run lint:prettier"
+  },
+  "dependencies": {
+    "@thetimes/with-client": "1.0.0",
+    "@times-components/article": "^0.39.0",
+    "@times-components/provider": "^0.23.1",
+    "react": "^16.2.0",
+    "react-native": "^0.53.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "1.6.1",
+    "babel-preset-flow": "^6.23.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "6.24.1",
+    "flow-bin": "^0.65.0"
+  }
+}
