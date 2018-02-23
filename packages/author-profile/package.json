@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "license": "BSD-3-Clause",
   "scripts": {
-    "build:types": "for x in src/*.js; do cp -- \"$x\" \"lib/$(basename $x).flow\"; done",
+    "build:types": "mkdir -p lib && for x in src/*.js; do cp -- \"$x\" \"lib/$(basename $x).flow\"; done",
     "build:flow": "babel src -d lib/",
     "build": "npm run build:types && npm run build:flow",
     "lint:prettier": "prettier --list-different src/**/*.*",
