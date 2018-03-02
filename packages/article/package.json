@@ -7,6 +7,7 @@
     "build:types": "mkdir -p lib && for x in src/*.js; do cp -- \"$x\" \"lib/$(basename $x).flow\"; done",
     "build:flow": "babel src -d lib/",
     "build": "npm run build:types && npm run build:flow",
+    "fmt": "prettier --write 'src/**/*.*'",
     "lint:prettier": "prettier --list-different src/**/*.*",
     "lint": "npm run lint:prettier"
   },
