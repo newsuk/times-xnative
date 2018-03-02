@@ -12,19 +12,19 @@
   },
   "dependencies": {
     "@thetimes/with-client": "1.0.0",
-    "@times-components/article": "^0.39.0",
-    "@times-components/provider": "^0.23.1",
-    "react": "^16.2.0",
-    "react-native": "^0.53.0"
+    "@times-components/article": "0.42.0",
+    "@times-components/provider": "0.23.3",
+    "react": "16.2.0",
+    "react-native": "0.53.0"
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
-    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-cli": "6.26.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "6.26.0",
+    "babel-plugin-transform-object-rest-spread": "6.26.0",
     "babel-preset-env": "1.6.1",
-    "babel-preset-flow": "^6.23.0",
-    "babel-preset-react": "^6.24.1",
+    "babel-preset-flow": "6.23.0",
+    "babel-preset-react": "6.24.1",
     "babel-preset-stage-2": "6.24.1",
-    "flow-bin": "^0.65.0"
+    "flow-bin": "0.65.0"
   }
 }
