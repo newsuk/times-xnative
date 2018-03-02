@@ -4,7 +4,7 @@ TODO - Add badges back when we have a CI environment up
 
 ### Purpose
 
-Home of The Times' `react native` pages, shared code between the iOS and Android app that doesn't belong to [Times Components](https://www.github.com/newsuk/times-components)
+Home of The Times' `react native` pages shared between the iOS and Android app that doesn't belong to [Times Components](https://www.github.com/newsuk/times-components)
 
 ### Dev Environment
 
