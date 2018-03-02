@@ -1,7 +1,9 @@
 {
     "private": true,
     "scripts": {
+        "ci": "yarn lint",
         "commit": "git-cz",
+        "lint": "lerna run lint",
         "postinstall": "lerna run build"
     },
     "workspaces": [
