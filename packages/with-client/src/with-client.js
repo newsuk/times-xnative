@@ -9,6 +9,7 @@ import {
   IntrospectionFragmentMatcher
 } from "apollo-cache-inmemory";
 import { ApolloProvider } from "react-apollo";
+import { fragmentMatcher } from "@times-components/utils/graphql";
 
 interface Config {
   graphqlEndPoint: string;
@@ -22,36 +23,15 @@ type FetchFunction = (
 const withClient = <P: {}>(WrappedComponent: ComponentType<P>) => ({
   graphqlEndPoint
 }: Config) => (fetch: FetchFunction): ComponentType<P> => {
-  const fragmentMatcher = new IntrospectionFragmentMatcher({
-    introspectionQueryResultData: {
-      __schema: {
-        types: [
-          {
-            kind: "UNION",
-            name: "Media",
-            possibleTypes: [
-              {
-                name: "Image"
-              },
-              {
-                name: "Video"
-              }
-            ]
-          }
-        ]
-      }
-    }
-  });
-
   const link = createHttpLink({
-    uri: graphqlEndPoint,
+      uri: graphqlEndPoint,
     fetch: (uri, opts) => {
       return fetch(uri, opts).then(responseBody => new Response(responseBody));
-    }
-  });
+  }
+});
 
   const client = new ApolloClient({
-    link,
+      link,
     cache: new InMemoryCache({
       fragmentMatcher
     })
@@ -61,7 +41,7 @@ const withClient = <P: {}>(WrappedComponent: ComponentType<P>) => ({
     <ApolloProvider client={client}>
       <WrappedComponent {...props} />
     </ApolloProvider>
-  );
-};
+    );
+  };
 
-export default withClient;
+  export default withClient;

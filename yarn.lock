@@ -217,7 +217,7 @@
     prop-types "15.6.0"
     react-display-name "0.2.3"
 
-"@times-components/utils@0.5.1":
+"@times-components/utils@0.5.1", "@times-components/utils@^0.5.1":
   version "0.5.1"
   resolved "https://registry.yarnpkg.com/@times-components/utils/-/utils-0.5.1.tgz#68339da2b7e3349169a3f5aa01d94d0fb9db7f66"
   dependencies:
