@@ -24,14 +24,14 @@ const withClient = <P: {}>(WrappedComponent: ComponentType<P>) => ({
   graphqlEndPoint
 }: Config) => (fetch: FetchFunction): ComponentType<P> => {
   const link = createHttpLink({
-      uri: graphqlEndPoint,
+    uri: graphqlEndPoint,
     fetch: (uri, opts) => {
       return fetch(uri, opts).then(responseBody => new Response(responseBody));
-  }
-});
+    }
+  });
 
   const client = new ApolloClient({
-      link,
+    link,
     cache: new InMemoryCache({
       fragmentMatcher
     })
@@ -41,7 +41,7 @@ const withClient = <P: {}>(WrappedComponent: ComponentType<P>) => ({
     <ApolloProvider client={client}>
       <WrappedComponent {...props} />
     </ApolloProvider>
-    );
-  };
+  );
+};
 
-  export default withClient;
+export default withClient;
