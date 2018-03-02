@@ -8,8 +8,8 @@
         "packages/*"
     ],
     "devDependencies": {
-        "commitizen": "^2.9.6",
-        "lerna": "^2.8.0",
-        "prettier": "^1.10.2"
+        "commitizen": "2.9.6",
+        "lerna": "2.8.0",
+        "prettier": "1.10.2"
     }
 }
