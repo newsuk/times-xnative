@@ -1,6 +1,6 @@
 {
-  "name": "@thetimes/author-profile",
-  "main": "lib/author-profile.js",
+  "name": "@thetimes/article",
+  "main": "lib/article.js",
   "version": "1.0.0",
   "license": "BSD-3-Clause",
   "scripts": {
@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@thetimes/with-client": "1.0.0",
-    "@times-components/author-profile": "0.42.17",
+    "@times-components/article": "0.42.1",
     "@times-components/provider": "0.23.4",
     "react": "16.2.0",
     "react-native": "0.53.0"
