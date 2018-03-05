@@ -4,8 +4,9 @@
     "ci": "yarn lint",
     "commit": "git-cz",
     "deps:fix": "npx @times-components/depend -l . -e '{node_modules/@times-components/*,.}/package.json' -s majority --fix",
-    "deps:lint": "npx @times-components/depend -l . -e '{node_modules/@times-components/*,.}/package.json' -s majority --hint",
+    "deps:lint": "npx @times-components/depend -l . -e '{node_modules/@times-components/*,.}/package.json' -s majority --hint --bail",
     "deps:list": "npx @times-components/depend -l . -e '{node_modules/@times-components/*,.}/package.json' -s majority --list",
+    "prelint": "yarn deps:lint",
     "lint": "lerna run lint",
     "postinstall": "lerna run build"
   },
