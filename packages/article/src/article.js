@@ -11,7 +11,11 @@ type ArticleProps = {
   onRelatedArticlePress: (extras: any) => void
 };
 
-const ArticleDetailsPage = ({ articleId, analyticsStream, onRelatedArticlePress }: ArticleProps) => (
+const ArticleDetailsPage = ({
+  articleId,
+  analyticsStream,
+  onRelatedArticlePress
+}: ArticleProps) => (
   <ArticleProvider id={articleId} debounceTimeMs={100}>
     {({ article, isLoading, error }) => (
       <Article
@@ -19,7 +23,9 @@ const ArticleDetailsPage = ({ articleId, analyticsStream, onRelatedArticlePress 
         isLoading={isLoading}
         error={error}
         analyticsStream={analyticsStream}
-        onRelatedArticlePress={(events, extras) => onRelatedArticlePress(extras)}
+        onRelatedArticlePress={(events, extras) =>
+          onRelatedArticlePress(extras)
+        }
       />
     )}
   </ArticleProvider>
