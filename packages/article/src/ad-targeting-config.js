@@ -24,7 +24,6 @@ export interface ArticleAdConfig {
 }
 
 export interface AdTargetingConfig {
-  // Device + Article
   Timeline: string;
   edition: "tnl-english";
   Shared: "0";
