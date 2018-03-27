@@ -96,5 +96,7 @@ export const adTargetConfig = (
     section: platformAdConfig.sectionName,
     excl_cat: ""
   },
-  slotTargeting: {}
+  slotTargeting: {},
+  bidderSlots: [],
+  biddersConfig: {}
 });
