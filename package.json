@@ -8,7 +8,8 @@
     "deps:list": "npx @times-components/depend -l . -e '{node_modules/@times-components/*,.}/package.json' -s majority --list",
     "prelint": "yarn deps:lint",
     "lint": "lerna run lint",
-    "postinstall": "lerna run build"
+    "postinstall": "lerna run build",
+    "watch": "lerna run --parallel watch"
   },
   "workspaces": [
     "packages/*"
