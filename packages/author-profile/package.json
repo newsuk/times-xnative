@@ -1,7 +1,7 @@
 {
   "name": "@thetimes/author-profile",
   "main": "lib/author-profile.js",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "license": "BSD-3-Clause",
   "scripts": {
     "build:types": "mkdir -p lib && for x in src/*.js; do cp -- \"$x\" \"lib/$(basename $x).flow\"; done",
@@ -14,7 +14,7 @@
     "lint": "yarn lint:prettier && yarn lint:flow"
   },
   "dependencies": {
-    "@thetimes/with-client": "1.0.5",
+    "@thetimes/with-client": "1.0.6",
     "@times-components/author-profile": "0.53.5",
     "@times-components/provider": "0.25.3",
     "react": "16.2.0",
