@@ -11,9 +11,12 @@
     "postinstall": "lerna run build",
     "watch": "lerna run --parallel watch"
   },
-  "workspaces": [
-    "packages/*"
-  ],
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": ["**"]
+  },
   "devDependencies": {
     "@times-components/depend": "0.1.3",
     "commitizen": "2.9.6",
