@@ -10,6 +10,7 @@ type ArticleProps = {
   articleId: string,
   analyticsStream: (data: any) => void,
   onRelatedArticlePress: (extras: any) => void,
+  onAuthorPress: (extras: any) => void,
   platformAdConfig: PlatformAdConfig
 };
 
@@ -17,7 +18,8 @@ const ArticleDetailsPage = ({
   articleId,
   analyticsStream,
   onRelatedArticlePress,
-  platformAdConfig
+  platformAdConfig,
+  onAuthorPress
 }: ArticleProps) => (
   <ArticleProvider id={articleId} debounceTimeMs={100}>
     {({ article, isLoading, error }) => {
@@ -32,9 +34,8 @@ const ArticleDetailsPage = ({
           error={error}
           analyticsStream={analyticsStream}
           adConfig={adConfig}
-          onRelatedArticlePress={(events, extras) =>
-            onRelatedArticlePress(extras)
-          }
+          onRelatedArticlePress={onRelatedArticlePress}
+          onAuthorPress={onAuthorPress}
         />
       );
     }}
