@@ -5,12 +5,14 @@ import { ArticleProvider } from "@times-components/provider";
 import withClient from "@thetimes/with-client";
 import Article from "@times-components/article";
 import { PlatformAdConfig, adTargetConfig } from "./ad-targeting-config";
+import { VideoInfo } from "./video-info";
 
 type ArticleProps = {
   articleId: string,
   analyticsStream: (data: any) => void,
   onRelatedArticlePress: (extras: any) => void,
   onAuthorPress: (extras: any) => void,
+  onVideoPress: (info: VideoInfo) => void,
   platformAdConfig: PlatformAdConfig
 };
 
@@ -19,7 +21,8 @@ const ArticleDetailsPage = ({
   analyticsStream,
   onRelatedArticlePress,
   platformAdConfig,
-  onAuthorPress
+  onAuthorPress,
+  onVideoPress
 }: ArticleProps) => (
   <ArticleProvider id={articleId} debounceTimeMs={100}>
     {({ article, isLoading, error }) => {
@@ -36,6 +39,7 @@ const ArticleDetailsPage = ({
           adConfig={adConfig}
           onRelatedArticlePress={onRelatedArticlePress}
           onAuthorPress={onAuthorPress}
+          onVideoPress={(e, info) => onVideoPress(info)}
         />
       );
     }}
