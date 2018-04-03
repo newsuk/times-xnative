@@ -15,7 +15,9 @@
     "packages": [
       "packages/*"
     ],
-    "nohoist": ["**"]
+    "nohoist": [
+      "**"
+    ]
   },
   "devDependencies": {
     "@times-components/depend": "0.1.3",

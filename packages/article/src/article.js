@@ -37,8 +37,10 @@ const ArticleDetailsPage = ({
           error={error}
           analyticsStream={analyticsStream}
           adConfig={adConfig}
-          onRelatedArticlePress={onRelatedArticlePress}
-          onAuthorPress={onAuthorPress}
+          onRelatedArticlePress={(event, extras) =>
+            onRelatedArticlePress(extras)
+          }
+          onAuthorPress={(event, extras) => onAuthorPress(extras)}
           onVideoPress={(e, info) => onVideoPress(info)}
         />
       );
