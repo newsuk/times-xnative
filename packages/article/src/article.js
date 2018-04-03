@@ -24,26 +24,28 @@ const ArticleDetailsPage = ({
   onAuthorPress,
   onVideoPress
 }: ArticleProps) => (
-    <ArticleProvider id={articleId} debounceTimeMs={100}>
-      {({ article, isLoading, error }) => {
-        const adConfig = isLoading
-          ? {}
-          : adTargetConfig(platformAdConfig, article);
+  <ArticleProvider id={articleId} debounceTimeMs={100}>
+    {({ article, isLoading, error }) => {
+      const adConfig = isLoading
+        ? {}
+        : adTargetConfig(platformAdConfig, article);
 
-        return (
-          <Article
-            article={article}
-            isLoading={isLoading}
-            error={error}
-            analyticsStream={analyticsStream}
-            adConfig={adConfig}
-            onRelatedArticlePress={(event, extras) => onRelatedArticlePress(extras)}
-            onAuthorPress={(event, extras) => onAuthorPress(extras)}
-            onVideoPress={(e, info) => onVideoPress(info)}
-          />
-        );
-      }}
-    </ArticleProvider>
-  );
+      return (
+        <Article
+          article={article}
+          isLoading={isLoading}
+          error={error}
+          analyticsStream={analyticsStream}
+          adConfig={adConfig}
+          onRelatedArticlePress={(event, extras) =>
+            onRelatedArticlePress(extras)
+          }
+          onAuthorPress={(event, extras) => onAuthorPress(extras)}
+          onVideoPress={(e, info) => onVideoPress(info)}
+        />
+      );
+    }}
+  </ArticleProvider>
+);
 
 export default withClient(ArticleDetailsPage);
