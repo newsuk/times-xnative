@@ -26,9 +26,8 @@ const ArticleDetailsPage = ({
 }: ArticleProps) => (
   <ArticleProvider id={articleId} debounceTimeMs={100}>
     {({ article, isLoading, error }) => {
-      const adConfig = isLoading
-        ? {}
-        : adTargetConfig(platformAdConfig, article);
+      const adConfig =
+        isLoading || error ? {} : adTargetConfig(platformAdConfig, article);
 
       return (
         <Article
