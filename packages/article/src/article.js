@@ -13,6 +13,7 @@ type ArticleProps = {
   onRelatedArticlePress: (extras: any) => void,
   onAuthorPress: (extras: any) => void,
   onVideoPress: (info: VideoInfo) => void,
+  onLinkPress: (extras: any) => void,
   platformAdConfig: PlatformAdConfig
 };
 
@@ -22,7 +23,8 @@ const ArticleDetailsPage = ({
   onRelatedArticlePress,
   platformAdConfig,
   onAuthorPress,
-  onVideoPress
+  onVideoPress,
+  onLinkPress
 }: ArticleProps) => (
   <ArticleProvider id={articleId} debounceTimeMs={100}>
     {({ article, isLoading, error }) => {
@@ -41,6 +43,7 @@ const ArticleDetailsPage = ({
           }
           onAuthorPress={(event, extras) => onAuthorPress(extras)}
           onVideoPress={(e, info) => onVideoPress(info)}
+          onLinkPress={(event, extras) => onLinkPress(extras)}
         />
       );
     }}
