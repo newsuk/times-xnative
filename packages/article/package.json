@@ -1,7 +1,7 @@
 {
   "name": "@thetimes/article",
   "main": "lib/article.js",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "license": "BSD-3-Clause",
   "scripts": {
     "build:types": "mkdir -p lib && for x in src/*.js; do cp -- \"$x\" \"lib/$(basename $x).flow\"; done",
