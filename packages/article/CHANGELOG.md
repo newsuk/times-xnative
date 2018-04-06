@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="1.0.14"></a>
+## [1.0.14](https://github.com/newsuk/times-xnative/compare/@thetimes/article@1.0.13...@thetimes/article@1.0.14) (2018-04-06)
+
+
+
+
+**Note:** Version bump only for package @thetimes/article
+
 <a name="1.0.13"></a>
 ## [1.0.13](https://github.com/newsuk/times-xnative/compare/@thetimes/article@1.0.12...@thetimes/article@1.0.13) (2018-04-06)
 
