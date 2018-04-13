@@ -3,7 +3,7 @@
 import React from "react";
 import { ArticleProvider } from "@times-components/provider";
 import withClient from "@thetimes/with-client";
-import Article, { ArticleActionsContext } from "@times-components/article";
+import Article from "@times-components/article";
 import { PlatformAdConfig, adTargetConfig } from "./ad-targeting-config";
 import { VideoInfo } from "./video-info";
 import { LinkInfo } from "./link-info";
