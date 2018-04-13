@@ -7,9 +7,8 @@ import withClient from "@thetimes/with-client";
 
 type AuthorProfileProps = {
   authorSlug: string,
-  // TODO: add types for these
-  onTwitterLinkPress: (extras: any) => void,
-  onArticlePress: (extras: any) => void,
+  onTwitterLinkPress: (url: string) => void,
+  onArticlePress: (url: string) => void,
   analyticsStream: (data: any) => void
 };
 
@@ -45,8 +44,8 @@ const AuthorProfilePage = ({
         page={page}
         pageSize={pageSize}
         refetch={refetch}
-        onTwitterLinkPress={(event, extras) => onTwitterLinkPress(extras)}
-        onArticlePress={(event, extras) => onArticlePress(extras)}
+        onTwitterLinkPress={(event, extras) => onTwitterLinkPress(extras.url)}
+        onArticlePress={(event, extras) => onArticlePress(extras.url)}
         onNext={onNext}
         onPrev={onPrev}
       />

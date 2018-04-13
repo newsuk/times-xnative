@@ -3,25 +3,26 @@
 import React from "react";
 import { ArticleProvider } from "@times-components/provider";
 import withClient from "@thetimes/with-client";
-import Article from "@times-components/article";
+import Article, { ArticleActionsContext } from "@times-components/article";
 import { PlatformAdConfig, adTargetConfig } from "./ad-targeting-config";
 import { VideoInfo } from "./video-info";
+import { LinkInfo } from "./link-info";
 
 type ArticleProps = {
   articleId: string,
   analyticsStream: (data: any) => void,
-  onRelatedArticlePress: (extras: any) => void,
-  onAuthorPress: (extras: any) => void,
+  onArticlePress: (url: string) => void,
+  onAuthorPress: (slug: string) => void,
   onVideoPress: (info: VideoInfo) => void,
-  onLinkPress: (extras: any) => void,
+  onLinkPress: (url: string) => void,
   platformAdConfig: PlatformAdConfig
 };
 
 const ArticleDetailsPage = ({
   articleId,
   analyticsStream,
-  onRelatedArticlePress,
   platformAdConfig,
+  onArticlePress,
   onAuthorPress,
   onVideoPress,
   onLinkPress
@@ -38,12 +39,16 @@ const ArticleDetailsPage = ({
           error={error}
           analyticsStream={analyticsStream}
           adConfig={adConfig}
-          onRelatedArticlePress={(event, extras) =>
-            onRelatedArticlePress(extras)
-          }
-          onAuthorPress={(event, extras) => onAuthorPress(extras)}
-          onVideoPress={(e, info) => onVideoPress(info)}
-          onLinkPress={(event, extras) => onLinkPress(extras)}
+          onRelatedArticlePress={(event, extras) => onArticlePress(extras.url)}
+          onAuthorPress={(event, extras) => onAuthorPress(extras.slug)}
+          onVideoPress={(event, info) => onVideoPress(info)}
+          onLinkPress={(event, linkInfo: LinkInfo) => {
+            if (linkInfo.type == "article") {
+              onArticlePress(linkInfo.url);
+            } else {
+              onLinkPress(linkInfo.url);
+            }
+          }}
         />
       );
     }}
