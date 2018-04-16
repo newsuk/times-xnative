@@ -2,6 +2,6 @@
 
 export interface LinkInfo {
   url: string;
-  type: string;
-  attributes: string;
+  type?: "article" | "topic";
+  canonicalId?: string;
 }
