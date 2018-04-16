@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="1.0.11"></a>
+## [1.0.11](https://github.com/newsuk/times-xnative/compare/@thetimes/author-profile@1.0.10...@thetimes/author-profile@1.0.11) (2018-04-16)
+
+
+
+
+**Note:** Version bump only for package @thetimes/author-profile
+
 <a name="1.0.10"></a>
 ## [1.0.10](https://github.com/newsuk/times-xnative/compare/@thetimes/author-profile@1.0.9...@thetimes/author-profile@1.0.10) (2018-04-06)
 
