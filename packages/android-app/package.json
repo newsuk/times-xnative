@@ -1,36 +1,37 @@
-{
-  "name": "@thetimes/author-profile",
-  "main": "lib/author-profile.js",
-  "version": "1.0.11",
+{  
+  "name": "@thetimes/android-app",
+  "version": "0.0.1",
   "license": "BSD-3-Clause",
   "scripts": {
-    "build:types": "mkdir -p lib && for x in src/*.js; do cp -- \"$x\" \"lib/$(basename $x).flow\"; done",
-    "build:flow": "babel src -d lib/",
-    "build": "yarn build:types && yarn build:flow",
-    "watch": "babel src -d lib/ --watch",
+    "bundle": "haul bundle --platform android --dev false --entry-file js/index.android.js --bundle-output assets/js/index.android.bundle --assets-dest assets/res/",
     "fmt": "prettier --write 'src/**/*.*'",
-    "lint:flow": "flow",
+    "start": "haul start --platform android",
     "lint:prettier": "prettier --list-different src/**/*.*",
-    "lint": "yarn lint:prettier && yarn lint:flow"
+    "lint": "yarn:lint:prettier"
   },
   "dependencies": {
-    "@thetimes/with-client": "1.0.9",
-    "@times-components/author-profile": "0.56.6",
-    "@times-components/provider": "0.27.10",
+    "@thetimes/article": "1.0.16",
+    "@thetimes/author-profile": "1.0.11",
     "react": "16.3.1",
     "react-native": "0.53.3"
   },
   "devDependencies": {
     "babel-cli": "6.26.0",
+    "babel-core": "6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-add-react-displayname": "0.0.5",
     "babel-plugin-transform-es2015-modules-commonjs": "6.26.0",
     "babel-plugin-transform-object-rest-spread": "6.26.0",
     "babel-preset-env": "1.6.1",
     "babel-preset-es2015": "6.24.1",
     "babel-preset-flow": "6.23.0",
     "babel-preset-react": "6.24.1",
+    "babel-preset-react-native": "4.0.0",
     "babel-preset-stage-2": "6.24.1",
     "flow-bin": "0.63.1",
-    "prettier": "1.8.2"
+    "haul": "^1.0.0-beta.13",
+    "prettier": "1.8.2",
+    "webpack": "2"
   },
   "publishConfig": {
     "access": "public"

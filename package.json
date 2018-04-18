@@ -13,10 +13,8 @@
   },
   "workspaces": {
     "packages": [
-      "packages/*"
-    ],
-    "nohoist": [
-      "**"
+      "packages/*",
+      "../times-components/packages/*"
     ]
   },
   "devDependencies": {
