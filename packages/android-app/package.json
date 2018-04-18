@@ -1,6 +1,7 @@
 {  
   "name": "@thetimes/android-app",
   "version": "0.0.1",
+  "private": true,
   "license": "BSD-3-Clause",
   "scripts": {
     "bundle": "haul bundle --platform android --dev false --entry-file js/index.android.js --bundle-output assets/js/index.android.bundle --assets-dest assets/res/",
@@ -32,8 +33,5 @@
     "haul": "^1.0.0-beta.13",
     "prettier": "1.8.2",
     "webpack": "2"
-  },
-  "publishConfig": {
-    "access": "public"
   }
 }
