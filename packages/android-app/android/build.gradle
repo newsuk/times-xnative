@@ -28,6 +28,12 @@ task clean(type: Delete) {
     delete rootProject.buildDir
 }
 
+def reactRepositoryPath = "$rootDir/../assets/react-native-modules"
+
+task removePreviousReactArchives(type: Delete) {
+    delete reactRepositoryPath
+}
+
 task generateReactArchives {
     subprojects { subproject ->
         apply plugin: 'maven'
@@ -39,10 +45,10 @@ task generateReactArchives {
                 def jsonFile = file("$rootDir/../../../node_modules/$subproject.name/package.json")
                 def packageJson = new JsonSlurper().parseText(jsonFile.text)
                 repositories.mavenDeployer {
-                    repository url: "file://${rootDir}/../assets/"
+                    repository url: "file://${reactRepositoryPath}"
 
                     pom.project {
-                        groupId 'repo'
+                        groupId 'local-repo'
                         artifactId subproject.name
                         version packageJson.version
                     }
@@ -53,9 +59,10 @@ task generateReactArchives {
         }
     }
     task reactNativeCopy(type: Copy) {
-        from('../../../node_modules/react-native/android/com/facebook/react/react-native')
-        into('../assets/repo/react-native')
+        from('../../../node_modules/react-native/android')
+        into(reactRepositoryPath)
     }
 
+    reactNativeCopy.dependsOn(removePreviousReactArchives)
     generateReactArchives.dependsOn(reactNativeCopy)
 }
