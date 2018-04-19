@@ -4,17 +4,20 @@
   "private": true,
   "license": "BSD-3-Clause",
   "scripts": {
-    "bundle": "haul bundle --platform android --dev false --entry-file js/index.android.js --bundle-output assets/js/index.android.bundle --assets-dest assets/res/",
+    "bundle:deps": "cd android && ./gradlew generateReactArchives && cd ..",
+    "bundle:js": "haul bundle --platform android --dev false --entry-file js/index.android.js --bundle-output assets/js/index.android.bundle --assets-dest assets/res/",
+    "build": "yarn bundle:deps && yarn bundle:js",
     "fmt": "prettier --write 'src/**/*.*'",
     "start": "haul start --platform android",
-    "lint:prettier": "prettier --list-different src/**/*.*",
-    "lint": "yarn:lint:prettier"
+    "lint:prettier": "prettier --lxist-different src/**/*.*",
+    "lint": "yarn lint:prettier"
   },
   "dependencies": {
     "@thetimes/article": "1.0.16",
     "@thetimes/author-profile": "1.0.11",
     "react": "16.3.1",
-    "react-native": "0.54.2"
+    "react-native": "0.54.2",
+    "react-native-svg": "5.5.1"
   },
   "devDependencies": {
     "babel-cli": "6.26.0",
