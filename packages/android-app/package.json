@@ -6,7 +6,8 @@
   "scripts": {
     "build:deps": "cd android && ./gradlew generateReactArchives && cd ..",
     "build:js": "haul bundle --platform android --dev false --entry-file js/index.android.js --bundle-output assets/js/index.android.bundle --assets-dest assets/res/",
-    "build": "yarn build:deps && yarn build:js",
+    "build:meta": "cat package.json | grep version | head -1 | sed 's/[\",\t ]//g' | awk -F: '{ print \"Bundle Version: \" $2 }' > assets/js/index.android.bundle.meta",
+    "build": "yarn build:deps && yarn build:js && yarn build:meta",
     "fmt": "prettier --write 'js/**/*.*'",
     "start": "haul start --platform android",
     "lint:prettier": "prettier --list-different js/**/*.*",
