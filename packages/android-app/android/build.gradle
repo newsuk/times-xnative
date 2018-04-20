@@ -21,6 +21,11 @@ allprojects {
     repositories {
         google()
         jcenter()
+
+        maven {
+            // All of React Native (JS, Obj-C sources, Android binaries) is installed from npm
+            url "$rootDir/../../../node_modules/react-native/android"
+        }
     }
 }
 
@@ -37,7 +42,7 @@ task removePreviousReactArchives(type: Delete) {
 task generateReactArchives {
     subprojects { subproject ->
         apply plugin: 'maven'
-        def reactProjects = ['react-native-linear-gradient', 'react-native-svg']
+        def reactProjects = ['react-native-linear-gradient', 'react-native-svg', 'react-native-device-info']
 
         if (reactProjects.contains(subproject.name)) {
             task generateReactArchive(type: Upload) {
