@@ -4,12 +4,12 @@
   "private": true,
   "license": "BSD-3-Clause",
   "scripts": {
-    "bundle:deps": "cd android && ./gradlew generateReactArchives && cd ..",
-    "bundle:js": "haul bundle --platform android --dev false --entry-file js/index.android.js --bundle-output assets/js/index.android.bundle --assets-dest assets/res/",
-    "build": "yarn bundle:deps && yarn bundle:js",
-    "fmt": "prettier --write 'src/**/*.*'",
+    "build:deps": "cd android && ./gradlew generateReactArchives && cd ..",
+    "build:js": "haul bundle --platform android --dev false --entry-file js/index.android.js --bundle-output assets/js/index.android.bundle --assets-dest assets/res/",
+    "build": "yarn build:deps && yarn build:js",
+    "fmt": "prettier --write 'js/**/*.*'",
     "start": "haul start --platform android",
-    "lint:prettier": "prettier --lxist-different src/**/*.*",
+    "lint:prettier": "prettier --list-different js/**/*.*",
     "lint": "yarn lint:prettier"
   },
   "dependencies": {
