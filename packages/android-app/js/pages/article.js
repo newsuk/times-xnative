@@ -11,7 +11,8 @@ const { track } = NativeModules.ReactAnalytics;
 const {
   onArticlePress,
   onAuthorPress,
-  onLinkPress
+  onLinkPress,
+  onVideoPress
 } = NativeModules.ArticleEvents;
 
 const ArticlePageView = ArticlePage(config)(fetch);
@@ -43,6 +44,7 @@ const View = ({ articleId }: { articleId: string }) => (
     onArticlePress={onArticlePress}
     onAuthorPress={onAuthorPress}
     onLinkPress={onLinkPress}
+    onVideoPress={onVideoPress}
     platformAdConfig={platformAdConfig}
   />
 );
