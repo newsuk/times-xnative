@@ -12,7 +12,8 @@ const {
   onArticlePress,
   onAuthorPress,
   onLinkPress,
-  onVideoPress
+  onVideoPress,
+  onTopicPress
 } = NativeModules.ArticleEvents;
 
 const ArticlePageView = ArticlePage(config)(fetch);
@@ -45,6 +46,7 @@ const View = ({ articleId }: { articleId: string }) => (
     onAuthorPress={onAuthorPress}
     onLinkPress={onLinkPress}
     onVideoPress={onVideoPress}
+    onTopicPress={onTopicPress}
     platformAdConfig={platformAdConfig}
   />
 );
