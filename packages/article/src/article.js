@@ -29,34 +29,34 @@ const ArticleDetailsPage = ({
   onLinkPress,
   onTopicPress
 }: ArticleProps) => (
-    <ArticleProvider id={articleId} debounceTimeMs={100}>
-      {({ article, isLoading, error }) => {
-        const adConfig =
-          isLoading || error ? {} : adTargetConfig(platformAdConfig, article);
+  <ArticleProvider id={articleId} debounceTimeMs={100}>
+    {({ article, isLoading, error }) => {
+      const adConfig =
+        isLoading || error ? {} : adTargetConfig(platformAdConfig, article);
 
-        return (
-          <Article
-            article={article}
-            isLoading={isLoading}
-            error={error}
-            analyticsStream={analyticsStream}
-            adConfig={adConfig}
-            onRelatedArticlePress={(event, extras) => onArticlePress(extras.url)}
-            onAuthorPress={(event, extras) => onAuthorPress(extras.slug)}
-            onVideoPress={(event, info) => onVideoPress(info)}
-            onLinkPress={(event, linkInfo: LinkInfo) => {
-              if (linkInfo.type == "article") {
-                onArticlePress(linkInfo.url);
-              } else if (linkInfo.type == "topic") {
-                onTopicPress(linkInfo.url);
-              } else {
-                onLinkPress(linkInfo.url);
-              }
-            }}
-          />
-        );
-      }}
-    </ArticleProvider>
-  );
+      return (
+        <Article
+          article={article}
+          isLoading={isLoading}
+          error={error}
+          analyticsStream={analyticsStream}
+          adConfig={adConfig}
+          onRelatedArticlePress={(event, extras) => onArticlePress(extras.url)}
+          onAuthorPress={(event, extras) => onAuthorPress(extras.slug)}
+          onVideoPress={(event, info) => onVideoPress(info)}
+          onLinkPress={(event, linkInfo: LinkInfo) => {
+            if (linkInfo.type == "article") {
+              onArticlePress(linkInfo.url);
+            } else if (linkInfo.type == "topic") {
+              onTopicPress(linkInfo.url);
+            } else {
+              onLinkPress(linkInfo.url);
+            }
+          }}
+        />
+      );
+    }}
+  </ArticleProvider>
+);
 
 export default withClient(ArticleDetailsPage);
