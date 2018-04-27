@@ -9,8 +9,6 @@ const { track } = NativeModules.ReactAnalytics;
 const { fetch } = NativeModules.NativeFetch;
 const { onArticlePress } = NativeModules.TopicEvents;
 
-// const TopicPageView = TopicPage(config)(fetch);
-
 const View = ({ topicSlug }: { topicSlug: string }) => (
   <TopicPage
     topicSlug={topicSlug}
