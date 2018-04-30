@@ -15,6 +15,7 @@ type ArticleProps = {
   onAuthorPress: (slug: string) => void,
   onVideoPress: (info: VideoInfo) => void,
   onLinkPress: (url: string) => void,
+  onTopicPress: (url: string) => void,
   platformAdConfig: PlatformAdConfig
 };
 
@@ -25,7 +26,8 @@ const ArticleDetailsPage = ({
   onArticlePress,
   onAuthorPress,
   onVideoPress,
-  onLinkPress
+  onLinkPress,
+  onTopicPress
 }: ArticleProps) => (
   <ArticleProvider id={articleId} debounceTimeMs={100}>
     {({ article, isLoading, error }) => {
@@ -45,6 +47,8 @@ const ArticleDetailsPage = ({
           onLinkPress={(event, linkInfo: LinkInfo) => {
             if (linkInfo.type == "article") {
               onArticlePress(linkInfo.url);
+            } else if (linkInfo.type == "topic") {
+              onTopicPress(linkInfo.url);
             } else {
               onLinkPress(linkInfo.url);
             }

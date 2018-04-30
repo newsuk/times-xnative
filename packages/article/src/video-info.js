@@ -1,7 +1,7 @@
 // @flow
 
 export interface VideoInfo {
-  brightcoveAccountId: string;
-  brightcovePolicyKey: string;
-  brightcoveVideoId: string;
+  accountId: string;
+  policyKey: string;
+  videoId: string;
 }
