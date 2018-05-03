@@ -4,10 +4,10 @@
   "private": true,
   "license": "BSD-3-Clause",
   "scripts": {
-    "build:deps": "cd android && ./gradlew clean && ./gradlew generateReactArchives && ./gradlew assemble && ./gradlew publish && cd ..",
+    "build:android": "cd android && ./gradlew clean && ./gradlew generateReactArchives && ./gradlew assemble && ./gradlew publish && cd ..",
     "build:js": "haul bundle --platform android --dev false --entry-file js/index.android.js --bundle-output android/xnative/src/main/assets/index.android.bundle",
     "build:move-map": "mkdir -p build && mv android/xnative/src/main/assets/index.android.bundle.map build/",
-    "build": "yarn build:js && yarn build:move-map && yarn build:deps",
+    "build": "yarn build:js && yarn build:move-map && yarn build:android",
     "fmt": "prettier --write 'js/**/*.*'",
     "start": "haul start --platform android",
     "lint:prettier": "prettier --list-different js/**/*.*",

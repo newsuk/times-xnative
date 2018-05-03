@@ -8,7 +8,7 @@ def xnativeVersion() {
     jsonSlurper.parseText(contents).version
 }
 
-def reactRepositoryPath = "$rootDir/../assets/react-native-modules"
+def reactRepositoryPath = "$rootDir/../repo/react-native-modules"
 
 task sourceJar(type: Jar) {
     from android.sourceSets.main.java.srcDirs
@@ -51,8 +51,6 @@ publishing {
                     }
                 }
 
-                // List all "compile" dependencies (for old Gradle)
-                configurations.compile.getAllDependencies().each { dep -> addDependency(dep, "compile") }
                 // List all "api" dependencies (for new Gradle) as "compile" dependencies
                 configurations.api.getAllDependencies().each { dep -> addDependency(dep, "compile") }
                 // List all "implementation" dependencies (for new Gradle) as "runtime" dependencies
