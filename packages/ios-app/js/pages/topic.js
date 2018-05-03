@@ -4,9 +4,9 @@ import React from "react";
 import { NativeModules } from "react-native";
 import TopicPage from "@thetimes/topic";
 
-const config = NativeModules.ReactConfig;
-const { track } = NativeModules.ReactAnalytics;
-const { onArticlePress } = NativeModules.TopicEvents;
+const { onArticlePress } = NativeModules.NativeModuleTopicActions;
+const config = NativeModules.NativeModuleReactConfig;
+const { track } = NativeModules.NativeModuleAnalytics;
 
 const View = ({ topicSlug }: { topicSlug: string }) => (
   <TopicPage
