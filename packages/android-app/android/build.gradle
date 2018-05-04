@@ -48,7 +48,9 @@ task generateReactArchives {
                 def jsonFile = file("$rootDir/../../../node_modules/$subproject.name/package.json")
                 def packageJson = new JsonSlurper().parseText(jsonFile.text)
                 repositories.mavenDeployer {
-                    repository url: "file://${reactRepositoryPath}"
+                    repository(url: "https://api.bintray.com/content/tuncaulubilge/times-xnative/${subproject.name}/${packageJson.version}/") {
+                        authentication(userName: bintrayUser, password: bintrayPassword)
+                    }
 
                     pom.project {
                         groupId 'local-repo'
