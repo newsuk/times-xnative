@@ -60,7 +60,11 @@ publishing {
     }
     repositories {
         maven {
-            url "$reactRepositoryPath"
+            url "https://api.bintray.com/content/tuncaulubilge/times-xnative/XNative/${xnativeVersion()}/"
+            credentials {
+                username = bintrayUser
+                password = bintrayPassword
+            }
         }
     }
 }
