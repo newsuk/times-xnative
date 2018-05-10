@@ -12,7 +12,8 @@
     "fmt": "prettier --write 'js/**/*.*'",
     "start": "haul start --platform android",
     "lint:prettier": "prettier --list-different js/**/*.*",
-    "lint": "yarn lint:prettier"
+    "lint": "yarn lint:prettier",
+    "mavenUpload": "./publish.sh"
   },
   "dependencies": {
     "@thetimes/article": "1.0.17",

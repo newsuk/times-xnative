@@ -16,13 +16,15 @@ buildscript {
     }
 }
 
+def reactRepositoryPath = "$rootDir/../repo"
+
 allprojects {
     repositories {
         google()
         jcenter()
 
         maven {
-            url "$rootDir/../repo/react-native-modules"
+            url "$reactRepositoryPath"
         }
     }
 }
@@ -31,7 +33,6 @@ task clean(type: Delete) {
     delete rootProject.buildDir
 }
 
-def reactRepositoryPath = "$rootDir/../repo/react-native-modules"
 
 task removePreviousReactArchives(type: Delete) {
     delete reactRepositoryPath

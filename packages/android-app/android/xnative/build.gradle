@@ -8,7 +8,7 @@ def xnativeVersion() {
     jsonSlurper.parseText(contents).version
 }
 
-def reactRepositoryPath = "$rootDir/../repo/react-native-modules"
+def reactRepositoryPath = "$rootDir/../repo"
 
 task sourceJar(type: Jar) {
     from android.sourceSets.main.java.srcDirs
@@ -19,7 +19,7 @@ publishing {
     publications {
         xnative(MavenPublication) {
             groupId 'uk.co.thetimes'
-            artifactId 'xnative'
+            artifactId 'times-xnative'
             version xnativeVersion()
             artifact(sourceJar)
             artifact("$buildDir/outputs/aar/xnative-release.aar")
@@ -77,10 +77,10 @@ android {
 }
 
 dependencies {
-    api "com.facebook.react:react-native:0.54.2"
-    api "local-repo:react-native-svg:5.5.1"
-    api "local-repo:react-native-linear-gradient:2.4.0"
-    api("local-repo:react-native-device-info:0.13.0") {
+    api "com.facebook.react:react-native:+"
+    api "local-repo:react-native-svg:+"
+    api "local-repo:react-native-linear-gradient:+"
+    api("local-repo:react-native-device-info:+") {
         exclude group: "com.google.android.gms"
     }
 }
