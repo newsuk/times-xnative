@@ -81,9 +81,6 @@ dependencies {
     api("local-repo:react-native-svg:+") {
         transitive = true;
     }
-    api("local-repo:react-native-linear-gradient:+") {
-        transitive = true;
-    }
     api("local-repo:react-native-device-info:+") {
         transitive = true;
     }

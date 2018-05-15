@@ -16,5 +16,4 @@ publish "times-xnative" $npm_package_version "uk"
 publish "react-native" "0.54.2" "com"
 publish "react-native-device-info" "0.13.0" "local-repo/react-native-device-info"
 publish "react-native-svg" "5.5.1" "local-repo/react-native-svg"
-publish "react-native-linear-gradient" "2.4.0" "local-repo/react-native-linear-gradient"
 cd $ROOT_DIR
