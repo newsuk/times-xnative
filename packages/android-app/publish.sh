@@ -5,10 +5,10 @@ function publish {
   echo -e '\n'$1 $2 $3
   FILEPATH="$1.tar"
   tar -cf $FILEPATH $3
-  curl -T $FILEPATH --header "X-Explode-Archive: true" -u${BINTRAY_USER}:${BINTRAY_PASS} "$BINTRAY_REPO"
+  curl -T $FILEPATH --header "X-Explode-Archive: true" -u${ARTIFACTORY_USER}:${ARTIFACTORY_API_KEY} "$ARTIFACTORY_URL"
 }
 
-echo "Publishing to bintray $BINTRAY_REPO"
+echo "Publishing to bintray $ARTIFACTORY_URL"
 ROOT_DIR=$(dirname "$0")
 
 cd $ROOT_DIR/repo
