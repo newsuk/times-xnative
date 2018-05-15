@@ -13,7 +13,8 @@
   },
   "workspaces": {
     "packages": [
-      "packages/*"
+      "packages/*",
+      "../times-components/packages/*"
     ]
   },
   "devDependencies": {

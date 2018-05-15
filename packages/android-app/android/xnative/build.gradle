@@ -78,9 +78,13 @@ android {
 
 dependencies {
     api "com.facebook.react:react-native:0.54.2"
-    api "local-repo:react-native-svg:+"
-    api "local-repo:react-native-linear-gradient:+"
+    api("local-repo:react-native-svg:+") {
+        transitive = true;
+    }
+    api("local-repo:react-native-linear-gradient:+") {
+        transitive = true;
+    }
     api("local-repo:react-native-device-info:+") {
-        exclude group: "com.google.android.gms"
+        transitive = true;
     }
 }
