@@ -79,10 +79,10 @@ android {
 
 dependencies {
     api "com.facebook.react:react-native:0.54.2"
-    api("local-repo:react-native-svg:+") {
+    api("react-repo:react-native-svg:+") {
         exclude group: "com.facebook.react"
     }
-    api("local-repo:react-native-device-info:+") {
+    api("react-repo:react-native-device-info:+") {
         exclude group: "com.facebook.react"
         exclude group: "com.google.android.gms"
     }

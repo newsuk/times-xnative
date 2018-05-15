@@ -52,7 +52,7 @@ task generateReactArchives {
                     repository url: "file://${reactRepositoryPath}"
 
                     pom.project {
-                        groupId 'local-repo'
+                        groupId 'react-repo'
                         artifactId subproject.name
                         version packageJson.version
                     }
