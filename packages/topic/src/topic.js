@@ -19,6 +19,9 @@ const TopicPage = ({
     description={
       "Animals are multicellular eukaryotic organisms that form the biological kingdom Animalia. With few  exceptions, animals consume organic materials."
     }
+    topicSlug={topicSlug}
+    onArticlePress={onArticlePress}
+    analyticsStream={analyticsStream}
   />
 );
 
