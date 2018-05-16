@@ -1,7 +1,7 @@
 // @flow
 
 import React from "react";
-import { Text } from "react-native";
+import Topic from "@times-components/topic";
 
 type TopicProps = {
   topicSlug: string,
@@ -13,6 +13,16 @@ const TopicPage = ({
   topicSlug,
   onArticlePress,
   analyticsStream
-}: TopicProps) => <Text>Hello {topicSlug}</Text>;
+}: TopicProps) => (
+  <Topic
+    name={"Animals"}
+    description={
+      "Animals are multicellular eukaryotic organisms that form the biological kingdom Animalia. With few  exceptions, animals consume organic materials."
+    }
+    topicSlug={topicSlug}
+    onArticlePress={onArticlePress}
+    analyticsStream={analyticsStream}
+  />
+);
 
 export default TopicPage;

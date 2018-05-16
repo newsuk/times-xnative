@@ -43,8 +43,9 @@ publishing {
                         exclusionNode.appendNode('artifactId', '*')
                     } else if (!dep.properties.excludeRules.empty) {
                         // Otherwise add specified exclude rules
-                        final exclusionNode = dependencyNode.appendNode('exclusions').appendNode('exclusion')
+                        final exclusions = dependencyNode.appendNode('exclusions')
                         dep.properties.excludeRules.each { ExcludeRule rule ->
+                            final exclusionNode = exclusions.appendNode('exclusion')
                             exclusionNode.appendNode('groupId', rule.group ?: '*')
                             exclusionNode.appendNode('artifactId', rule.module ?: '*')
                         }
@@ -78,13 +79,11 @@ android {
 
 dependencies {
     api "com.facebook.react:react-native:0.54.2"
-    api("local-repo:react-native-svg:+") {
-        transitive = true;
+    api("react-repo:react-native-svg:+") {
+        exclude group: "com.facebook.react"
     }
-    api("local-repo:react-native-linear-gradient:+") {
-        transitive = true;
-    }
-    api("local-repo:react-native-device-info:+") {
-        transitive = true;
+    api("react-repo:react-native-device-info:+") {
+        exclude group: "com.facebook.react"
+        exclude group: "com.google.android.gms"
     }
 }
