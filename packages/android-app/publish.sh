@@ -2,18 +2,16 @@
 set -e
 
 function publish {
-  echo -e '\n'$1 $2 $3
+  echo -e '\n'$1
   FILEPATH="$1.tar"
-  tar -cf $FILEPATH $3
+  tar -cf $FILEPATH $1
   curl -T $FILEPATH --header "X-Explode-Archive: true" -u${ARTIFACTORY_USER}:${ARTIFACTORY_API_KEY} "$ARTIFACTORY_URL"
 }
 
 echo "Publishing to bintray $ARTIFACTORY_URL"
 ROOT_DIR=$(dirname "$0")
 
+# Upload contents of repo folder
 cd $ROOT_DIR/repo
-publish "times-xnative" $npm_package_version "uk"
-publish "react-native" "0.54.2" "com"
-publish "react-native-device-info" "0.13.0" "react-repo/react-native-device-info"
-publish "react-native-svg" "5.5.1" "react-repo/react-native-svg"
+ls -d */ | cut -f1 -d'/' | while read line ; do publish $line ; done
 cd $ROOT_DIR
