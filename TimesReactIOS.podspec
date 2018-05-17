@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint TimesReactiOS.podspec' to ensure this is a
+#  Be sure to run `pod spec lint TimesReactIOS.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 
@@ -8,14 +8,18 @@ yoga_version = "0.54.2"
 
 Pod::Spec.new do |s|
   s.name         = "TimesReactIOS"
-  s.version      = "0.0.2"
+  s.version      = "0.0.1"
   s.summary      = "Times iOS React components"
   s.description  = "All the things for Times iOS React components including dependancies"
-  s.homepage     = "http://www.thetimes.co.uk"
-  s.license      = "MIT"
-  s.author       = "The Times"
+  s.homepage     = "https://www.news.co.uk"
+  s.license      = { type: 'MIT', file: 'LICENSE' }
+  s.author       = "News UK"
   s.platform     = :ios
-  s.source       = { :git => 'http://example.com' }
+  s.source       = { :git => 'https://github.com/newsuk/times-xnative.git', :tag => '@thetimes/ios-app@0.0.1'}
+  s.source       = { :git => 'https://github.com/facebook/react-native.git', :tag => "v0.54.2" }
+  
+
+  s.requires_arc = true
   #s.resources   = "./packages/ios-app/assets/js/index.ios.bundle"
   #s.resource_bundles = {'TimesReactIOSBundle' => './packages/ios-app/assets/js/index.ios.bundle'}
   
@@ -33,18 +37,24 @@ Pod::Spec.new do |s|
   
   # React's dependencies
   
-  s.dependency 'yoga', "#{yoga_version}.React"
-  
+  #s.dependency 'Yoga'
+  #s.dependency 'yoga', "#{yoga_version}.React"
+
   podspecs = [
-    'node_modules/react-native-linear-gradient/BVLinearGradient.podspec',
+    #'node_modules/react-native/React.podspec',
+    #'node_modules/react-native/ReactCommon/yoga/yoga.podspec',
+    'Specs/yoga.podspec',
+    'Specs/BVLinearGradient.podspec',
     'node_modules/react-native-device-info/RNDeviceInfo.podspec',
     'node_modules/react-native-svg/RNSVG.podspec',
-    'node_modules/react-native/third-party-podspecs/DoubleConversion.podspec',
+    'Specs/DoubleConversion.podspec',
     'node_modules/react-native/third-party-podspecs/Folly.podspec',
     'node_modules/react-native/third-party-podspecs/glog.podspec'
   ]
   podspecs.each do |podspec_path|
     spec = Pod::Specification.from_file podspec_path
+   #print "#{s.dependency} #{spec.name} #{spec.version}"
+
     s.dependency spec.name, "#{spec.version}"
   end
 

@@ -1,0 +1,9 @@
+{
+  "BVLinearGradient:version": "2.4.0",
+  "DoubleConversion:version": "1.1.5",
+  "Folly:version": "2016.09.26.00",
+  "glog:version": "0.3.4",
+  "RNDeviceInfo:version": "0.9.3",
+  "RNSVG:version": "5.5.1",
+  "yoga:version": "0.54.2"
+}
