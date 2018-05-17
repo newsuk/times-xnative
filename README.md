@@ -15,6 +15,16 @@ You can try without these requirements, but you'd be on your own.
 
 1. Run `yarn` to install dependencies
 
+### Android
+
+1. Run `yarn android` to start development server
+2. Run `yarn android:bundle` to prepare a release bundle
+
+### iOS
+
+1. Run `yarn ios` to start development server
+2. Run `yarn ios:bundle` to prepare a release bundle
+
 ## Contributing
 
 See the [CONTRIBUTING.md](.github/CONTRIBUTING.md) for an extensive breakdown of
