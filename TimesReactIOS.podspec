@@ -16,15 +16,18 @@ Pod::Spec.new do |s|
   s.author       = "News UK"
   s.platform     = :ios
   s.source       = { :git => 'https://github.com/newsuk/times-xnative.git', :tag => '@thetimes/ios-app@0.0.1'}
-  s.source       = { :git => 'https://github.com/facebook/react-native.git', :tag => "v0.54.2" }
+  #s.source       = { :git => 'https://github.com/facebook/react-native.git', :tag => "v0.54.2" }
   
 
   s.requires_arc = true
+  s.ios.deployment_target = '9.0'
+  s.swift_version = '3.0'
   #s.resources   = "./packages/ios-app/assets/js/index.ios.bundle"
   #s.resource_bundles = {'TimesReactIOSBundle' => './packages/ios-app/assets/js/index.ios.bundle'}
   
   # React is split into a set of subspecs, these are the essentials
   
+  s.dependency 'React'
   s.dependency 'React/Core', react_native_version
   s.dependency 'React/CxxBridge', react_native_version
   s.dependency 'React/RCTAnimation', react_native_version
@@ -36,9 +39,10 @@ Pod::Spec.new do |s|
   s.dependency 'React/DevSupport', react_native_version
   
   # React's dependencies
-  
+
   #s.dependency 'Yoga'
   #s.dependency 'yoga', "#{yoga_version}.React"
+  #s.dependency 'yoga'
 
   podspecs = [
     #'node_modules/react-native/React.podspec',
@@ -47,7 +51,8 @@ Pod::Spec.new do |s|
     'Specs/BVLinearGradient.podspec',
     'node_modules/react-native-device-info/RNDeviceInfo.podspec',
     'node_modules/react-native-svg/RNSVG.podspec',
-    'Specs/DoubleConversion.podspec',
+    #'Specs/DoubleConversion.podspec',
+    'node_modules/react-native/third-party-podspecs/DoubleConversion.podspec',
     'node_modules/react-native/third-party-podspecs/Folly.podspec',
     'node_modules/react-native/third-party-podspecs/glog.podspec'
   ]

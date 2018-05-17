@@ -8,7 +8,8 @@ print "#{key} #{version}"
 
 Pod::Spec.new do |spec|
   spec.name = 'yoga'
-  spec.version = "#{version}.React"
+  #spec.version = "#{version}.React"
+  spec.version = "#{version}"
   spec.license =  { :type => 'MIT' }
   spec.homepage = 'https://facebook.github.io/yoga/'
   spec.documentation_url = 'https://facebook.github.io/yoga/docs/api/c/'
