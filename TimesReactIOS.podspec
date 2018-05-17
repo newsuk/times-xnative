@@ -27,12 +27,12 @@ Pod::Spec.new do |s|
   
   # React is split into a set of subspecs, these are the essentials
   
-  s.dependency 'React'
+  #s.dependency 'React', '0.54.4'
   s.dependency 'React/Core', react_native_version
   s.dependency 'React/CxxBridge', react_native_version
   s.dependency 'React/RCTAnimation', react_native_version
   s.dependency 'React/RCTImage', react_native_version
-  #s.dependency 'React/RCTLinkingIOS', react_native_version
+  s.dependency 'React/RCTLinkingIOS', react_native_version
   s.dependency 'React/RCTNetwork', react_native_version
   s.dependency 'React/RCTText', react_native_version
   s.dependency 'React/RCTWebSocket', react_native_version
@@ -41,16 +41,16 @@ Pod::Spec.new do |s|
   # React's dependencies
 
   #s.dependency 'Yoga'
-  #s.dependency 'yoga', "#{yoga_version}.React"
+  s.dependency 'yoga', "#{yoga_version}.React"
   #s.dependency 'yoga'
-
+  
   podspecs = [
     #'node_modules/react-native/React.podspec',
     #'node_modules/react-native/ReactCommon/yoga/yoga.podspec',
-    'Specs/yoga.podspec',
-    'Specs/BVLinearGradient.podspec',
-    'node_modules/react-native-device-info/RNDeviceInfo.podspec',
-    'node_modules/react-native-svg/RNSVG.podspec',
+    #'Specs/yoga.podspec',
+    #'Specs/BVLinearGradient.podspec',
+    #'node_modules/react-native-device-info/RNDeviceInfo.podspec',
+    #'node_modules/react-native-svg/RNSVG.podspec',
     #'Specs/DoubleConversion.podspec',
     'node_modules/react-native/third-party-podspecs/DoubleConversion.podspec',
     'node_modules/react-native/third-party-podspecs/Folly.podspec',
@@ -58,7 +58,7 @@ Pod::Spec.new do |s|
   ]
   podspecs.each do |podspec_path|
     spec = Pod::Specification.from_file podspec_path
-   #print "#{s.dependency} #{spec.name} #{spec.version}"
+   print "dependency: #{spec.name} #{spec.version}"
 
     s.dependency spec.name, "#{spec.version}"
   end
