@@ -1,11 +1,15 @@
 {
   "private": true,
   "scripts": {
+    "android": "cd packages/android-app && yarn start",
+    "android:bundle": "cd packages/android-app && yarn bundle",
     "ci": "yarn lint",
     "commit": "git-cz",
     "deps:fix": "npx @times-components/depend -l . -e '{node_modules/@times-components/*,.}/package.json' -s majority --fix",
     "deps:lint": "npx @times-components/depend -l . -e '{node_modules/@times-components/*,.}/package.json' -s majority --hint --bail",
     "deps:list": "npx @times-components/depend -l . -e '{node_modules/@times-components/*,.}/package.json' -s majority --list",
+    "ios": "cd packages/ios-app && yarn start",
+    "ios:bundle": "cd packages/ios-app && yarn bundle",
     "prelint": "yarn deps:lint",
     "lint": "lerna run lint",
     "postinstall": "lerna run build",
