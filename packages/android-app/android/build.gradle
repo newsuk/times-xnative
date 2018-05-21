@@ -9,13 +9,14 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.1.1'
-        
+        classpath 'com.android.tools.build:gradle:3.1.2'
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
     }
 }
+
+def reactRepositoryPath = "$rootDir/../repo"
 
 allprojects {
     repositories {
@@ -23,8 +24,7 @@ allprojects {
         jcenter()
 
         maven {
-            // All of React Native (JS, Obj-C sources, Android binaries) is installed from npm
-            url "$rootDir/../../../node_modules/react-native/android"
+            url "$reactRepositoryPath"
         }
     }
 }
@@ -33,7 +33,6 @@ task clean(type: Delete) {
     delete rootProject.buildDir
 }
 
-def reactRepositoryPath = "$rootDir/../assets/react-native-modules"
 
 task removePreviousReactArchives(type: Delete) {
     delete reactRepositoryPath
@@ -42,7 +41,7 @@ task removePreviousReactArchives(type: Delete) {
 task generateReactArchives {
     subprojects { subproject ->
         apply plugin: 'maven'
-        def reactProjects = ['react-native-linear-gradient', 'react-native-svg', 'react-native-device-info']
+        def reactProjects = ['react-native-svg', 'react-native-device-info']
 
         if (reactProjects.contains(subproject.name)) {
             task generateReactArchive(type: Upload) {
@@ -53,7 +52,7 @@ task generateReactArchives {
                     repository url: "file://${reactRepositoryPath}"
 
                     pom.project {
-                        groupId 'local-repo'
+                        groupId 'react-repo'
                         artifactId subproject.name
                         version packageJson.version
                     }

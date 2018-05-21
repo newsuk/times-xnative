@@ -1,24 +1,26 @@
 {
   "name": "@thetimes/android-app",
-  "version": "0.0.2",
+  "version": "0.0.5",
   "private": true,
   "license": "BSD-3-Clause",
   "scripts": {
-    "build:deps": "cd android && ./gradlew generateReactArchives && cd ..",
-    "build:js": "haul bundle --platform android --dev false --entry-file js/index.android.js --bundle-output assets/js/index.android.bundle --assets-dest assets/res/",
-    "build:meta": "cat package.json | grep version | head -1 | sed 's/[\",\t ]//g' | awk -F: '{ print \"Bundle Version: \" $2 }' > assets/js/index.android.bundle.meta",
-    "build": "yarn build:js && yarn build:meta",
+    "bundle:android": "cd android && ./gradlew clean && ./gradlew generateReactArchives && ./gradlew assemble && ./gradlew publish && cd ..",
+    "bundle:js": "haul bundle --platform android --dev false --entry-file js/index.android.js --bundle-output android/xnative/src/main/assets/index.android.bundle",
+    "bundle:move-map": "mkdir -p build && mv android/xnative/src/main/assets/index.android.bundle.map build/",
+    "bundle:all": "yarn bundle && yarn bundle:android",
+    "bundle": "yarn bundle:js && yarn bundle:move-map",
     "fmt": "prettier --write 'js/**/*.*'",
     "start": "haul start --platform android",
     "lint:prettier": "prettier --list-different js/**/*.*",
     "lint": "yarn lint:prettier"
   },
   "dependencies": {
-    "@thetimes/article": "1.0.17",
-    "@thetimes/author-profile": "1.0.12",
-    "@thetimes/topic": "0.0.2",
+    "@thetimes/article": "1.0.19",
+    "@thetimes/author-profile": "1.0.14",
+    "@thetimes/topic": "0.0.4",
     "react": "16.3.1",
     "react-native": "0.54.2",
+    "react-native-device-info": "0.13.0",
     "react-native-svg": "5.5.1"
   },
   "devDependencies": {

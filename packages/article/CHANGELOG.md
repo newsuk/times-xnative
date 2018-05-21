@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="1.0.19"></a>
+## [1.0.19](https://github.com/newsuk/times-xnative/compare/@thetimes/article@1.0.18...@thetimes/article@1.0.19) (2018-05-21)
+
+
+
+
+**Note:** Version bump only for package @thetimes/article
+
+<a name="1.0.18"></a>
+## [1.0.18](https://github.com/newsuk/times-xnative/compare/@thetimes/article@1.0.17...@thetimes/article@1.0.18) (2018-05-18)
+
+
+
+
+**Note:** Version bump only for package @thetimes/article
+
 <a name="1.0.17"></a>
 ## [1.0.17](https://github.com/newsuk/times-xnative/compare/@thetimes/article@1.0.16...@thetimes/article@1.0.17) (2018-04-30)
 
