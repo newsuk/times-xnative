@@ -13,9 +13,9 @@
     "lint": "yarn lint:prettier"
   },
   "dependencies": {
-    "@times-components/utils": "0.10.0",
+    "@times-components/utils": "0.10.1",
     "apollo-cache-inmemory": "1.1.10",
-    "apollo-client": "2.2.6",
+    "apollo-client": "2.3.1",
     "apollo-link-http": "1.5.3",
     "graphql": "0.13.1",
     "react": "16.3.1",

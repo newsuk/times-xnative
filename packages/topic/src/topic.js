@@ -2,6 +2,7 @@
 
 import React from "react";
 import Topic from "@times-components/topic";
+import withClient from "@thetimes/with-client";
 
 type TopicProps = {
   topicSlug: string,
@@ -15,14 +16,16 @@ const TopicPage = ({
   analyticsStream
 }: TopicProps) => (
   <Topic
-    name={"Animals"}
-    description={
-      "Animals are multicellular eukaryotic organisms that form the biological kingdom Animalia. With few  exceptions, animals consume organic materials."
-    }
-    topicSlug={topicSlug}
-    onArticlePress={onArticlePress}
+    topic={{
+      name: "Chelsea",
+      description: "A swanky part of town."
+    }}
+    slug={"chelsea"}
+    onArticlePress={(event, extras) => onArticlePress(extras.url)}
     analyticsStream={analyticsStream}
+    page={1}
+    pageSize={5}
   />
 );
 
-export default TopicPage;
+export default withClient(TopicPage);
