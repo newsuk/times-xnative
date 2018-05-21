@@ -6,10 +6,13 @@ import TopicPage from "@thetimes/topic";
 
 const { onArticlePress } = NativeModules.NativeModuleTopicActions;
 const config = NativeModules.NativeModuleReactConfig;
+const { fetch } = NativeModules.NativeModuleFetch;
 const { track } = NativeModules.NativeModuleAnalytics;
 
+const TopicPageView = TopicPage(config)(fetch);
+
 const View = ({ topicSlug }: { topicSlug: string }) => (
-  <TopicPage
+  <TopicPageView
     topicSlug={topicSlug}
     onArticlePress={onArticlePress}
     analyticsStream={track}

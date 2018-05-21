@@ -22,7 +22,7 @@
     ]
   },
   "devDependencies": {
-    "@times-components/depend": "0.1.13",
+    "@times-components/depend": "0.2.1",
     "commitizen": "2.9.6",
     "lerna": "2.8.0"
   },
