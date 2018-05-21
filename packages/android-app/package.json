@@ -1,6 +1,6 @@
 {
   "name": "@thetimes/android-app",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "private": true,
   "license": "BSD-3-Clause",
   "scripts": {
@@ -15,9 +15,9 @@
     "lint": "yarn lint:prettier"
   },
   "dependencies": {
-    "@thetimes/article": "1.0.18",
-    "@thetimes/author-profile": "1.0.13",
-    "@thetimes/topic": "0.0.3",
+    "@thetimes/article": "1.0.19",
+    "@thetimes/author-profile": "1.0.14",
+    "@thetimes/topic": "0.0.4",
     "react": "16.3.1",
     "react-native": "0.54.2",
     "react-native-device-info": "0.13.0",
