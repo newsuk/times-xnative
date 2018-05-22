@@ -36,7 +36,7 @@ Pod::Spec.new do |s|
   s.dependency 'React/RCTText', react_native_version
   s.dependency 'React/RCTWebSocket', react_native_version
   s.dependency 'React/DevSupport', react_native_version
-  s.dependency 'ART', react_native_version
+  s.dependency 'React/ART', react_native_version
   
   # React's dependencies
 
