@@ -119,7 +119,8 @@ Pod::Spec.new do |s|
 
   s.subspec "ART" do |ss|
     ss.dependency             "React/Core"
-    ss.source_files         = "Libraries/ART/**/*.{h,m}"
+    #ss.source_files         = "Libraries/ART/**/*.{h,m}"
+    ss.source_files         = "Libraries/ART/{Brushes/*,ViewManagers/*,*}.{h,m}"
   end
 
   s.subspec "RCTActionSheet" do |ss|
