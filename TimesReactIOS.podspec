@@ -1,7 +1,7 @@
 # coding: utf-8
 require 'json'
 
-package = JSON.parse(File.read("packages/ios-app/package.json"))
+package = JSON.parse(File.read("./packages/ios-app/package.json"))
 react_native_version = package["react-native"]
 podspec_version = package["version"]
 
