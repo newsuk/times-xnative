@@ -2,7 +2,8 @@
 
 require "json"
 
-package = JSON.parse(File.read("../packages/ios-app/package.json"))
+package = JSON.parse(File.read("https://raw.githubusercontent.com/newsuk/times-xnative/master/packages/ios-app/package.json"))
+
 version = package["react-native"]
 
 source = { :git => 'https://github.com/facebook/react-native.git' }
