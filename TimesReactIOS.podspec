@@ -1,10 +1,10 @@
 # coding: utf-8
 require 'json'
-podspeckey = "TimesReactPodspec:version"
-reactkey = "ReactNative:version"
 
-react_native_version = JSON.parse(File.read('Specs/localpodversions.json'))["#{reactkey}"]
-podspec_version = JSON.parse(File.read('Specs/localpodversions.json'))["#{podspeckey}"]
+package = JSON.parse(File.read("../packages/ios-app/package.json"))
+react_native_version = package["react-native"]
+podspec_version = package["version"]
+
 
 
 Pod::Spec.new do |s|
