@@ -1,9 +1,8 @@
 # coding: utf-8
 require "json"
 
-package = JSON.parse(File.read(File.join( "package.json")))
+package = JSON.parse(File.read("../packages/ios-app/package.json"))
 version = package['version']
-version = 0.54.2
 
 source = { :git => 'https://github.com/facebook/react-native.git' }
 source[:tag] = "v#{version}"
@@ -119,8 +118,7 @@ Pod::Spec.new do |s|
 
   s.subspec "ART" do |ss|
     ss.dependency             "React/Core"
-    #ss.source_files         = "Libraries/ART/**/*.{h,m}"
-    ss.source_files         = "Libraries/ART/{Brushes/*,ViewManagers/*,*}.{h,m}"
+    ss.source_files         = "Libraries/ART/**/*.{h,m}"
   end
 
   s.subspec "RCTActionSheet" do |ss|

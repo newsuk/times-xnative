@@ -2,9 +2,6 @@
 require 'json'
 key = "Folly:version"
 version = JSON.parse(File.read('localpodversions.json'))["#{key}"]
-#version = "2016.09.26.00"
-
-print "#{key} #{version}"
 
 Pod::Spec.new do |spec|
   spec.name = 'Folly'

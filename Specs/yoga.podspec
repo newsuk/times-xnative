@@ -2,9 +2,6 @@
 require 'json'
 key = "yoga:version"
 version = JSON.parse(File.read('localpodversions.json'))["#{key}"]
-#version = "0.54.2"
-
-print "#{key} #{version}"
 
 Pod::Spec.new do |spec|
   spec.name = 'yoga'

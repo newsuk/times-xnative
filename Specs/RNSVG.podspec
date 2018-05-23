@@ -2,9 +2,6 @@
 require 'json'
 key = "RNSVG:version"
 version = JSON.parse(File.read('localpodversions.json'))["#{key}"]
-#version = "5.5.1"
-
-print "#{key} #{version}"
 
 Pod::Spec.new do |s|
   s.name             = 'RNSVG'

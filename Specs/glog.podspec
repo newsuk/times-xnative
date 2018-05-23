@@ -2,9 +2,6 @@
 require 'json'
 key = "glog:version"
 version = JSON.parse(File.read('localpodversions.json'))["#{key}"]
-#version = "0.3.4"
-
-print "#{key} #{version}"
 
 Pod::Spec.new do |spec|
   spec.name = 'glog'

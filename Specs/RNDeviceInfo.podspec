@@ -2,9 +2,6 @@
 require 'json'
 key = "RNDeviceInfo:version"
 version = JSON.parse(File.read('localpodversions.json'))["#{key}"]
-#version = "0.9.3"
-
-print "#{key} #{version}"
 
 Pod::Spec.new do |s|
   s.name         = "RNDeviceInfo"
