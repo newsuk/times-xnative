@@ -3,6 +3,8 @@ require 'json'
 key = "DoubleConversion:version"
 version = JSON.parse(File.read('localpodversions.json'))["#{key}"]
 
+print "#{key} = #{version}\n"
+
 Pod::Spec.new do |spec|
   spec.name = 'DoubleConversion'
   spec.version = version
