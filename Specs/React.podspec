@@ -1,6 +1,9 @@
 # coding: utf-8
 
-version = 0.54.2
+require "json"
+
+package = JSON.parse(File.read("../packages/ios-app/package.json"))
+version = package["react-native"]
 
 source = { :git => 'https://github.com/facebook/react-native.git' }
 if version == '1000.0.0'
