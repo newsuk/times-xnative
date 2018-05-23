@@ -1,9 +1,5 @@
-#
-#  Be sure to run `pod spec lint TimesReactIOS.podspec' to ensure this is a
-#  valid spec and to remove all comments including this before submitting the spec.
-#
-
-require "json"
+# coding: utf-8
+require 'json'
 
 package = JSON.parse(File.read("../packages/ios-app/package.json"))
 react_native_version = package["react-native"]
@@ -43,7 +39,7 @@ Pod::Spec.new do |s|
   
   # React's dependencies
 
-  s.dependency 'yoga', "#{react_native_version}.React"
+  s.dependency 'yoga'
   s.dependency 'DoubleConversion'
   s.dependency 'Folly'
   s.dependency 'glog'
