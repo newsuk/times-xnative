@@ -2,11 +2,10 @@
 require "json"
 
 package = JSON.parse(File.read("../packages/ios-app/package.json"))
-version = package['version']
+version = package["react-native"]
 
 source = { :git => 'https://github.com/facebook/react-native.git' }
 source[:tag] = "v#{version}"
-
 
 folly_compiler_flags = '-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1'
 

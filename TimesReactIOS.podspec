@@ -3,12 +3,15 @@
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 
-react_native_version = "0.54.2"
-yoga_version = "0.54.2"
+require "json"
+
+package = JSON.parse(File.read("../packages/ios-app/package.json"))
+react_native_version = package["react-native"]
+podspec_version = package["version"]
 
 Pod::Spec.new do |s|
   s.name         = "TimesReactIOS"
-  s.version      = "0.0.1"
+  s.version      = podspec_version
   s.summary      = "Times iOS React components"
   s.description  = "All the things for Times iOS React components including dependancies"
   s.homepage     = "https://www.news.co.uk"
@@ -40,7 +43,7 @@ Pod::Spec.new do |s|
   
   # React's dependencies
 
-  s.dependency 'yoga', "#{yoga_version}.React"
+  s.dependency 'yoga', "#{react_native_version}.React"
   #s.dependency 'DoubleConversion', "1.1.5"
   #s.dependency 'Folly', "2016.09.26.00"
   #s.dependency 'glog', "0.3.4"
