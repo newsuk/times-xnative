@@ -5,7 +5,6 @@ package = JSON.parse(File.read("../packages/ios-app/package.json"))
 react_native_version = package["react-native"]
 podspec_version = package["version"]
 
-
 Pod::Spec.new do |s|
   s.name         = "TimesReactIOS"
   s.version      = podspec_version
