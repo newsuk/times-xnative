@@ -40,11 +40,9 @@ Pod::Spec.new do |s|
   
   # React's dependencies
 
-  s.dependency 'yoga', "#{react_native_version}.React"
+  s.dependency 'yoga'
   s.dependency 'DoubleConversion'
   s.dependency 'Folly'
   s.dependency 'glog'
-
-
 
 end
