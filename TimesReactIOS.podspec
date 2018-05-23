@@ -6,7 +6,6 @@ react_native_version = package["react-native"]
 podspec_version = package["version"]
 
 
-
 Pod::Spec.new do |s|
   s.name         = "TimesReactIOS"
   s.version      = podspec_version
@@ -17,7 +16,7 @@ Pod::Spec.new do |s|
   s.author       = "News UK"
   s.platform     = :ios
   s.source       = { :git => 'https://github.com/newsuk/times-xnative.git', :tag => '@thetimes/ios-app@0.0.1'}
-  s.source       = { :git => 'https://github.com/facebook/react-native.git', :tag => "v0.54.2" }
+  #s.source       = { :git => 'https://github.com/facebook/react-native.git', :tag => "v0.54.2" }
   
 
   s.requires_arc = true
@@ -42,9 +41,6 @@ Pod::Spec.new do |s|
   # React's dependencies
 
   s.dependency 'yoga', "#{react_native_version}.React"
-  #s.dependency 'DoubleConversion', "1.1.5"
-  #s.dependency 'Folly', "2016.09.26.00"
-  #s.dependency 'glog', "0.3.4"
   s.dependency 'DoubleConversion'
   s.dependency 'Folly'
   s.dependency 'glog'
