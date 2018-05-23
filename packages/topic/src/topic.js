@@ -2,6 +2,7 @@
 
 import React from "react";
 import Topic from "@times-components/topic";
+import { TopicProvider } from "@times-components/provider";
 import withClient from "@thetimes/with-client";
 
 type TopicProps = {
@@ -15,17 +16,21 @@ const TopicPage = ({
   onArticlePress,
   analyticsStream
 }: TopicProps) => (
-  <Topic
-    topic={{
-      name: "Chelsea",
-      description: "A swanky part of town."
-    }}
-    slug={"chelsea"}
-    onArticlePress={(event, extras) => onArticlePress(extras.url)}
-    analyticsStream={analyticsStream}
-    page={1}
-    pageSize={5}
-  />
+  <TopicProvider slug={topicSlug} page={1} pageSize={20} debounceTimeMs={250}>
+    {({ topic, isLoading, error, page, pageSize, onNext, onPrev, refetch }) => (
+      <Topic
+        topic={topic}
+        slug={topicSlug}
+        isLoading={isLoading}
+        error={error}
+        onArticlePress={(event, extras) => onArticlePress(extras.url)}
+        analyticsStream={analyticsStream}
+        page={page}
+        refetch={refetch}
+        pageSize={pageSize}
+      />
+    )}
+  </TopicProvider>
 );
 
 export default withClient(TopicPage);
