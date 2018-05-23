@@ -44,9 +44,6 @@ Pod::Spec.new do |s|
   # React's dependencies
 
   s.dependency 'yoga', "#{react_native_version}.React"
-  #s.dependency 'DoubleConversion', "1.1.5"
-  #s.dependency 'Folly', "2016.09.26.00"
-  #s.dependency 'glog', "0.3.4"
   s.dependency 'DoubleConversion'
   s.dependency 'Folly'
   s.dependency 'glog'
