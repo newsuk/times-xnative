@@ -1,13 +1,11 @@
-#
-#  Be sure to run `pod spec lint TimesReactIOS.podspec' to ensure this is a
-#  valid spec and to remove all comments including this before submitting the spec.
-#
+# coding: utf-8
+require 'json'
+podspeckey = "TimesReactPodspec:version"
+reactkey = "ReactNative:version"
 
-require "json"
+react_native_version = JSON.parse(File.read('Specs/localpodversions.json'))["#{reactkey}"]
+podspec_version = JSON.parse(File.read('Specs/localpodversions.json'))["#{podspeckey}"]
 
-package = JSON.parse(File.read("../packages/ios-app/package.json"))
-react_native_version = package["react-native"]
-podspec_version = package["version"]
 
 Pod::Spec.new do |s|
   s.name         = "TimesReactIOS"

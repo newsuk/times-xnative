@@ -1,4 +1,6 @@
 {
+  "TimesReactPodspec:version": "0.0.4",
+  "ReactNative:version": "0.54.2",
   "DoubleConversion:version": "1.1.5",
   "Folly:version": "2016.09.26.00",
   "glog:version": "0.3.4",
