@@ -26,17 +26,6 @@ Pod::Spec.new do |s|
   
   # React is split into a set of subspecs, these are the essentials
   
-  #s.dependency 'React/Core', react_native_version
-  #s.dependency 'React/CxxBridge', react_native_version
-  #s.dependency 'React/RCTAnimation', react_native_version
-  #s.dependency 'React/RCTImage', react_native_version
-  #s.dependency 'React/RCTLinkingIOS', react_native_version
-  #s.dependency 'React/RCTNetwork', react_native_version
-  #s.dependency 'React/RCTText', react_native_version
-  #s.dependency 'React/RCTWebSocket', react_native_version
-  #s.dependency 'React/DevSupport', react_native_version
-  #s.dependency 'React/ART', react_native_version
-  
   s.dependency 'React/Core'
   s.dependency 'React/CxxBridge'
   s.dependency 'React/RCTAnimation'
