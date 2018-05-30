@@ -16,7 +16,7 @@ const TopicPage = ({
   onArticlePress,
   analyticsStream
 }: TopicProps) => (
-  <TopicProvider slug={topicSlug} page={1} pageSize={20} debounceTimeMs={250}>
+  <TopicProvider slug={topicSlug} page={1} pageSize={10} debounceTimeMs={250}>
     {({ topic, isLoading, error, page, pageSize, onNext, onPrev, refetch }) => (
       <Topic
         topic={topic}
