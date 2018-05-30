@@ -1,7 +1,7 @@
 {
   "name": "@thetimes/with-client",
   "main": "lib/with-client.js",
-  "version": "1.0.12",
+  "version": "1.0.14",
   "license": "BSD-3-Clause",
   "scripts": {
     "build:types": "mkdir -p lib && for x in src/*.js; do cp -- \"$x\" \"lib/$(basename $x).flow\"; done",
@@ -13,13 +13,13 @@
     "lint": "yarn lint:prettier"
   },
   "dependencies": {
-    "@times-components/utils": "0.10.1",
+    "@times-components/utils": "0.11.0",
     "apollo-cache-inmemory": "1.1.10",
     "apollo-client": "2.3.1",
     "apollo-link-http": "1.5.3",
     "graphql": "0.13.1",
     "react": "16.3.1",
-    "react-apollo": "2.1.0-rc.3",
+    "react-apollo": "2.1.4",
     "react-native": "0.54.2"
   },
   "devDependencies": {
