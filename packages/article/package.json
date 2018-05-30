@@ -1,7 +1,7 @@
 {
   "name": "@thetimes/article",
   "main": "lib/article.js",
-  "version": "1.0.20",
+  "version": "1.0.21",
   "license": "BSD-3-Clause",
   "scripts": {
     "build:types": "mkdir -p lib && for x in src/*.js; do cp -- \"$x\" \"lib/$(basename $x).flow\"; done",
@@ -13,7 +13,7 @@
     "lint": "yarn lint:prettier"
   },
   "dependencies": {
-    "@thetimes/with-client": "1.0.12",
+    "@thetimes/with-client": "1.0.13",
     "@times-components/article": "1.1.13",
     "@times-components/provider": "0.32.0",
     "react": "16.3.1",
