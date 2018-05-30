@@ -40,7 +40,7 @@ Pod::Spec.new do |s|
   # React's dependencies
 
   s.dependency 'RNDeviceInfo'
-  s.dependency 'RNSVG'
+  s.dependency 'RNSVG', '6.3.1'
   s.dependency 'yoga'
   s.dependency 'DoubleConversion'
   s.dependency 'Folly'
