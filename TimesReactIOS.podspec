@@ -41,7 +41,7 @@ Pod::Spec.new do |s|
 
   s.dependency 'RNDeviceInfo'
   s.dependency 'RNSVG', '6.3.1'
-  s.dependency 'yoga'
+  s.dependency 'yoga', '0.54.2.React'
   s.dependency 'DoubleConversion'
   s.dependency 'Folly'
   s.dependency 'glog'
