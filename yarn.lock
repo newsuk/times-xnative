@@ -392,254 +392,254 @@
     lodash "^4.2.0"
     to-fast-properties "^2.0.0"
 
-"@times-components/ad@0.19.2":
-  version "0.19.2"
-  resolved "https://registry.yarnpkg.com/@times-components/ad/-/ad-0.19.2.tgz#22bc6bf2342a8e399819f790baf5faa14859f7ba"
+"@times-components/ad@0.21.2":
+  version "0.21.2"
+  resolved "https://registry.yarnpkg.com/@times-components/ad/-/ad-0.21.2.tgz#eda3ad2be16b1894679744ee627278a47bef0388"
   dependencies:
-    "@times-components/styleguide" "0.8.2"
-    "@times-components/utils" "0.11.0"
-    "@times-components/watermark" "0.6.2"
+    "@times-components/styleguide" "0.9.3"
+    "@times-components/utils" "0.12.3"
+    "@times-components/watermark" "0.7.3"
     prop-types "15.6.0"
     react-broadcast "0.5.2"
 
-"@times-components/article-byline@0.16.7":
-  version "0.16.7"
-  resolved "https://registry.yarnpkg.com/@times-components/article-byline/-/article-byline-0.16.7.tgz#7c816670d5f3f207100ac1efc874b1ffd48e2440"
+"@times-components/article-byline@0.17.3":
+  version "0.17.3"
+  resolved "https://registry.yarnpkg.com/@times-components/article-byline/-/article-byline-0.17.3.tgz#64ec30ea7662a115dee6a0fb0b3b9652bf705073"
   dependencies:
-    "@times-components/link" "0.22.2"
-    "@times-components/markup" "0.27.7"
-    "@times-components/styleguide" "0.8.2"
+    "@times-components/link" "0.23.7"
+    "@times-components/markup" "0.28.3"
+    "@times-components/styleguide" "0.9.3"
     prop-types "15.6.0"
 
-"@times-components/article-flag@0.13.7":
-  version "0.13.7"
-  resolved "https://registry.yarnpkg.com/@times-components/article-flag/-/article-flag-0.13.7.tgz#6de6ac8173e6825f23344a52c4ecbc6da993cf1e"
+"@times-components/article-flag@0.14.3":
+  version "0.14.3"
+  resolved "https://registry.yarnpkg.com/@times-components/article-flag/-/article-flag-0.14.3.tgz#e27742f966657130905a9f08bf1e8804f45e7c74"
   dependencies:
-    "@times-components/icons" "0.8.6"
-    "@times-components/styleguide" "0.8.2"
+    "@times-components/icons" "0.9.3"
+    "@times-components/styleguide" "0.9.3"
     prop-types "15.6.0"
     react-native-svg "6.3.1"
     svgs "3.2.1"
 
-"@times-components/article-image@0.16.7":
-  version "0.16.7"
-  resolved "https://registry.yarnpkg.com/@times-components/article-image/-/article-image-0.16.7.tgz#42a7955580a0914414965748e8ba1e774438618c"
+"@times-components/article-image@0.17.3":
+  version "0.17.3"
+  resolved "https://registry.yarnpkg.com/@times-components/article-image/-/article-image-0.17.3.tgz#38eed09a72dbe17fe5871f43c29afb50f5525a15"
   dependencies:
-    "@times-components/caption" "0.17.7"
-    "@times-components/image" "1.18.7"
-    "@times-components/responsive-styles" "0.8.5"
-    "@times-components/styleguide" "0.8.2"
+    "@times-components/caption" "0.18.3"
+    "@times-components/image" "1.19.3"
+    "@times-components/responsive-styles" "0.9.3"
+    "@times-components/styleguide" "0.9.3"
     prop-types "15.6.0"
 
-"@times-components/article-label@0.14.6":
-  version "0.14.6"
-  resolved "https://registry.yarnpkg.com/@times-components/article-label/-/article-label-0.14.6.tgz#eb5c796770c02e868a6a064d47fb4ac9c525be76"
+"@times-components/article-label@0.15.3":
+  version "0.15.3"
+  resolved "https://registry.yarnpkg.com/@times-components/article-label/-/article-label-0.15.3.tgz#a6bb47197ef90b3fb1b19e6aed9cb6b8959e0313"
   dependencies:
-    "@times-components/styleguide" "0.8.2"
+    "@times-components/styleguide" "0.9.3"
     lodash.invert "4.3.0"
     prop-types "15.6.0"
 
-"@times-components/article-list@1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@times-components/article-list/-/article-list-1.2.0.tgz#583e6f65cfb6131bf450466505bfa5157790f8c9"
+"@times-components/article-list@1.3.3":
+  version "1.3.3"
+  resolved "https://registry.yarnpkg.com/@times-components/article-list/-/article-list-1.3.3.tgz#5c104ece39675218ae21c6f1de1fda10c31b002a"
   dependencies:
-    "@times-components/article-summary" "0.24.7"
-    "@times-components/card" "0.29.7"
-    "@times-components/error-view" "0.11.17"
-    "@times-components/image" "1.18.7"
-    "@times-components/link" "0.22.2"
-    "@times-components/pagination" "0.20.0"
-    "@times-components/responsive-styles" "0.8.5"
-    "@times-components/styleguide" "0.8.2"
-    "@times-components/tracking" "0.12.19"
-    "@times-components/utils" "0.11.0"
+    "@times-components/article-summary" "0.25.3"
+    "@times-components/card" "0.30.3"
+    "@times-components/error-view" "0.12.3"
+    "@times-components/image" "1.19.3"
+    "@times-components/link" "0.23.7"
+    "@times-components/pagination" "0.21.3"
+    "@times-components/responsive-styles" "0.9.3"
+    "@times-components/styleguide" "0.9.3"
+    "@times-components/tracking" "0.13.3"
+    "@times-components/utils" "0.12.3"
     lodash.get "4.4.2"
     prop-types "15.6.0"
 
-"@times-components/article-summary@0.24.7":
-  version "0.24.7"
-  resolved "https://registry.yarnpkg.com/@times-components/article-summary/-/article-summary-0.24.7.tgz#cd7e8fcba74c7228b28946d2803ed7bdc216736d"
+"@times-components/article-summary@0.25.3":
+  version "0.25.3"
+  resolved "https://registry.yarnpkg.com/@times-components/article-summary/-/article-summary-0.25.3.tgz#943827fae4a7e0fdf675fb21f5b939bc1004b4b2"
   dependencies:
-    "@times-components/article-byline" "0.16.7"
-    "@times-components/article-label" "0.14.6"
-    "@times-components/date-publication" "0.15.16"
-    "@times-components/markup" "0.27.7"
-    "@times-components/responsive-styles" "0.8.5"
-    "@times-components/styleguide" "0.8.2"
+    "@times-components/article-byline" "0.17.3"
+    "@times-components/article-label" "0.15.3"
+    "@times-components/date-publication" "0.16.3"
+    "@times-components/markup" "0.28.3"
+    "@times-components/responsive-styles" "0.9.3"
+    "@times-components/styleguide" "0.9.3"
     prop-types "15.6.0"
 
-"@times-components/article-topics@1.0.11":
-  version "1.0.11"
-  resolved "https://registry.yarnpkg.com/@times-components/article-topics/-/article-topics-1.0.11.tgz#6667994fdab35b08d22b0a063558c5072440f7b1"
+"@times-components/article-topics@1.1.3":
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/@times-components/article-topics/-/article-topics-1.1.3.tgz#56c36f0ff5d4e624cceb11e38eb000c61d3bf896"
   dependencies:
-    "@times-components/link" "0.22.2"
-    "@times-components/styleguide" "0.8.2"
-    "@times-components/tracking" "0.12.19"
+    "@times-components/link" "0.23.7"
+    "@times-components/styleguide" "0.9.3"
+    "@times-components/tracking" "0.13.3"
     lodash.orderby "4.6.0"
     prop-types "15.6.0"
 
-"@times-components/article@1.1.13":
-  version "1.1.13"
-  resolved "https://registry.yarnpkg.com/@times-components/article/-/article-1.1.13.tgz#383702d0f676103679e4dc9a5186c2fab9cb4836"
+"@times-components/article@1.2.5":
+  version "1.2.5"
+  resolved "https://registry.yarnpkg.com/@times-components/article/-/article-1.2.5.tgz#59ebcd9c1e1ce83a57ad397b45b14cacd768a79f"
   dependencies:
-    "@times-components/ad" "0.19.2"
-    "@times-components/article-byline" "0.16.7"
-    "@times-components/article-flag" "0.13.7"
-    "@times-components/article-image" "0.16.7"
-    "@times-components/article-label" "0.14.6"
-    "@times-components/article-topics" "1.0.11"
-    "@times-components/caption" "0.17.7"
-    "@times-components/date-publication" "0.15.16"
-    "@times-components/image" "1.18.7"
-    "@times-components/link" "0.22.2"
-    "@times-components/markup" "0.27.7"
-    "@times-components/provider" "0.32.0"
-    "@times-components/pull-quote" "0.7.6"
-    "@times-components/related-articles" "0.4.8"
-    "@times-components/responsive-styles" "0.8.5"
-    "@times-components/styleguide" "0.8.2"
-    "@times-components/tracking" "0.12.19"
-    "@times-components/utils" "0.11.0"
-    "@times-components/video" "1.3.7"
-    "@times-components/video-label" "0.4.6"
+    "@times-components/ad" "0.21.2"
+    "@times-components/article-byline" "0.17.3"
+    "@times-components/article-flag" "0.14.3"
+    "@times-components/article-image" "0.17.3"
+    "@times-components/article-label" "0.15.3"
+    "@times-components/article-topics" "1.1.3"
+    "@times-components/caption" "0.18.3"
+    "@times-components/date-publication" "0.16.3"
+    "@times-components/image" "1.19.3"
+    "@times-components/link" "0.23.7"
+    "@times-components/markup" "0.28.3"
+    "@times-components/provider" "0.33.3"
+    "@times-components/pull-quote" "0.8.3"
+    "@times-components/related-articles" "0.5.3"
+    "@times-components/responsive-styles" "0.9.3"
+    "@times-components/styleguide" "0.9.3"
+    "@times-components/tracking" "0.13.3"
+    "@times-components/utils" "0.12.3"
+    "@times-components/video" "1.4.3"
+    "@times-components/video-label" "0.5.3"
     lodash.get "4.4.2"
     prop-types "15.6.0"
 
-"@times-components/author-profile@1.3.0":
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/@times-components/author-profile/-/author-profile-1.3.0.tgz#437f2a00d307f6e242a6fdc1f8d1bd29773f38d2"
+"@times-components/author-profile@1.4.3":
+  version "1.4.3"
+  resolved "https://registry.yarnpkg.com/@times-components/author-profile/-/author-profile-1.4.3.tgz#03f02338b88aacf2dc3aa3b703ea0dea34f0c339"
   dependencies:
-    "@times-components/article-list" "1.2.0"
-    "@times-components/gradient" "0.12.1"
-    "@times-components/icons" "0.8.6"
-    "@times-components/image" "1.18.7"
-    "@times-components/link" "0.22.2"
-    "@times-components/markup" "0.27.7"
-    "@times-components/pagination" "0.20.0"
-    "@times-components/provider" "0.32.0"
-    "@times-components/responsive-styles" "0.8.5"
-    "@times-components/styleguide" "0.8.2"
-    "@times-components/tracking" "0.12.19"
-    "@times-components/utils" "0.11.0"
+    "@times-components/article-list" "1.3.3"
+    "@times-components/gradient" "0.13.3"
+    "@times-components/icons" "0.9.3"
+    "@times-components/image" "1.19.3"
+    "@times-components/link" "0.23.7"
+    "@times-components/markup" "0.28.3"
+    "@times-components/pagination" "0.21.3"
+    "@times-components/provider" "0.33.3"
+    "@times-components/responsive-styles" "0.9.3"
+    "@times-components/styleguide" "0.9.3"
+    "@times-components/tracking" "0.13.3"
+    "@times-components/utils" "0.12.3"
     lodash.get "4.4.2"
     prop-types "15.6.0"
 
-"@times-components/caption@0.17.7":
-  version "0.17.7"
-  resolved "https://registry.yarnpkg.com/@times-components/caption/-/caption-0.17.7.tgz#efb060df77c47e8ed1d0cf3760521622b1f35d57"
+"@times-components/caption@0.18.3":
+  version "0.18.3"
+  resolved "https://registry.yarnpkg.com/@times-components/caption/-/caption-0.18.3.tgz#6639c5507600491449a83e3e12f719f0398aad19"
   dependencies:
-    "@times-components/styleguide" "0.8.2"
+    "@times-components/styleguide" "0.9.3"
     prop-types "15.6.0"
 
-"@times-components/card@0.29.7":
-  version "0.29.7"
-  resolved "https://registry.yarnpkg.com/@times-components/card/-/card-0.29.7.tgz#bf19d21bf328dce106f195dab901a3feed0a15d7"
+"@times-components/card@0.30.3":
+  version "0.30.3"
+  resolved "https://registry.yarnpkg.com/@times-components/card/-/card-0.30.3.tgz#0678c88bdd27c267221505b9a4eea52aab728e44"
   dependencies:
-    "@times-components/gradient" "0.12.1"
-    "@times-components/image" "1.18.7"
-    "@times-components/responsive-styles" "0.8.5"
-    "@times-components/styleguide" "0.8.2"
+    "@times-components/gradient" "0.13.3"
+    "@times-components/image" "1.19.3"
+    "@times-components/responsive-styles" "0.9.3"
+    "@times-components/styleguide" "0.9.3"
     prop-types "15.6.0"
 
-"@times-components/date-publication@0.15.16":
-  version "0.15.16"
-  resolved "https://registry.yarnpkg.com/@times-components/date-publication/-/date-publication-0.15.16.tgz#6f6ccccb6ef8ae18b3922bf85ff272954cc2f22b"
+"@times-components/date-publication@0.16.3":
+  version "0.16.3"
+  resolved "https://registry.yarnpkg.com/@times-components/date-publication/-/date-publication-0.16.3.tgz#0bbc71c7358523b01f143b54847e76d172f0b9b2"
   dependencies:
-    "@times-components/styleguide" "0.8.2"
+    "@times-components/styleguide" "0.9.3"
     date-fns "1.28.5"
     prop-types "15.6.0"
     react-native-device-info "0.13.0"
 
-"@times-components/depend@0.2.2":
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/@times-components/depend/-/depend-0.2.2.tgz#b08615be5afce48061b855d280fefec57cd68840"
+"@times-components/depend@0.3.1":
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/@times-components/depend/-/depend-0.3.1.tgz#44bf583171ca4bdda095284adc9588f416942a96"
   dependencies:
     babel-plugin-transform-runtime "6.23.0"
     babel-polyfill "6.26.0"
     babel-runtime "6.26.0"
     chalk "2.3.1"
     commander "2.14.1"
-    fs-extra "5.0.0"
+    fs-extra "6.0.1"
     glob "7.1.2"
     minimatch "3.0.4"
     semver "5.5.0"
 
-"@times-components/error-view@0.11.17":
-  version "0.11.17"
-  resolved "https://registry.yarnpkg.com/@times-components/error-view/-/error-view-0.11.17.tgz#8c8354b61b0e814f8537eac3cf556fdcd42dfd59"
+"@times-components/error-view@0.12.3":
+  version "0.12.3"
+  resolved "https://registry.yarnpkg.com/@times-components/error-view/-/error-view-0.12.3.tgz#8b0fac46f29f29e4dc73c5553fc9938e48f08793"
   dependencies:
-    "@times-components/styleguide" "0.8.2"
+    "@times-components/styleguide" "0.9.3"
     prop-types "15.6.0"
 
-"@times-components/gestures@1.4.6":
-  version "1.4.6"
-  resolved "https://registry.yarnpkg.com/@times-components/gestures/-/gestures-1.4.6.tgz#2772f50a55330d31965f30e5b0f655d81befc830"
+"@times-components/gestures@1.5.3":
+  version "1.5.3"
+  resolved "https://registry.yarnpkg.com/@times-components/gestures/-/gestures-1.5.3.tgz#c51462e3017209aaff2ca4c19620b8ebe6a608b5"
   dependencies:
-    "@times-components/styleguide" "0.8.2"
+    "@times-components/styleguide" "0.9.3"
     prop-types "15.6.0"
 
-"@times-components/gradient@0.12.1":
-  version "0.12.1"
-  resolved "https://registry.yarnpkg.com/@times-components/gradient/-/gradient-0.12.1.tgz#7d6f5c908991ea5875225f97b63171269b06e8d3"
+"@times-components/gradient@0.13.3":
+  version "0.13.3"
+  resolved "https://registry.yarnpkg.com/@times-components/gradient/-/gradient-0.13.3.tgz#8ad1ede14b1e123a03b5be231e02287bf79a6dd9"
   dependencies:
-    "@times-components/styleguide" "0.8.2"
+    "@times-components/styleguide" "0.9.3"
     prop-types "15.6.0"
 
-"@times-components/icons@0.8.6":
-  version "0.8.6"
-  resolved "https://registry.yarnpkg.com/@times-components/icons/-/icons-0.8.6.tgz#8d3fa193387c5a4316bd9e77d044d2ae35039195"
+"@times-components/icons@0.9.3":
+  version "0.9.3"
+  resolved "https://registry.yarnpkg.com/@times-components/icons/-/icons-0.9.3.tgz#a10830ef0979f8a11c58133ffebe8bb23c469ed0"
   dependencies:
-    "@times-components/styleguide" "0.8.2"
-    "@times-components/utils" "0.11.0"
+    "@times-components/styleguide" "0.9.3"
+    "@times-components/utils" "0.12.3"
     prop-types "15.6.0"
     svgs "3.2.1"
 
-"@times-components/image@1.18.7":
-  version "1.18.7"
-  resolved "https://registry.yarnpkg.com/@times-components/image/-/image-1.18.7.tgz#5bf5d16aa396daff83e9275bb12c97add75cd56a"
+"@times-components/image@1.19.3":
+  version "1.19.3"
+  resolved "https://registry.yarnpkg.com/@times-components/image/-/image-1.19.3.tgz#61c8489b6175ea51948285cb3978cd37523636c5"
   dependencies:
-    "@times-components/gestures" "1.4.6"
-    "@times-components/gradient" "0.12.1"
-    "@times-components/link" "0.22.2"
-    "@times-components/styleguide" "0.8.2"
-    "@times-components/utils" "0.11.0"
+    "@times-components/gestures" "1.5.3"
+    "@times-components/gradient" "0.13.3"
+    "@times-components/link" "0.23.7"
+    "@times-components/styleguide" "0.9.3"
+    "@times-components/utils" "0.12.3"
     prop-types "15.6.0"
     react-native-svg "6.3.1"
     svgs "3.2.1"
 
-"@times-components/link@0.22.2":
-  version "0.22.2"
-  resolved "https://registry.yarnpkg.com/@times-components/link/-/link-0.22.2.tgz#5642bcff7a95a97824be8d13ea3904081f7bf5c9"
+"@times-components/link@0.23.7":
+  version "0.23.7"
+  resolved "https://registry.yarnpkg.com/@times-components/link/-/link-0.23.7.tgz#ab2dcef65d2842b274a6323a313d3da223c9bb2b"
   dependencies:
-    "@times-components/responsive-styles" "0.8.5"
-    "@times-components/styleguide" "0.8.2"
+    "@times-components/responsive-styles" "0.9.3"
+    "@times-components/styleguide" "0.9.3"
     prop-types "15.6.0"
 
-"@times-components/markup@0.27.7":
-  version "0.27.7"
-  resolved "https://registry.yarnpkg.com/@times-components/markup/-/markup-0.27.7.tgz#7a6f18ccd46b6da99ade51b29dd11fbaa5a48f4e"
+"@times-components/markup@0.28.3":
+  version "0.28.3"
+  resolved "https://registry.yarnpkg.com/@times-components/markup/-/markup-0.28.3.tgz#8586f578eec716c05c17529c22f37dea53403aed"
   dependencies:
-    "@times-components/ad" "0.19.2"
-    "@times-components/pull-quote" "0.7.6"
-    "@times-components/styleguide" "0.8.2"
+    "@times-components/ad" "0.21.2"
+    "@times-components/pull-quote" "0.8.3"
+    "@times-components/styleguide" "0.9.3"
     prop-types "15.6.0"
 
-"@times-components/pagination@0.20.0":
-  version "0.20.0"
-  resolved "https://registry.yarnpkg.com/@times-components/pagination/-/pagination-0.20.0.tgz#a5bc743c689cf9346756f13fa04464d6fe9ba6de"
+"@times-components/pagination@0.21.3":
+  version "0.21.3"
+  resolved "https://registry.yarnpkg.com/@times-components/pagination/-/pagination-0.21.3.tgz#3430e176db94a1329e085ff4f4c4ebad04da4c59"
   dependencies:
-    "@times-components/link" "0.22.2"
-    "@times-components/responsive-styles" "0.8.5"
-    "@times-components/styleguide" "0.8.2"
-    "@times-components/tracking" "0.12.19"
+    "@times-components/link" "0.23.7"
+    "@times-components/responsive-styles" "0.9.3"
+    "@times-components/styleguide" "0.9.3"
+    "@times-components/tracking" "0.13.3"
     prop-types "15.6.0"
     react-display-name "0.2.3"
     react-native-svg "6.3.1"
     svgs "3.2.1"
 
-"@times-components/provider@0.32.0":
-  version "0.32.0"
-  resolved "https://registry.yarnpkg.com/@times-components/provider/-/provider-0.32.0.tgz#baca78b52e373ea52cdff6c48e90df10327c3bb9"
+"@times-components/provider@0.33.3":
+  version "0.33.3"
+  resolved "https://registry.yarnpkg.com/@times-components/provider/-/provider-0.33.3.tgz#2b283c4e4701ce97dff847f5dafcd614bf0ce355"
   dependencies:
     graphql-tag "2.8.0"
     hoist-non-react-statics "2.5.0"
@@ -649,79 +649,79 @@
     react-apollo "2.1.4"
     react-display-name "0.2.3"
 
-"@times-components/pull-quote@0.7.6":
-  version "0.7.6"
-  resolved "https://registry.yarnpkg.com/@times-components/pull-quote/-/pull-quote-0.7.6.tgz#9c8ba9d5f52cd5611f2d8eca93081ba0e84dc282"
+"@times-components/pull-quote@0.8.3":
+  version "0.8.3"
+  resolved "https://registry.yarnpkg.com/@times-components/pull-quote/-/pull-quote-0.8.3.tgz#999a7fbaa8dd083cc815530c95150ebd8e85501e"
   dependencies:
-    "@times-components/icons" "0.8.6"
-    "@times-components/link" "0.22.2"
-    "@times-components/responsive-styles" "0.8.5"
-    "@times-components/styleguide" "0.8.2"
+    "@times-components/icons" "0.9.3"
+    "@times-components/link" "0.23.7"
+    "@times-components/responsive-styles" "0.9.3"
+    "@times-components/styleguide" "0.9.3"
     prop-types "15.6.0"
 
-"@times-components/related-articles@0.4.8":
-  version "0.4.8"
-  resolved "https://registry.yarnpkg.com/@times-components/related-articles/-/related-articles-0.4.8.tgz#0440f723fc40437c9058ba825888ef7a479a5b59"
+"@times-components/related-articles@0.5.3":
+  version "0.5.3"
+  resolved "https://registry.yarnpkg.com/@times-components/related-articles/-/related-articles-0.5.3.tgz#0915870adc1870d9933661f164aa8dc86bfbeb5e"
   dependencies:
-    "@times-components/article-summary" "0.24.7"
-    "@times-components/card" "0.29.7"
-    "@times-components/link" "0.22.2"
-    "@times-components/markup" "0.27.7"
-    "@times-components/slice" "0.18.21"
-    "@times-components/styleguide" "0.8.2"
-    "@times-components/tracking" "0.12.19"
+    "@times-components/article-summary" "0.25.3"
+    "@times-components/card" "0.30.3"
+    "@times-components/link" "0.23.7"
+    "@times-components/markup" "0.28.3"
+    "@times-components/slice" "0.19.3"
+    "@times-components/styleguide" "0.9.3"
+    "@times-components/tracking" "0.13.3"
     lodash.get "4.4.2"
     prop-types "15.6.0"
 
-"@times-components/responsive-styles@0.8.5":
-  version "0.8.5"
-  resolved "https://registry.yarnpkg.com/@times-components/responsive-styles/-/responsive-styles-0.8.5.tgz#a2cee16aaf54d44fa3321afb354c52e58f52355a"
+"@times-components/responsive-styles@0.9.3":
+  version "0.9.3"
+  resolved "https://registry.yarnpkg.com/@times-components/responsive-styles/-/responsive-styles-0.9.3.tgz#05368d4ab84376339a38145b30cd9a9e7729f748"
   dependencies:
     prop-types "15.6.0"
     styled-components "3.2.6"
 
-"@times-components/slice@0.18.21":
-  version "0.18.21"
-  resolved "https://registry.yarnpkg.com/@times-components/slice/-/slice-0.18.21.tgz#15853ad08402c13f77cb348c94b0e72b486e6b06"
+"@times-components/slice@0.19.3":
+  version "0.19.3"
+  resolved "https://registry.yarnpkg.com/@times-components/slice/-/slice-0.19.3.tgz#2b07a43904393354fe11cd7d54029ed01d3ae8bb"
   dependencies:
-    "@times-components/responsive-styles" "0.8.5"
-    "@times-components/styleguide" "0.8.2"
+    "@times-components/responsive-styles" "0.9.3"
+    "@times-components/styleguide" "0.9.3"
     prop-types "15.6.0"
 
-"@times-components/styleguide@0.8.2":
-  version "0.8.2"
-  resolved "https://registry.yarnpkg.com/@times-components/styleguide/-/styleguide-0.8.2.tgz#eee64968d8d5787110dbea95c79717bbe24d5eb7"
+"@times-components/styleguide@0.9.3":
+  version "0.9.3"
+  resolved "https://registry.yarnpkg.com/@times-components/styleguide/-/styleguide-0.9.3.tgz#c25126214ee25110c924cebdf83b88edc66a409c"
   dependencies:
-    "@times-components/responsive-styles" "0.8.5"
+    "@times-components/responsive-styles" "0.9.3"
     prop-types "15.6.0"
 
-"@times-components/topic@0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@times-components/topic/-/topic-0.4.0.tgz#73b2ed9256468e9e36f4942a03feb86812b97a4a"
+"@times-components/topic@0.5.3":
+  version "0.5.3"
+  resolved "https://registry.yarnpkg.com/@times-components/topic/-/topic-0.5.3.tgz#f5f7b1cc54ca2623de78b9c52687edd43410a54c"
   dependencies:
-    "@times-components/article-list" "1.2.0"
-    "@times-components/gradient" "0.12.1"
-    "@times-components/pagination" "0.20.0"
-    "@times-components/provider" "0.32.0"
-    "@times-components/responsive-styles" "0.8.5"
-    "@times-components/styleguide" "0.8.2"
-    "@times-components/tracking" "0.12.19"
-    "@times-components/utils" "0.11.0"
+    "@times-components/article-list" "1.3.3"
+    "@times-components/gradient" "0.13.3"
+    "@times-components/pagination" "0.21.3"
+    "@times-components/provider" "0.33.3"
+    "@times-components/responsive-styles" "0.9.3"
+    "@times-components/styleguide" "0.9.3"
+    "@times-components/tracking" "0.13.3"
+    "@times-components/utils" "0.12.3"
     lodash.get "4.4.2"
     prop-types "15.6.0"
 
-"@times-components/tracking@0.12.19":
-  version "0.12.19"
-  resolved "https://registry.yarnpkg.com/@times-components/tracking/-/tracking-0.12.19.tgz#9d781b8705a939e00a1cb51fa7e046359b9001d3"
+"@times-components/tracking@0.13.3":
+  version "0.13.3"
+  resolved "https://registry.yarnpkg.com/@times-components/tracking/-/tracking-0.13.3.tgz#d2e9a7ffac2a767de47fcc48eb839132284bbd90"
   dependencies:
     hoist-non-react-statics "2.5.0"
     lodash.get "4.4.2"
     prop-types "15.6.0"
     react-display-name "0.2.3"
 
-"@times-components/utils@0.11.0":
-  version "0.11.0"
-  resolved "https://registry.yarnpkg.com/@times-components/utils/-/utils-0.11.0.tgz#9a0e041f76f31f1232ff2ce912191b3a81769e09"
+"@times-components/utils@0.12.3":
+  version "0.12.3"
+  resolved "https://registry.yarnpkg.com/@times-components/utils/-/utils-0.12.3.tgz#51a2598bb931df3a0149686670116b6f06d3bd57"
   dependencies:
     apollo-cache-inmemory "1.1.10"
     apollo-client "2.3.1"
@@ -731,32 +731,32 @@
     react "16.3.1"
     react-apollo "2.1.4"
 
-"@times-components/video-label@0.4.6":
-  version "0.4.6"
-  resolved "https://registry.yarnpkg.com/@times-components/video-label/-/video-label-0.4.6.tgz#eff1c5e856753e432b49c946be8e6f700b1a1354"
+"@times-components/video-label@0.5.3":
+  version "0.5.3"
+  resolved "https://registry.yarnpkg.com/@times-components/video-label/-/video-label-0.5.3.tgz#fa07aaf46bae08e7a1b9d80905c1f74fe9ecf6b4"
   dependencies:
-    "@times-components/icons" "0.8.6"
-    "@times-components/styleguide" "0.8.2"
+    "@times-components/icons" "0.9.3"
+    "@times-components/styleguide" "0.9.3"
     lodash.invert "4.3.0"
     prop-types "15.6.0"
 
-"@times-components/video@1.3.7":
-  version "1.3.7"
-  resolved "https://registry.yarnpkg.com/@times-components/video/-/video-1.3.7.tgz#7350d08a21eea3fae4533fd2076e454d25a59232"
+"@times-components/video@1.4.3":
+  version "1.4.3"
+  resolved "https://registry.yarnpkg.com/@times-components/video/-/video-1.4.3.tgz#f99741faf69f5e1c428139f15a8990668e852d73"
   dependencies:
-    "@times-components/error-view" "0.11.17"
-    "@times-components/image" "1.18.7"
-    "@times-components/styleguide" "0.8.2"
-    "@times-components/utils" "0.11.0"
+    "@times-components/error-view" "0.12.3"
+    "@times-components/image" "1.19.3"
+    "@times-components/styleguide" "0.9.3"
+    "@times-components/utils" "0.12.3"
     prop-types "15.6.0"
     react-native-svg "6.3.1"
     svgs "3.2.1"
 
-"@times-components/watermark@0.6.2":
-  version "0.6.2"
-  resolved "https://registry.yarnpkg.com/@times-components/watermark/-/watermark-0.6.2.tgz#b2b49f3e33b28f75ff61ec2cc1fa17f69d00c962"
+"@times-components/watermark@0.7.3":
+  version "0.7.3"
+  resolved "https://registry.yarnpkg.com/@times-components/watermark/-/watermark-0.7.3.tgz#e9f6ecd98594668f704a464328b284d24c31a748"
   dependencies:
-    "@times-components/styleguide" "0.8.2"
+    "@times-components/styleguide" "0.9.3"
     prop-types "15.6.0"
     react-native-svg "6.3.1"
     svgs "3.2.1"
@@ -807,6 +807,12 @@ acorn-dynamic-import@^2.0.0:
   dependencies:
     acorn "^4.0.3"
 
+acorn-dynamic-import@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/acorn-dynamic-import/-/acorn-dynamic-import-3.0.0.tgz#901ceee4c7faaef7e07ad2a47e890675da50a278"
+  dependencies:
+    acorn "^5.0.0"
+
 acorn@^4.0.3:
   version "4.0.13"
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-4.0.13.tgz#105495ae5361d697bd195c825192e1ad7f253787"
@@ -819,15 +825,15 @@ add-stream@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/add-stream/-/add-stream-1.0.0.tgz#6a7990437ca736d5e1288db92bd3266d5f5cb2aa"
 
-ajv-keywords@^1.1.1:
-  version "1.5.1"
-  resolved "https://registry.yarnpkg.com/ajv-keywords/-/ajv-keywords-1.5.1.tgz#314dd0a4b3368fad3dfcdc54ede6171b886daf3c"
-
 ajv-keywords@^2.0.0:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/ajv-keywords/-/ajv-keywords-2.1.1.tgz#617997fc5f60576894c435f940d819e135b80762"
 
-ajv@^4.7.0, ajv@^4.9.1:
+ajv-keywords@^3.1.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/ajv-keywords/-/ajv-keywords-3.2.0.tgz#e86b819c602cf8821ad637413698f1dec021847a"
+
+ajv@^4.9.1:
   version "4.11.8"
   resolved "https://registry.yarnpkg.com/ajv/-/ajv-4.11.8.tgz#82ffb02b29e662ae53bdc20af15947706739c536"
   dependencies:
@@ -842,6 +848,15 @@ ajv@^5.1.0, ajv@^5.1.5:
     fast-deep-equal "^1.0.0"
     fast-json-stable-stringify "^2.0.0"
     json-schema-traverse "^0.3.0"
+
+ajv@^6.1.0:
+  version "6.5.0"
+  resolved "https://registry.yarnpkg.com/ajv/-/ajv-6.5.0.tgz#4c8affdf80887d8f132c9c52ab8a2dc4d0b7b24c"
+  dependencies:
+    fast-deep-equal "^2.0.1"
+    fast-json-stable-stringify "^2.0.0"
+    json-schema-traverse "^0.3.0"
+    uri-js "^4.2.1"
 
 align-text@^0.1.1, align-text@^0.1.3:
   version "0.1.4"
@@ -976,7 +991,7 @@ apollo-utilities@^1.0.12, apollo-utilities@^1.0.9:
   version "1.0.12"
   resolved "https://registry.yarnpkg.com/apollo-utilities/-/apollo-utilities-1.0.12.tgz#9e2b2a34cf89f3bf0d73a664effd8c1bb5d1b7f7"
 
-aproba@^1.0.3:
+aproba@^1.0.3, aproba@^1.1.1:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/aproba/-/aproba-1.2.0.tgz#6802e6264efd18c790a1b0d517f0f2627bf2c94a"
 
@@ -1323,7 +1338,7 @@ babel-helpers@^6.24.1:
     babel-runtime "^6.22.0"
     babel-template "^6.24.1"
 
-babel-loader@^7.1.2, babel-loader@^7.1.4:
+babel-loader@7.1.4, babel-loader@^7.1.2:
   version "7.1.4"
   resolved "https://registry.yarnpkg.com/babel-loader/-/babel-loader-7.1.4.tgz#e3463938bd4e6d55d1c174c5485d406a188ed015"
   dependencies:
@@ -1536,7 +1551,16 @@ babel-plugin-transform-es2015-modules-amd@^6.22.0, babel-plugin-transform-es2015
     babel-runtime "^6.22.0"
     babel-template "^6.24.1"
 
-babel-plugin-transform-es2015-modules-commonjs@6.26.0, babel-plugin-transform-es2015-modules-commonjs@6.x, babel-plugin-transform-es2015-modules-commonjs@^6.23.0, babel-plugin-transform-es2015-modules-commonjs@^6.24.1, babel-plugin-transform-es2015-modules-commonjs@^6.5.0, babel-plugin-transform-es2015-modules-commonjs@^6.8.0:
+babel-plugin-transform-es2015-modules-commonjs@6.26.2:
+  version "6.26.2"
+  resolved "https://registry.yarnpkg.com/babel-plugin-transform-es2015-modules-commonjs/-/babel-plugin-transform-es2015-modules-commonjs-6.26.2.tgz#58a793863a9e7ca870bdc5a881117ffac27db6f3"
+  dependencies:
+    babel-plugin-transform-strict-mode "^6.24.1"
+    babel-runtime "^6.26.0"
+    babel-template "^6.26.0"
+    babel-types "^6.26.0"
+
+babel-plugin-transform-es2015-modules-commonjs@6.x, babel-plugin-transform-es2015-modules-commonjs@^6.23.0, babel-plugin-transform-es2015-modules-commonjs@^6.24.1, babel-plugin-transform-es2015-modules-commonjs@^6.5.0, babel-plugin-transform-es2015-modules-commonjs@^6.8.0:
   version "6.26.0"
   resolved "https://registry.yarnpkg.com/babel-plugin-transform-es2015-modules-commonjs/-/babel-plugin-transform-es2015-modules-commonjs-6.26.0.tgz#0d8394029b7dc6abe1a97ef181e00758dd2e5d8a"
   dependencies:
@@ -2020,6 +2044,10 @@ block-stream@*:
   dependencies:
     inherits "~2.0.0"
 
+bluebird@^3.5.1:
+  version "3.5.1"
+  resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.5.1.tgz#d9551f9de98f1fcda1e683d17ee91a0602ee2eb9"
+
 bn.js@^4.0.0, bn.js@^4.1.0, bn.js@^4.1.1, bn.js@^4.4.0:
   version "4.11.8"
   resolved "https://registry.yarnpkg.com/bn.js/-/bn.js-4.11.8.tgz#2cde09eb5ee341f484746bb0309b3253b1b1442f"
@@ -2207,6 +2235,24 @@ bytes@3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/bytes/-/bytes-3.0.0.tgz#d32815404d689699f85a4ea4fa8755dd13a96048"
 
+cacache@^10.0.4:
+  version "10.0.4"
+  resolved "https://registry.yarnpkg.com/cacache/-/cacache-10.0.4.tgz#6452367999eff9d4188aefd9a14e9d7c6a263460"
+  dependencies:
+    bluebird "^3.5.1"
+    chownr "^1.0.1"
+    glob "^7.1.2"
+    graceful-fs "^4.1.11"
+    lru-cache "^4.1.1"
+    mississippi "^2.0.0"
+    mkdirp "^0.5.1"
+    move-concurrently "^1.0.1"
+    promise-inflight "^1.0.1"
+    rimraf "^2.6.2"
+    ssri "^5.2.4"
+    unique-filename "^1.1.0"
+    y18n "^4.0.0"
+
 cache-base@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/cache-base/-/cache-base-1.0.1.tgz#0a7f46416831c8b662ee36fe4e7c59d76f666ab2"
@@ -2249,10 +2295,6 @@ camelcase@^1.0.2:
 camelcase@^2.0.0:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-2.1.1.tgz#7c1d16d679a1bbe59ca02cacecfb011e201f5a1f"
-
-camelcase@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-3.0.0.tgz#32fc4b9fcdaf845fcdf7e73bb97cac2261f0ab0a"
 
 camelcase@^4.1.0:
   version "4.1.0"
@@ -2351,6 +2393,14 @@ chokidar@^2.0.2:
     upath "^1.0.0"
   optionalDependencies:
     fsevents "^1.1.2"
+
+chownr@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/chownr/-/chownr-1.0.1.tgz#e2a75042a9551908bebd25b8523d5f9769d79181"
+
+chrome-trace-event@^0.1.1:
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/chrome-trace-event/-/chrome-trace-event-0.1.3.tgz#d395af2d31c87b90a716c831fe326f69768ec084"
 
 ci-info@^1.0.0:
   version "1.1.3"
@@ -2573,7 +2623,7 @@ concat-map@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/concat-map/-/concat-map-0.0.1.tgz#d8a96bd77fd68df7793a73036a3ba0d5405d477b"
 
-concat-stream@^1.4.10, concat-stream@^1.4.7, concat-stream@^1.6.0:
+concat-stream@^1.4.10, concat-stream@^1.4.7, concat-stream@^1.5.0, concat-stream@^1.6.0:
   version "1.6.2"
   resolved "https://registry.yarnpkg.com/concat-stream/-/concat-stream-1.6.2.tgz#904bdf194cd3122fc675c77fc4ac3d4ff0fd1a34"
   dependencies:
@@ -2779,6 +2829,17 @@ cookie@0.3.1:
   version "0.3.1"
   resolved "https://registry.yarnpkg.com/cookie/-/cookie-0.3.1.tgz#e7e0a1f9ef43b4c8ba925c5c5a96e806d16873bb"
 
+copy-concurrently@^1.0.0:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/copy-concurrently/-/copy-concurrently-1.0.5.tgz#92297398cae34937fcafd6ec8139c18051f0b5e0"
+  dependencies:
+    aproba "^1.1.1"
+    fs-write-stream-atomic "^1.0.8"
+    iferr "^0.1.5"
+    mkdirp "^0.5.1"
+    rimraf "^2.5.4"
+    run-queue "^1.0.0"
+
 copy-descriptor@^0.1.0:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/copy-descriptor/-/copy-descriptor-0.1.1.tgz#676f6eb3c39997c2ee1ac3a924fd6124748f578d"
@@ -2890,6 +2951,10 @@ currently-unhandled@^0.4.1:
   resolved "https://registry.yarnpkg.com/currently-unhandled/-/currently-unhandled-0.4.1.tgz#988df33feab191ef799a61369dd76c17adf957ea"
   dependencies:
     array-find-index "^1.0.1"
+
+cyclist@~0.2.2:
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/cyclist/-/cyclist-0.2.2.tgz#1b33792e11e914a2fd6d6ed6447464444e5fa640"
 
 cz-conventional-changelog@1.2.0:
   version "1.2.0"
@@ -3095,6 +3160,15 @@ duplexer@^0.1.1:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/duplexer/-/duplexer-0.1.1.tgz#ace6ff808c1ce66b57d1ebf97977acb02334cfc1"
 
+duplexify@^3.4.2, duplexify@^3.6.0:
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/duplexify/-/duplexify-3.6.0.tgz#592903f5d80b38d037220541264d69a198fb3410"
+  dependencies:
+    end-of-stream "^1.0.0"
+    inherits "^2.0.1"
+    readable-stream "^2.0.0"
+    stream-shift "^1.0.0"
+
 ecc-jsbn@~0.1.1:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/ecc-jsbn/-/ecc-jsbn-0.1.1.tgz#0fc73a9ed5f0d53c38193398523ef7e543777505"
@@ -3135,7 +3209,13 @@ encoding@^0.1.11:
   dependencies:
     iconv-lite "~0.4.13"
 
-enhanced-resolve@^3.3.0, enhanced-resolve@^3.4.0:
+end-of-stream@^1.0.0, end-of-stream@^1.1.0:
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/end-of-stream/-/end-of-stream-1.4.1.tgz#ed29634d19baba463b6ce6b80a37213eab71ec43"
+  dependencies:
+    once "^1.4.0"
+
+enhanced-resolve@^3.4.0:
   version "3.4.1"
   resolved "https://registry.yarnpkg.com/enhanced-resolve/-/enhanced-resolve-3.4.1.tgz#0421e339fd71419b3da13d129b3979040230476e"
   dependencies:
@@ -3143,6 +3223,14 @@ enhanced-resolve@^3.3.0, enhanced-resolve@^3.4.0:
     memory-fs "^0.4.0"
     object-assign "^4.0.1"
     tapable "^0.2.7"
+
+enhanced-resolve@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/enhanced-resolve/-/enhanced-resolve-4.0.0.tgz#e34a6eaa790f62fccd71d93959f56b2b432db10a"
+  dependencies:
+    graceful-fs "^4.1.2"
+    memory-fs "^0.4.0"
+    tapable "^1.0.0"
 
 envinfo@^3.0.0:
   version "3.11.1"
@@ -3154,7 +3242,7 @@ envinfo@^3.0.0:
     os-name "^2.0.1"
     which "^1.2.14"
 
-errno@^0.1.3:
+errno@^0.1.3, errno@~0.1.7:
   version "0.1.7"
   resolved "https://registry.yarnpkg.com/errno/-/errno-0.1.7.tgz#4684d71779ad39af177e3f007996f7c67c852618"
   dependencies:
@@ -3246,6 +3334,13 @@ escope@^3.6.0:
   dependencies:
     es6-map "^0.1.3"
     es6-weak-map "^2.0.1"
+    esrecurse "^4.1.0"
+    estraverse "^4.1.1"
+
+eslint-scope@^3.7.1:
+  version "3.7.1"
+  resolved "https://registry.yarnpkg.com/eslint-scope/-/eslint-scope-3.7.1.tgz#3d63c3edfda02e06e01a452ad88caacc7cdcb6e8"
+  dependencies:
     esrecurse "^4.1.0"
     estraverse "^4.1.1"
 
@@ -3464,6 +3559,10 @@ fast-deep-equal@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/fast-deep-equal/-/fast-deep-equal-1.1.0.tgz#c053477817c86b51daa853c81e059b733d023614"
 
+fast-deep-equal@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/fast-deep-equal/-/fast-deep-equal-2.0.1.tgz#7b05218ddf9667bf7f370bf7fdb2cb15fdd0aa49"
+
 fast-json-stable-stringify@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/fast-json-stable-stringify/-/fast-json-stable-stringify-2.0.0.tgz#d5142c0caee6b1189f87d3a76111064f86c8bbf2"
@@ -3611,6 +3710,13 @@ flow-bin@0.63.1:
   version "0.63.1"
   resolved "https://registry.yarnpkg.com/flow-bin/-/flow-bin-0.63.1.tgz#ab00067c197169a5fb5b4996c8f6927b06694828"
 
+flush-write-stream@^1.0.0:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/flush-write-stream/-/flush-write-stream-1.0.3.tgz#c5d586ef38af6097650b49bc41b55fabb19f35bd"
+  dependencies:
+    inherits "^2.0.1"
+    readable-stream "^2.0.4"
+
 for-in@^1.0.1, for-in@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/for-in/-/for-in-1.0.2.tgz#81068d295a8142ec0ac726c6e2200c30fb6d5e80"
@@ -3655,13 +3761,20 @@ fresh@0.5.2:
   version "0.5.2"
   resolved "https://registry.yarnpkg.com/fresh/-/fresh-0.5.2.tgz#3d8cadd90d976569fa835ab1f8e4b23a105605a7"
 
+from2@^2.1.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/from2/-/from2-2.3.0.tgz#8bfb5502bde4a4d36cfdeea007fcca21d7e382af"
+  dependencies:
+    inherits "^2.0.1"
+    readable-stream "^2.0.0"
+
 fs-exists-sync@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/fs-exists-sync/-/fs-exists-sync-0.1.0.tgz#982d6893af918e72d08dec9e8673ff2b5a8d6add"
 
-fs-extra@5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-5.0.0.tgz#414d0110cdd06705734d055652c5411260c31abd"
+fs-extra@6.0.1:
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-6.0.1.tgz#8abc128f7946e310135ddc93b98bddb410e7a34b"
   dependencies:
     graceful-fs "^4.1.2"
     jsonfile "^4.0.0"
@@ -3686,6 +3799,15 @@ fs-extra@^4.0.1:
 fs-readdir-recursive@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/fs-readdir-recursive/-/fs-readdir-recursive-1.1.0.tgz#e32fc030a2ccee44a6b5371308da54be0b397d27"
+
+fs-write-stream-atomic@^1.0.8:
+  version "1.0.10"
+  resolved "https://registry.yarnpkg.com/fs-write-stream-atomic/-/fs-write-stream-atomic-1.0.10.tgz#b47df53493ef911df75731e70a9ded0189db40c9"
+  dependencies:
+    graceful-fs "^4.1.2"
+    iferr "^0.1.5"
+    imurmurhash "^0.1.4"
+    readable-stream "1 || 2"
 
 fs.realpath@^1.0.0:
   version "1.0.0"
@@ -4234,6 +4356,10 @@ iconv-lite@^0.4.17, iconv-lite@~0.4.13:
 ieee754@^1.1.4:
   version "1.1.11"
   resolved "https://registry.yarnpkg.com/ieee754/-/ieee754-1.1.11.tgz#c16384ffe00f5b7835824e67b6f2bd44a5229455"
+
+iferr@^0.1.5:
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/iferr/-/iferr-0.1.5.tgz#c60eed69e6d8fdb6b3104a1fcbca1c192dc5b501"
 
 image-size@^0.5.1:
   version "0.5.5"
@@ -4830,15 +4956,6 @@ loader-runner@^2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/loader-runner/-/loader-runner-2.3.0.tgz#f482aea82d543e07921700d5a46ef26fdac6b8a2"
 
-loader-utils@^0.2.16:
-  version "0.2.17"
-  resolved "https://registry.yarnpkg.com/loader-utils/-/loader-utils-0.2.17.tgz#f86e6374d43205a6e6c60e9196f17c0299bfb348"
-  dependencies:
-    big.js "^3.1.3"
-    emojis-list "^2.0.0"
-    json5 "^0.5.0"
-    object-assign "^4.0.1"
-
 loader-utils@^1.0.2, loader-utils@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/loader-utils/-/loader-utils-1.1.0.tgz#c98aef488bcceda2ffb5e2de646d6a754429f5cd"
@@ -5036,6 +5153,13 @@ lowercase-keys@^1.0.0:
 lru-cache@^4.0.1:
   version "4.1.2"
   resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-4.1.2.tgz#45234b2e6e2f2b33da125624c4664929a0224c3f"
+  dependencies:
+    pseudomap "^1.0.2"
+    yallist "^2.1.2"
+
+lru-cache@^4.1.1:
+  version "4.1.3"
+  resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-4.1.3.tgz#a1175cf3496dfc8436c156c334b4955992bce69c"
   dependencies:
     pseudomap "^1.0.2"
     yallist "^2.1.2"
@@ -5283,7 +5407,7 @@ micromatch@^2.1.5, micromatch@^2.3.11, micromatch@^2.3.7:
     parse-glob "^3.0.4"
     regex-cache "^0.4.2"
 
-micromatch@^3.1.4:
+micromatch@^3.1.4, micromatch@^3.1.8:
   version "3.1.10"
   resolved "https://registry.yarnpkg.com/micromatch/-/micromatch-3.1.10.tgz#70859bc95c9840952f359a068a3fc49f9ecfac23"
   dependencies:
@@ -5383,6 +5507,21 @@ minimist@~0.0.1:
   version "0.0.10"
   resolved "https://registry.yarnpkg.com/minimist/-/minimist-0.0.10.tgz#de3f98543dbf96082be48ad1a0c7cda836301dcf"
 
+mississippi@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/mississippi/-/mississippi-2.0.0.tgz#3442a508fafc28500486feea99409676e4ee5a6f"
+  dependencies:
+    concat-stream "^1.5.0"
+    duplexify "^3.4.2"
+    end-of-stream "^1.1.0"
+    flush-write-stream "^1.0.0"
+    from2 "^2.1.0"
+    parallel-transform "^1.1.0"
+    pump "^2.0.1"
+    pumpify "^1.3.3"
+    stream-each "^1.1.0"
+    through2 "^2.0.0"
+
 mixin-deep@^1.2.0:
   version "1.3.1"
   resolved "https://registry.yarnpkg.com/mixin-deep/-/mixin-deep-1.3.1.tgz#a49e7268dce1a0d9698e45326c5626df3543d0fe"
@@ -5413,6 +5552,17 @@ morgan@^1.8.1, morgan@^1.9.0:
     depd "~1.1.1"
     on-finished "~2.3.0"
     on-headers "~1.0.1"
+
+move-concurrently@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/move-concurrently/-/move-concurrently-1.0.1.tgz#be2c005fda32e0b29af1f05d7c4b33214c701f92"
+  dependencies:
+    aproba "^1.1.1"
+    copy-concurrently "^1.0.0"
+    fs-write-stream-atomic "^1.0.8"
+    mkdirp "^0.5.1"
+    rimraf "^2.5.4"
+    run-queue "^1.0.3"
 
 ms@2.0.0:
   version "2.0.0"
@@ -5633,7 +5783,7 @@ on-headers@~1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/on-headers/-/on-headers-1.0.1.tgz#928f5d0f470d49342651ea6794b0857c100693f7"
 
-once@^1.3.0, once@^1.3.3:
+once@^1.3.0, once@^1.3.1, once@^1.3.3, once@^1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/once/-/once-1.4.0.tgz#583b1aa775961d4b113ac17d9c50baef9dd76bd1"
   dependencies:
@@ -5696,12 +5846,6 @@ os-browserify@^0.3.0:
 os-homedir@^1.0.0, os-homedir@^1.0.1, os-homedir@~1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/os-homedir/-/os-homedir-1.0.2.tgz#ffbc4988336e0e833de0c168c7ef152121aa7fb3"
-
-os-locale@^1.4.0:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/os-locale/-/os-locale-1.4.0.tgz#20f9f17ae29ed345e8bde583b13d2009803c14d9"
-  dependencies:
-    lcid "^1.0.0"
 
 os-locale@^2.0.0:
   version "2.1.0"
@@ -5779,6 +5923,14 @@ pad-right@^0.2.2:
 pako@~1.0.5:
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/pako/-/pako-1.0.6.tgz#0101211baa70c4bca4a0f63f2206e97b7dfaf258"
+
+parallel-transform@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/parallel-transform/-/parallel-transform-1.1.0.tgz#d410f065b05da23081fcd10f28854c29bda33b06"
+  dependencies:
+    cyclist "~0.2.2"
+    inherits "^2.0.3"
+    readable-stream "^2.1.5"
 
 parse-asn1@^5.0.0:
   version "5.1.1"
@@ -5995,6 +6147,10 @@ progress@^1.1.8:
   version "1.1.8"
   resolved "https://registry.yarnpkg.com/progress/-/progress-1.1.8.tgz#e260c78f6161cdd9b0e56cc3e0a85de17c7a57be"
 
+promise-inflight@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/promise-inflight/-/promise-inflight-1.0.1.tgz#98472870bf228132fcbdd868129bad12c3c029e3"
+
 promise@^7.1.1:
   version "7.3.1"
   resolved "https://registry.yarnpkg.com/promise/-/promise-7.3.1.tgz#064b72602b18f90f29192b8b1bc418ffd1ebd3bf"
@@ -6042,6 +6198,21 @@ public-encrypt@^4.0.0:
     parse-asn1 "^5.0.0"
     randombytes "^2.0.1"
 
+pump@^2.0.0, pump@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/pump/-/pump-2.0.1.tgz#12399add6e4cf7526d973cbc8b5ce2e2908b3909"
+  dependencies:
+    end-of-stream "^1.1.0"
+    once "^1.3.1"
+
+pumpify@^1.3.3:
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/pumpify/-/pumpify-1.5.1.tgz#36513be246ab27570b1a374a5ce278bfd74370ce"
+  dependencies:
+    duplexify "^3.6.0"
+    inherits "^2.0.3"
+    pump "^2.0.0"
+
 punycode@1.3.2:
   version "1.3.2"
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-1.3.2.tgz#9653a036fb7c1ee42342f2325cceefea3926c48d"
@@ -6049,6 +6220,10 @@ punycode@1.3.2:
 punycode@^1.2.4, punycode@^1.4.1:
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-1.4.1.tgz#c0d5a63b2718800ad8e1eb0fa5269c84dd41845e"
+
+punycode@^2.1.0:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
 
 q@^1.4.1, q@^1.5.1:
   version "1.5.1"
@@ -6330,7 +6505,7 @@ read-pkg@^3.0.0:
     normalize-package-data "^2.3.2"
     path-type "^3.0.0"
 
-readable-stream@^2.0.1, readable-stream@^2.0.2, readable-stream@^2.0.6, readable-stream@^2.1.4, readable-stream@^2.1.5, readable-stream@^2.2.2, readable-stream@^2.3.3:
+"readable-stream@1 || 2", readable-stream@^2.0.0, readable-stream@^2.0.1, readable-stream@^2.0.2, readable-stream@^2.0.4, readable-stream@^2.0.6, readable-stream@^2.1.4, readable-stream@^2.1.5, readable-stream@^2.2.2, readable-stream@^2.3.3:
   version "2.3.6"
   resolved "https://registry.yarnpkg.com/readable-stream/-/readable-stream-2.3.6.tgz#b11c27d88b8ff1fbe070643cf94b0c79ae1b0aaf"
   dependencies:
@@ -6596,7 +6771,7 @@ right-pad@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/right-pad/-/right-pad-1.0.1.tgz#8ca08c2cbb5b55e74dafa96bf7fd1a27d568c8d0"
 
-rimraf@2, rimraf@^2.5.1, rimraf@^2.5.4, rimraf@^2.6.1:
+rimraf@2, rimraf@^2.5.1, rimraf@^2.5.4, rimraf@^2.6.1, rimraf@^2.6.2:
   version "2.6.2"
   resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-2.6.2.tgz#2ed8150d24a16ea8651e6d6ef0f47c4158ce7a36"
   dependencies:
@@ -6622,6 +6797,12 @@ run-async@^2.2.0:
   resolved "https://registry.yarnpkg.com/run-async/-/run-async-2.3.0.tgz#0371ab4ae0bdd720d4166d7dfda64ff7a445a6c0"
   dependencies:
     is-promise "^2.1.0"
+
+run-queue@^1.0.0, run-queue@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/run-queue/-/run-queue-1.0.3.tgz#e848396f057d223f24386924618e25694161ec47"
+  dependencies:
+    aproba "^1.1.1"
 
 rx-lite-aggregates@^4.0.8:
   version "4.0.8"
@@ -6679,6 +6860,13 @@ sax@~1.1.1:
   version "1.1.6"
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.1.6.tgz#5d616be8a5e607d54e114afae55b7eaf2fcc3240"
 
+schema-utils@^0.4.4, schema-utils@^0.4.5:
+  version "0.4.5"
+  resolved "https://registry.yarnpkg.com/schema-utils/-/schema-utils-0.4.5.tgz#21836f0608aac17b78f9e3e24daff14a5ca13a3e"
+  dependencies:
+    ajv "^6.1.0"
+    ajv-keywords "^3.1.0"
+
 "semver@2 || 3 || 4 || 5", semver@5.5.0, semver@5.x, semver@^5.0.1, semver@^5.0.3, semver@^5.1.0, semver@^5.3.0, semver@^5.4.1, semver@^5.5.0:
   version "5.5.0"
   resolved "https://registry.yarnpkg.com/semver/-/semver-5.5.0.tgz#dc4bbc7a6ca9d916dee5d43516f0092b58f7b8ab"
@@ -6704,6 +6892,10 @@ send@0.16.2:
 serialize-error@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/serialize-error/-/serialize-error-2.1.0.tgz#50b679d5635cdf84667bdc8e59af4e5b81d5f60a"
+
+serialize-javascript@^1.4.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/serialize-javascript/-/serialize-javascript-1.5.0.tgz#1aa336162c88a890ddad5384baebc93a655161fe"
 
 serve-static@1.13.2, serve-static@^1.13.1:
   version "1.13.2"
@@ -6899,7 +7091,7 @@ source-map@^0.5.0, source-map@^0.5.3, source-map@^0.5.6, source-map@^0.5.7, sour
   version "0.5.7"
   resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.5.7.tgz#8a039d2d1021d22d1ea14c80d8ea468ba2ef3fcc"
 
-source-map@~0.6.1:
+source-map@^0.6.1, source-map@~0.6.1:
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.6.1.tgz#74722af32e9614e9c287a8d0bbde48b5e2f1a263"
 
@@ -6974,6 +7166,12 @@ sshpk@^1.7.0:
     jsbn "~0.1.0"
     tweetnacl "~0.14.0"
 
+ssri@^5.2.4:
+  version "5.3.0"
+  resolved "https://registry.yarnpkg.com/ssri/-/ssri-5.3.0.tgz#ba3872c9c6d33a0704a7d71ff045e5ec48999d06"
+  dependencies:
+    safe-buffer "^5.1.1"
+
 stackframe@^0.3.1:
   version "0.3.1"
   resolved "https://registry.yarnpkg.com/stackframe/-/stackframe-0.3.1.tgz#33aa84f1177a5548c8935533cbfeb3420975f5a4"
@@ -7012,6 +7210,13 @@ stream-buffers@~2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/stream-buffers/-/stream-buffers-2.2.0.tgz#91d5f5130d1cef96dcfa7f726945188741d09ee4"
 
+stream-each@^1.1.0:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/stream-each/-/stream-each-1.2.2.tgz#8e8c463f91da8991778765873fe4d960d8f616bd"
+  dependencies:
+    end-of-stream "^1.1.0"
+    stream-shift "^1.0.0"
+
 stream-http@^2.7.2:
   version "2.8.1"
   resolved "https://registry.yarnpkg.com/stream-http/-/stream-http-2.8.1.tgz#d0441be1a457a73a733a8a7b53570bebd9ef66a4"
@@ -7021,6 +7226,10 @@ stream-http@^2.7.2:
     readable-stream "^2.3.3"
     to-arraybuffer "^1.0.0"
     xtend "^4.0.0"
+
+stream-shift@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/stream-shift/-/stream-shift-1.0.0.tgz#d5c752825e5367e786f78e18e445ea223a155952"
 
 string-width@^1.0.1, string-width@^1.0.2:
   version "1.0.2"
@@ -7128,7 +7337,7 @@ supports-color@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/supports-color/-/supports-color-2.0.0.tgz#535d045ce6b6363fa40117084629995e9df324c7"
 
-supports-color@^3.1.0, supports-color@^3.2.3:
+supports-color@^3.2.3:
   version "3.2.3"
   resolved "https://registry.yarnpkg.com/supports-color/-/supports-color-3.2.3.tgz#65ac0504b3954171d8a64946b2ae3cbb8a5f54f6"
   dependencies:
@@ -7161,9 +7370,13 @@ symbol-observable@^1.0.2:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/symbol-observable/-/symbol-observable-1.2.0.tgz#c22688aed4eab3cdc2dfeacbb561660560a00804"
 
-tapable@^0.2.7, tapable@~0.2.5:
+tapable@^0.2.7:
   version "0.2.8"
   resolved "https://registry.yarnpkg.com/tapable/-/tapable-0.2.8.tgz#99372a5c999bf2df160afc0d74bed4f47948cd22"
+
+tapable@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/tapable/-/tapable-1.0.0.tgz#cbb639d9002eed9c6b5975eb20598d7936f1f9f2"
 
 tar-pack@^3.4.0:
   version "3.4.1"
@@ -7361,14 +7574,14 @@ ua-parser-js@^0.7.9:
   version "0.7.17"
   resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.17.tgz#e9ec5f9498b9ec910e7ae3ac626a805c4d09ecac"
 
-uglify-es@^3.1.9:
+uglify-es@^3.1.9, uglify-es@^3.3.4:
   version "3.3.9"
   resolved "https://registry.yarnpkg.com/uglify-es/-/uglify-es-3.3.9.tgz#0c1c4f0700bed8dbc124cdb304d2592ca203e677"
   dependencies:
     commander "~2.13.0"
     source-map "~0.6.1"
 
-uglify-js@^2.6, uglify-js@^2.8.27, uglify-js@^2.8.29:
+uglify-js@^2.6, uglify-js@^2.8.29:
   version "2.8.29"
   resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-2.8.29.tgz#29c5733148057bb4e1f75df35b7a9cb72e6a59dd"
   dependencies:
@@ -7388,6 +7601,19 @@ uglifyjs-webpack-plugin@^0.4.6:
     source-map "^0.5.6"
     uglify-js "^2.8.29"
     webpack-sources "^1.0.1"
+
+uglifyjs-webpack-plugin@^1.2.4:
+  version "1.2.5"
+  resolved "https://registry.yarnpkg.com/uglifyjs-webpack-plugin/-/uglifyjs-webpack-plugin-1.2.5.tgz#2ef8387c8f1a903ec5e44fa36f9f3cbdcea67641"
+  dependencies:
+    cacache "^10.0.4"
+    find-cache-dir "^1.0.0"
+    schema-utils "^0.4.5"
+    serialize-javascript "^1.4.0"
+    source-map "^0.6.1"
+    uglify-es "^3.3.4"
+    webpack-sources "^1.1.0"
+    worker-farm "^1.5.2"
 
 uid-number@^0.0.6:
   version "0.0.6"
@@ -7409,6 +7635,18 @@ union-value@^1.0.0:
     get-value "^2.0.6"
     is-extendable "^0.1.1"
     set-value "^0.4.3"
+
+unique-filename@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/unique-filename/-/unique-filename-1.1.0.tgz#d05f2fe4032560871f30e93cbe735eea201514f3"
+  dependencies:
+    unique-slug "^2.0.0"
+
+unique-slug@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/unique-slug/-/unique-slug-2.0.0.tgz#db6676e7c7cc0629878ff196097c78855ae9f4ab"
+  dependencies:
+    imurmurhash "^0.1.4"
 
 universalify@^0.1.0:
   version "0.1.1"
@@ -7432,6 +7670,12 @@ unzip-response@^2.0.1:
 upath@^1.0.0:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/upath/-/upath-1.0.4.tgz#ee2321ba0a786c50973db043a50b7bcba822361d"
+
+uri-js@^4.2.1:
+  version "4.2.2"
+  resolved "https://registry.yarnpkg.com/uri-js/-/uri-js-4.2.2.tgz#94c540e1ff772956e2299507c010aea6c8838eb0"
+  dependencies:
+    punycode "^2.1.0"
 
 urix@^0.1.0:
   version "0.1.0"
@@ -7538,9 +7782,17 @@ watch@~0.18.0:
     exec-sh "^0.2.0"
     minimist "^1.2.0"
 
-watchpack@^1.3.1, watchpack@^1.4.0:
+watchpack@^1.4.0:
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/watchpack/-/watchpack-1.5.0.tgz#231e783af830a22f8966f65c4c4bacc814072eed"
+  dependencies:
+    chokidar "^2.0.2"
+    graceful-fs "^4.1.2"
+    neo-async "^2.5.0"
+
+watchpack@^1.5.0:
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/watchpack/-/watchpack-1.6.0.tgz#4bc12c2ebe8aa277a71f1d3f14d685c7b446cd00"
   dependencies:
     chokidar "^2.0.2"
     graceful-fs "^4.1.2"
@@ -7571,38 +7823,12 @@ webpack-hot-middleware@^2.19.1:
     querystring "^0.2.0"
     strip-ansi "^3.0.0"
 
-webpack-sources@^1.0.1:
+webpack-sources@^1.0.1, webpack-sources@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/webpack-sources/-/webpack-sources-1.1.0.tgz#a101ebae59d6507354d71d8013950a3a8b7a5a54"
   dependencies:
     source-list-map "^2.0.0"
     source-map "~0.6.1"
-
-webpack@2:
-  version "2.7.0"
-  resolved "https://registry.yarnpkg.com/webpack/-/webpack-2.7.0.tgz#b2a1226804373ffd3d03ea9c6bd525067034f6b1"
-  dependencies:
-    acorn "^5.0.0"
-    acorn-dynamic-import "^2.0.0"
-    ajv "^4.7.0"
-    ajv-keywords "^1.1.1"
-    async "^2.1.2"
-    enhanced-resolve "^3.3.0"
-    interpret "^1.0.0"
-    json-loader "^0.5.4"
-    json5 "^0.5.1"
-    loader-runner "^2.3.0"
-    loader-utils "^0.2.16"
-    memory-fs "~0.4.1"
-    mkdirp "~0.5.0"
-    node-libs-browser "^2.0.0"
-    source-map "^0.5.3"
-    supports-color "^3.1.0"
-    tapable "~0.2.5"
-    uglify-js "^2.8.27"
-    watchpack "^1.3.1"
-    webpack-sources "^1.0.1"
-    yargs "^6.0.0"
 
 webpack@3.8.1:
   version "3.8.1"
@@ -7631,6 +7857,30 @@ webpack@3.8.1:
     webpack-sources "^1.0.1"
     yargs "^8.0.2"
 
+webpack@4.6.0:
+  version "4.6.0"
+  resolved "https://registry.yarnpkg.com/webpack/-/webpack-4.6.0.tgz#363eafa733710eb0ed28c512b2b9b9f5fb01e69b"
+  dependencies:
+    acorn "^5.0.0"
+    acorn-dynamic-import "^3.0.0"
+    ajv "^6.1.0"
+    ajv-keywords "^3.1.0"
+    chrome-trace-event "^0.1.1"
+    enhanced-resolve "^4.0.0"
+    eslint-scope "^3.7.1"
+    loader-runner "^2.3.0"
+    loader-utils "^1.1.0"
+    memory-fs "~0.4.1"
+    micromatch "^3.1.8"
+    mkdirp "~0.5.0"
+    neo-async "^2.5.0"
+    node-libs-browser "^2.0.0"
+    schema-utils "^0.4.4"
+    tapable "^1.0.0"
+    uglifyjs-webpack-plugin "^1.2.4"
+    watchpack "^1.5.0"
+    webpack-sources "^1.0.1"
+
 whatwg-fetch@>=0.10.0:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/whatwg-fetch/-/whatwg-fetch-2.0.4.tgz#dde6a5df315f9d39991aa17621853d720b85566f"
@@ -7638,10 +7888,6 @@ whatwg-fetch@>=0.10.0:
 whatwg-fetch@^1.0.0:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/whatwg-fetch/-/whatwg-fetch-1.1.1.tgz#ac3c9d39f320c6dce5339969d054ef43dd333319"
-
-which-module@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/which-module/-/which-module-1.0.0.tgz#bba63ca861948994ff307736089e3b96026c2a4f"
 
 which-module@^2.0.0:
   version "2.0.0"
@@ -7684,6 +7930,12 @@ wordwrap@^1.0.0:
 wordwrap@~0.0.2:
   version "0.0.3"
   resolved "https://registry.yarnpkg.com/wordwrap/-/wordwrap-0.0.3.tgz#a3d5da6cd5c0bc0008d37234bbaf1bed63059107"
+
+worker-farm@^1.5.2:
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/worker-farm/-/worker-farm-1.6.0.tgz#aecc405976fab5a95526180846f0dba288f3a4a0"
+  dependencies:
+    errno "~0.1.7"
 
 wrap-ansi@^2.0.0:
   version "2.1.0"
@@ -7784,39 +8036,19 @@ y18n@^3.2.1:
   version "3.2.1"
   resolved "https://registry.yarnpkg.com/y18n/-/y18n-3.2.1.tgz#6d15fba884c08679c0d77e88e7759e811e07fa41"
 
+y18n@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/y18n/-/y18n-4.0.0.tgz#95ef94f85ecc81d007c264e190a120f0a3c8566b"
+
 yallist@^2.1.2:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/yallist/-/yallist-2.1.2.tgz#1c11f9218f076089a47dd512f93c6699a6a81d52"
-
-yargs-parser@^4.2.0:
-  version "4.2.1"
-  resolved "https://registry.yarnpkg.com/yargs-parser/-/yargs-parser-4.2.1.tgz#29cceac0dc4f03c6c87b4a9f217dd18c9f74871c"
-  dependencies:
-    camelcase "^3.0.0"
 
 yargs-parser@^7.0.0:
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/yargs-parser/-/yargs-parser-7.0.0.tgz#8d0ac42f16ea55debd332caf4c4038b3e3f5dfd9"
   dependencies:
     camelcase "^4.1.0"
-
-yargs@^6.0.0:
-  version "6.6.0"
-  resolved "https://registry.yarnpkg.com/yargs/-/yargs-6.6.0.tgz#782ec21ef403345f830a808ca3d513af56065208"
-  dependencies:
-    camelcase "^3.0.0"
-    cliui "^3.2.0"
-    decamelize "^1.1.1"
-    get-caller-file "^1.0.1"
-    os-locale "^1.4.0"
-    read-pkg-up "^1.0.1"
-    require-directory "^2.1.1"
-    require-main-filename "^1.0.1"
-    set-blocking "^2.0.0"
-    string-width "^1.0.2"
-    which-module "^1.0.0"
-    y18n "^3.2.1"
-    yargs-parser "^4.2.0"
 
 yargs@^8.0.2:
   version "8.0.2"

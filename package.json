@@ -5,9 +5,9 @@
     "android:bundle": "cd packages/android-app && yarn bundle",
     "ci": "yarn lint",
     "commit": "git-cz",
-    "deps:fix": "npx @times-components/depend -l . -e '{node_modules/@times-components/*,.}/package.json' -s majority --fix",
-    "deps:lint": "npx @times-components/depend -l . -e '{node_modules/@times-components/*,.}/package.json' -s majority --hint --bail",
-    "deps:list": "npx @times-components/depend -l . -e '{node_modules/@times-components/*,.}/package.json' -s majority --list",
+    "deps:fix": "npx @times-components/depend -l . -e '{node_modules/@times-components/*,.}/package.json' -s progressive --fix",
+    "deps:lint": "npx @times-components/depend -l . -e '{node_modules/@times-components/*,.}/package.json' -s progressive --hint --bail",
+    "deps:list": "npx @times-components/depend -l . -e '{node_modules/@times-components/*,.}/package.json' -s progressive --list",
     "ios": "cd packages/ios-app && yarn start",
     "ios:bundle": "cd packages/ios-app && yarn bundle",
     "prelint": "yarn deps:lint",
@@ -22,7 +22,7 @@
     ]
   },
   "devDependencies": {
-    "@times-components/depend": "0.2.2",
+    "@times-components/depend": "0.3.1",
     "commitizen": "2.9.6",
     "lerna": "2.8.0"
   },
