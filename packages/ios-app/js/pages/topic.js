@@ -4,7 +4,7 @@ import React from "react";
 import { NativeModules } from "react-native";
 import TopicPage from "@thetimes/topic";
 
-const { onArticlePress } = NativeModules.NativeModuleTopicActions;
+const { onArticlePress } = NativeModules.NativeModuleArticleActions;
 const config = NativeModules.NativeModuleReactConfig;
 const { fetch } = NativeModules.NativeModuleFetch;
 const { track } = NativeModules.NativeModuleAnalytics;
