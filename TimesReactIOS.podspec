@@ -2,9 +2,16 @@
 require 'json'
 
 package = JSON.parse(File.read("./packages/ios-app/package.json"))
+
+podspec_version = package["version"]
 react_native_version = package["dependencies"]["react-native"]
 react_native_svg = package["dependencies"]["react-native-svg"]
-podspec_version = package["version"]
+
+
+print "podspec_version #{podspec_version}...\n"
+print "react_native_version #{react_native_version}...\n"
+print "react_native_svg #{react_native_svg}...\n"
+
 
 Pod::Spec.new do |s|
   s.name         = "TimesReactIOS"
