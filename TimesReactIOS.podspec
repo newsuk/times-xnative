@@ -3,7 +3,7 @@ require 'json'
 
 package = JSON.parse(File.read("./packages/ios-app/package.json"))
 react_native_version = package["dependencies"]["react-native"]
-react-native-svg = package["dependencies"]["react-native-svg"]
+react_native_svg = package["dependencies"]["react-native-svg"]
 podspec_version = package["version"]
 
 Pod::Spec.new do |s|
@@ -41,7 +41,7 @@ Pod::Spec.new do |s|
   # React's dependencies
 
   s.dependency 'RNDeviceInfo'
-  s.dependency 'RNSVG', '#{react-native-svg}'
+  s.dependency 'RNSVG', '#{react_native_svg}'
   s.dependency 'yoga', '#{react_native_version}.React'
   s.dependency 'DoubleConversion'
   s.dependency 'Folly'
