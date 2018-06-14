@@ -14,8 +14,8 @@
   },
   "dependencies": {
     "@thetimes/with-client": "1.0.15",
-    "@times-components/author-profile": "1.7.8",
-    "@times-components/provider": "0.35.2",
+    "@times-components/author-profile": "1.8.0",
+    "@times-components/provider": "0.35.3",
     "react": "16.3.1",
     "react-native": "0.54.2"
   },
