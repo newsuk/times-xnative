@@ -13,7 +13,7 @@
     "lint": "yarn lint:prettier"
   },
   "dependencies": {
-    "@times-components/utils": "0.15.1",
+    "@times-components/utils": "1.1.0",
     "apollo-cache-inmemory": "1.1.10",
     "apollo-client": "2.3.2",
     "apollo-link-http": "1.5.3",
