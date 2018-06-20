@@ -53,6 +53,7 @@ const ArticleDetailsPage = ({
               onLinkPress(linkInfo.url);
             }
           }}
+          onTopicPress={(event, extras) => onTopicPress(extras.slug)}
         />
       );
     }}
