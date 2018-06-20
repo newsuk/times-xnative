@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="0.0.9"></a>
+## [0.0.9](https://github.com/newsuk/times-xnative/compare/@thetimes/ios-app@0.0.8...@thetimes/ios-app@0.0.9) (2018-06-20)
+
+
+
+
+**Note:** Version bump only for package @thetimes/ios-app
+
 <a name="0.0.8"></a>
 ## [0.0.8](https://github.com/newsuk/times-xnative/compare/@thetimes/ios-app@0.0.7...@thetimes/ios-app@0.0.8) (2018-06-12)
 
