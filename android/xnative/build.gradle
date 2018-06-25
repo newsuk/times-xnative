@@ -2,9 +2,9 @@ apply plugin: 'com.android.library'
 apply plugin: 'maven-publish'
 import groovy.json.JsonSlurper
 
-def packageInfo = new JsonSlurper().parseText(rootProject.file('../package.json').text)
+def packageInfo = new JsonSlurper().parseText(rootProject.file('package.json').text)
 
-def reactRepositoryPath = "$rootDir/../repo"
+def reactRepositoryPath = "$rootDir/repo"
 
 task sourceJar(type: Jar) {
     from android.sourceSets.main.java.srcDirs
