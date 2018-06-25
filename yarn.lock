@@ -392,172 +392,172 @@
     lodash "^4.2.0"
     to-fast-properties "^2.0.0"
 
-"@times-components/ad@1.1.2":
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/@times-components/ad/-/ad-1.1.2.tgz#7b8d710d88616539d03ea7b6fedd32e7568ed581"
+"@times-components/ad@1.1.4":
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/@times-components/ad/-/ad-1.1.4.tgz#61c590100e8714f09a0121a28fef4dc7e43a4a00"
   dependencies:
-    "@times-components/styleguide" "1.1.0"
-    "@times-components/utils" "1.1.0"
-    "@times-components/watermark" "1.0.1"
+    "@times-components/styleguide" "1.1.1"
+    "@times-components/utils" "1.1.1"
+    "@times-components/watermark" "1.0.2"
     prop-types "15.6.0"
     react-broadcast "0.5.2"
 
-"@times-components/article-byline@1.0.4":
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/@times-components/article-byline/-/article-byline-1.0.4.tgz#72fcd105cee59e616920576f1015b94b5cc2dae1"
+"@times-components/article-byline@1.0.6":
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/@times-components/article-byline/-/article-byline-1.0.6.tgz#77e5dfc6f998987c051d327839fcfb566a19b69e"
   dependencies:
-    "@times-components/link" "1.0.1"
-    "@times-components/markup" "1.0.4"
-    "@times-components/styleguide" "1.1.0"
+    "@times-components/link" "1.0.2"
+    "@times-components/markup" "1.0.6"
+    "@times-components/styleguide" "1.1.1"
     prop-types "15.6.0"
 
-"@times-components/article-flag@1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@times-components/article-flag/-/article-flag-1.0.2.tgz#a8121fc9bfd0baeb4a8496250789bb60d0c4357a"
+"@times-components/article-flag@1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@times-components/article-flag/-/article-flag-1.0.3.tgz#79b1884c3136cb7c999004a16da690ea6eabcfdc"
   dependencies:
-    "@times-components/icons" "1.0.2"
-    "@times-components/styleguide" "1.1.0"
+    "@times-components/icons" "1.0.3"
+    "@times-components/styleguide" "1.1.1"
     prop-types "15.6.0"
     react-native-svg "6.3.1"
 
-"@times-components/article-image@1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@times-components/article-image/-/article-image-1.0.2.tgz#c704e6812c72235149d39de15fdc9f3a420ef961"
+"@times-components/article-image@1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@times-components/article-image/-/article-image-1.0.3.tgz#f5e1ffa5f2e0cffa4307fa9f25b3dcbd00a8f838"
   dependencies:
-    "@times-components/caption" "1.0.2"
-    "@times-components/image" "2.0.2"
-    "@times-components/responsive-styles" "1.0.1"
-    "@times-components/styleguide" "1.1.0"
+    "@times-components/caption" "1.0.3"
+    "@times-components/image" "2.0.3"
+    "@times-components/responsive-styles" "1.0.2"
+    "@times-components/styleguide" "1.1.1"
     prop-types "15.6.0"
 
-"@times-components/article-label@1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@times-components/article-label/-/article-label-1.0.1.tgz#ca8314aaa53983039058616a8f2d18d6b3fcd8e1"
+"@times-components/article-label@1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@times-components/article-label/-/article-label-1.0.2.tgz#8551fcad6d21c04ba634f1c3e24f34200cb72fa5"
   dependencies:
-    "@times-components/styleguide" "1.1.0"
-    "@times-components/utils" "1.1.0"
+    "@times-components/styleguide" "1.1.1"
+    "@times-components/utils" "1.1.1"
     lodash.invert "4.3.0"
     prop-types "15.6.0"
 
-"@times-components/article-list@2.2.0":
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@times-components/article-list/-/article-list-2.2.0.tgz#e7cbd29cc8ddfe2ab2372e466b760b4ccbec08c5"
+"@times-components/article-list@2.2.3":
+  version "2.2.3"
+  resolved "https://registry.yarnpkg.com/@times-components/article-list/-/article-list-2.2.3.tgz#fbfcbc87bba3ba4d93ff077715a5bca88f54efdc"
   dependencies:
-    "@times-components/ad" "1.1.2"
-    "@times-components/article-summary" "1.1.1"
-    "@times-components/button" "1.1.0"
-    "@times-components/card" "1.0.2"
-    "@times-components/error-view" "1.0.1"
-    "@times-components/image" "2.0.2"
-    "@times-components/link" "1.0.1"
-    "@times-components/pagination" "1.0.1"
-    "@times-components/responsive-styles" "1.0.1"
-    "@times-components/styleguide" "1.1.0"
-    "@times-components/tracking" "1.0.1"
-    "@times-components/utils" "1.1.0"
-    "@times-components/watermark" "1.0.1"
+    "@times-components/ad" "1.1.4"
+    "@times-components/article-summary" "1.1.3"
+    "@times-components/button" "1.1.1"
+    "@times-components/card" "1.0.3"
+    "@times-components/error-view" "1.0.2"
+    "@times-components/image" "2.0.3"
+    "@times-components/link" "1.0.2"
+    "@times-components/pagination" "1.0.2"
+    "@times-components/responsive-styles" "1.0.2"
+    "@times-components/styleguide" "1.1.1"
+    "@times-components/tracking" "1.0.2"
+    "@times-components/utils" "1.1.1"
+    "@times-components/watermark" "1.0.2"
     lodash.get "4.4.2"
     prop-types "15.6.0"
 
-"@times-components/article-summary@1.1.1":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@times-components/article-summary/-/article-summary-1.1.1.tgz#d8371dfa8e03aabba24404f2ed620ec3ec80912d"
+"@times-components/article-summary@1.1.3":
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/@times-components/article-summary/-/article-summary-1.1.3.tgz#7fa2b813e34943d53643a9746277c0cc4d6ed98f"
   dependencies:
-    "@times-components/article-byline" "1.0.4"
-    "@times-components/article-label" "1.0.1"
-    "@times-components/date-publication" "0.16.12"
-    "@times-components/markup" "1.0.4"
-    "@times-components/responsive-styles" "1.0.1"
-    "@times-components/styleguide" "1.1.0"
-    "@times-components/video-label" "1.2.0"
+    "@times-components/article-byline" "1.0.6"
+    "@times-components/article-label" "1.0.2"
+    "@times-components/date-publication" "0.16.13"
+    "@times-components/markup" "1.0.6"
+    "@times-components/responsive-styles" "1.0.2"
+    "@times-components/styleguide" "1.1.1"
+    "@times-components/video-label" "1.2.2"
     prop-types "15.6.0"
 
-"@times-components/article-topics@2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@times-components/article-topics/-/article-topics-2.0.1.tgz#fa661b2e92a0ec48c0d6a32c8f55067c2bfd9b64"
+"@times-components/article-topics@2.0.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@times-components/article-topics/-/article-topics-2.0.2.tgz#060a84618db6549dcee9809b053ee7aa11ab068f"
   dependencies:
-    "@times-components/link" "1.0.1"
-    "@times-components/styleguide" "1.1.0"
-    "@times-components/tracking" "1.0.1"
+    "@times-components/link" "1.0.2"
+    "@times-components/styleguide" "1.1.1"
+    "@times-components/tracking" "1.0.2"
     lodash.orderby "4.6.0"
     prop-types "15.6.0"
 
-"@times-components/article@2.0.5":
-  version "2.0.5"
-  resolved "https://registry.yarnpkg.com/@times-components/article/-/article-2.0.5.tgz#96e5cf3ddaafc1a498e29f9d77617547595e4efd"
+"@times-components/article@2.0.7":
+  version "2.0.7"
+  resolved "https://registry.yarnpkg.com/@times-components/article/-/article-2.0.7.tgz#a0c0b72927217f0481b378852319d0c27e62226e"
   dependencies:
-    "@times-components/ad" "1.1.2"
-    "@times-components/article-byline" "1.0.4"
-    "@times-components/article-flag" "1.0.2"
-    "@times-components/article-image" "1.0.2"
-    "@times-components/article-label" "1.0.1"
-    "@times-components/article-topics" "2.0.1"
-    "@times-components/caption" "1.0.2"
-    "@times-components/date-publication" "0.16.12"
-    "@times-components/image" "2.0.2"
-    "@times-components/link" "1.0.1"
-    "@times-components/markup" "1.0.4"
-    "@times-components/provider" "0.36.1"
-    "@times-components/pull-quote" "1.0.2"
-    "@times-components/related-articles" "1.1.1"
-    "@times-components/responsive-styles" "1.0.1"
-    "@times-components/styleguide" "1.1.0"
-    "@times-components/tracking" "1.0.1"
-    "@times-components/utils" "1.1.0"
-    "@times-components/video" "2.0.2"
-    "@times-components/video-label" "1.2.0"
+    "@times-components/ad" "1.1.4"
+    "@times-components/article-byline" "1.0.6"
+    "@times-components/article-flag" "1.0.3"
+    "@times-components/article-image" "1.0.3"
+    "@times-components/article-label" "1.0.2"
+    "@times-components/article-topics" "2.0.2"
+    "@times-components/caption" "1.0.3"
+    "@times-components/date-publication" "0.16.13"
+    "@times-components/image" "2.0.3"
+    "@times-components/link" "1.0.2"
+    "@times-components/markup" "1.0.6"
+    "@times-components/provider" "0.36.3"
+    "@times-components/pull-quote" "1.0.3"
+    "@times-components/related-articles" "1.1.3"
+    "@times-components/responsive-styles" "1.0.2"
+    "@times-components/styleguide" "1.1.1"
+    "@times-components/tracking" "1.0.2"
+    "@times-components/utils" "1.1.1"
+    "@times-components/video" "2.0.3"
+    "@times-components/video-label" "1.2.2"
     lodash.get "4.4.2"
     prop-types "15.6.0"
 
-"@times-components/author-profile@2.2.0":
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@times-components/author-profile/-/author-profile-2.2.0.tgz#8d799921e301e2535578fd3c7aed88a6d8be8757"
+"@times-components/author-profile@2.2.3":
+  version "2.2.3"
+  resolved "https://registry.yarnpkg.com/@times-components/author-profile/-/author-profile-2.2.3.tgz#04b0dd7437bf0f2d85dfc1513a0fa2a8ef315802"
   dependencies:
-    "@times-components/article-list" "2.2.0"
-    "@times-components/gradient" "1.0.2"
-    "@times-components/icons" "1.0.2"
-    "@times-components/image" "2.0.2"
-    "@times-components/link" "1.0.1"
-    "@times-components/markup" "1.0.4"
-    "@times-components/pagination" "1.0.1"
-    "@times-components/provider" "0.36.1"
-    "@times-components/responsive-styles" "1.0.1"
-    "@times-components/styleguide" "1.1.0"
-    "@times-components/tracking" "1.0.1"
-    "@times-components/utils" "1.1.0"
+    "@times-components/article-list" "2.2.3"
+    "@times-components/gradient" "1.0.3"
+    "@times-components/icons" "1.0.3"
+    "@times-components/image" "2.0.3"
+    "@times-components/link" "1.0.2"
+    "@times-components/markup" "1.0.6"
+    "@times-components/pagination" "1.0.2"
+    "@times-components/provider" "0.36.3"
+    "@times-components/responsive-styles" "1.0.2"
+    "@times-components/styleguide" "1.1.1"
+    "@times-components/tracking" "1.0.2"
+    "@times-components/utils" "1.1.1"
     lodash.get "4.4.2"
     prop-types "15.6.0"
 
-"@times-components/button@1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@times-components/button/-/button-1.1.0.tgz#3619ed2a86a3046048fcf58e45a399b43595ad7a"
+"@times-components/button@1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@times-components/button/-/button-1.1.1.tgz#7b9eb244ce93e1f1349ba9cfd5b5ec07271a937d"
   dependencies:
-    "@times-components/styleguide" "1.1.0"
-    "@times-components/utils" "1.1.0"
+    "@times-components/styleguide" "1.1.1"
+    "@times-components/utils" "1.1.1"
     prop-types "15.6.0"
 
-"@times-components/caption@1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@times-components/caption/-/caption-1.0.2.tgz#0075803cb3c1b8bcce05b7663683c136d855eaa9"
+"@times-components/caption@1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@times-components/caption/-/caption-1.0.3.tgz#162a0e67b88f1cae03f13ecc81b2f41d32a02ede"
   dependencies:
-    "@times-components/styleguide" "1.1.0"
+    "@times-components/styleguide" "1.1.1"
     prop-types "15.6.0"
 
-"@times-components/card@1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@times-components/card/-/card-1.0.2.tgz#571ed5ae1b0efb8ecf6f5c8d0d1e3b38be4dbe0e"
+"@times-components/card@1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@times-components/card/-/card-1.0.3.tgz#4bb4b15cb9c2063932a7c0a26777a90397b8262c"
   dependencies:
-    "@times-components/gradient" "1.0.2"
-    "@times-components/image" "2.0.2"
-    "@times-components/responsive-styles" "1.0.1"
-    "@times-components/styleguide" "1.1.0"
+    "@times-components/gradient" "1.0.3"
+    "@times-components/image" "2.0.3"
+    "@times-components/responsive-styles" "1.0.2"
+    "@times-components/styleguide" "1.1.1"
     prop-types "15.6.0"
 
-"@times-components/date-publication@0.16.12":
-  version "0.16.12"
-  resolved "https://registry.yarnpkg.com/@times-components/date-publication/-/date-publication-0.16.12.tgz#674e6c402417dd6c99c4476b27bdf8eccd340156"
+"@times-components/date-publication@0.16.13":
+  version "0.16.13"
+  resolved "https://registry.yarnpkg.com/@times-components/date-publication/-/date-publication-0.16.13.tgz#3e262bf9c9ce3ea1e63433b217c64eed8f6d8a82"
   dependencies:
-    "@times-components/styleguide" "1.1.0"
+    "@times-components/styleguide" "1.1.1"
     date-fns "1.28.5"
     prop-types "15.6.0"
     react-native-device-info "0.13.0"
@@ -576,82 +576,82 @@
     minimatch "3.0.4"
     semver "5.5.0"
 
-"@times-components/error-view@1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@times-components/error-view/-/error-view-1.0.1.tgz#2b977082ef85d0fc2ee55a680a14d5a3295c3f4b"
-  dependencies:
-    "@times-components/styleguide" "1.1.0"
-    prop-types "15.6.0"
-
-"@times-components/gestures@2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@times-components/gestures/-/gestures-2.0.1.tgz#13a304fc8a6971e9dad57f034604b239baf04014"
-  dependencies:
-    "@times-components/styleguide" "1.1.0"
-    prop-types "15.6.0"
-
-"@times-components/gradient@1.0.2":
+"@times-components/error-view@1.0.2":
   version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@times-components/gradient/-/gradient-1.0.2.tgz#e154e6dce134f3e51a25336b16d41e399b9ca267"
+  resolved "https://registry.yarnpkg.com/@times-components/error-view/-/error-view-1.0.2.tgz#f989cb74f371031000d70dc4c71ef5cf1b84da8f"
   dependencies:
-    "@times-components/styleguide" "1.1.0"
+    "@times-components/styleguide" "1.1.1"
     prop-types "15.6.0"
 
-"@times-components/icons@1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@times-components/icons/-/icons-1.0.2.tgz#19f85b73b0c41b91a6e1f167d4d492715334d2a9"
-  dependencies:
-    "@times-components/styleguide" "1.1.0"
-    "@times-components/svgs" "1.0.1"
-    "@times-components/utils" "1.1.0"
-    prop-types "15.6.0"
-
-"@times-components/image@2.0.2":
+"@times-components/gestures@2.0.2":
   version "2.0.2"
-  resolved "https://registry.yarnpkg.com/@times-components/image/-/image-2.0.2.tgz#e09319d95795789da571e80afc7f01b747585976"
+  resolved "https://registry.yarnpkg.com/@times-components/gestures/-/gestures-2.0.2.tgz#0e48c5c5c8137a482b4d5e493f04901e590d9f0f"
   dependencies:
-    "@times-components/gestures" "2.0.1"
-    "@times-components/gradient" "1.0.2"
-    "@times-components/link" "1.0.1"
-    "@times-components/styleguide" "1.1.0"
-    "@times-components/svgs" "1.0.1"
-    "@times-components/utils" "1.1.0"
+    "@times-components/styleguide" "1.1.1"
+    prop-types "15.6.0"
+
+"@times-components/gradient@1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@times-components/gradient/-/gradient-1.0.3.tgz#7286f5e7ae3e8b94e16318db42f9fbad1990d89c"
+  dependencies:
+    "@times-components/styleguide" "1.1.1"
+    prop-types "15.6.0"
+
+"@times-components/icons@1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@times-components/icons/-/icons-1.0.3.tgz#19af20587abc79be6c3e1d753b657b5884a5a66d"
+  dependencies:
+    "@times-components/styleguide" "1.1.1"
+    "@times-components/svgs" "1.0.2"
+    "@times-components/utils" "1.1.1"
+    prop-types "15.6.0"
+
+"@times-components/image@2.0.3":
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/@times-components/image/-/image-2.0.3.tgz#9c892e7b0d393a485dae7f95cfa95a48cac5b582"
+  dependencies:
+    "@times-components/gestures" "2.0.2"
+    "@times-components/gradient" "1.0.3"
+    "@times-components/link" "1.0.2"
+    "@times-components/styleguide" "1.1.1"
+    "@times-components/svgs" "1.0.2"
+    "@times-components/utils" "1.1.1"
     prop-types "15.6.0"
     react-native-svg "6.3.1"
 
-"@times-components/link@1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@times-components/link/-/link-1.0.1.tgz#9fabe2ae070e6ca4265b8cecefa6c2dd183f7a94"
+"@times-components/link@1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@times-components/link/-/link-1.0.2.tgz#46a2e09b45a6c5f989165ec7efef9f7076865d75"
   dependencies:
-    "@times-components/responsive-styles" "1.0.1"
-    "@times-components/styleguide" "1.1.0"
+    "@times-components/responsive-styles" "1.0.2"
+    "@times-components/styleguide" "1.1.1"
     prop-types "15.6.0"
 
-"@times-components/markup@1.0.4":
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/@times-components/markup/-/markup-1.0.4.tgz#8aba2a886b4426aa312c52ff2ed8a7cff1f0b2c8"
+"@times-components/markup@1.0.6":
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/@times-components/markup/-/markup-1.0.6.tgz#f3c524d733151cf0185631838f942c73f7bed0af"
   dependencies:
-    "@times-components/ad" "1.1.2"
-    "@times-components/pull-quote" "1.0.2"
-    "@times-components/styleguide" "1.1.0"
+    "@times-components/ad" "1.1.4"
+    "@times-components/pull-quote" "1.0.3"
+    "@times-components/styleguide" "1.1.1"
     prop-types "15.6.0"
 
-"@times-components/pagination@1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@times-components/pagination/-/pagination-1.0.1.tgz#2fa8adc0569be6e14366df1019f58f659ec9b258"
+"@times-components/pagination@1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@times-components/pagination/-/pagination-1.0.2.tgz#91d22426233023f6016bb6cc4c90defd7efdad9c"
   dependencies:
-    "@times-components/link" "1.0.1"
-    "@times-components/responsive-styles" "1.0.1"
-    "@times-components/styleguide" "1.1.0"
-    "@times-components/tracking" "1.0.1"
+    "@times-components/link" "1.0.2"
+    "@times-components/responsive-styles" "1.0.2"
+    "@times-components/styleguide" "1.1.1"
+    "@times-components/tracking" "1.0.2"
     prop-types "15.6.0"
     react-display-name "0.2.3"
     react-native-svg "6.3.1"
     svgs "3.2.1"
 
-"@times-components/provider@0.36.1":
-  version "0.36.1"
-  resolved "https://registry.yarnpkg.com/@times-components/provider/-/provider-0.36.1.tgz#8c5435dd6bbb1baadfa9d1d56ac2fbfd674b867d"
+"@times-components/provider@0.36.3":
+  version "0.36.3"
+  resolved "https://registry.yarnpkg.com/@times-components/provider/-/provider-0.36.3.tgz#ca255736684841e28e272bbf7f8e7c7cf31fb49a"
   dependencies:
     graphql-tag "2.8.0"
     hoist-non-react-statics "2.5.0"
@@ -661,86 +661,86 @@
     react-apollo "2.1.4"
     react-display-name "0.2.3"
 
-"@times-components/pull-quote@1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@times-components/pull-quote/-/pull-quote-1.0.2.tgz#bfbfd52f9d62f8912332fba22f84636ebfca0591"
+"@times-components/pull-quote@1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@times-components/pull-quote/-/pull-quote-1.0.3.tgz#a6c63dd2f1db2edd4b673f80d1f0a881601efb1b"
   dependencies:
-    "@times-components/icons" "1.0.2"
-    "@times-components/link" "1.0.1"
-    "@times-components/responsive-styles" "1.0.1"
-    "@times-components/styleguide" "1.1.0"
+    "@times-components/icons" "1.0.3"
+    "@times-components/link" "1.0.2"
+    "@times-components/responsive-styles" "1.0.2"
+    "@times-components/styleguide" "1.1.1"
     prop-types "15.6.0"
 
-"@times-components/related-articles@1.1.1":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@times-components/related-articles/-/related-articles-1.1.1.tgz#199bec1b73d35143ae64fe1b194ae5e008991af4"
+"@times-components/related-articles@1.1.3":
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/@times-components/related-articles/-/related-articles-1.1.3.tgz#3dbeb0003bac89db7ffd60384ac460458577aebf"
   dependencies:
-    "@times-components/article-summary" "1.1.1"
-    "@times-components/card" "1.0.2"
-    "@times-components/link" "1.0.1"
-    "@times-components/markup" "1.0.4"
-    "@times-components/slice" "1.0.1"
-    "@times-components/styleguide" "1.1.0"
-    "@times-components/tracking" "1.0.1"
+    "@times-components/article-summary" "1.1.3"
+    "@times-components/card" "1.0.3"
+    "@times-components/link" "1.0.2"
+    "@times-components/markup" "1.0.6"
+    "@times-components/slice" "1.0.2"
+    "@times-components/styleguide" "1.1.1"
+    "@times-components/tracking" "1.0.2"
     lodash.get "4.4.2"
     prop-types "15.6.0"
 
-"@times-components/responsive-styles@1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@times-components/responsive-styles/-/responsive-styles-1.0.1.tgz#fa81873ef80ed5f7a3258421301d8c14dd7c116d"
+"@times-components/responsive-styles@1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@times-components/responsive-styles/-/responsive-styles-1.0.2.tgz#9981fd850fda11015ab30312601d6e8484614407"
   dependencies:
     prop-types "15.6.0"
     styled-components "3.2.6"
 
-"@times-components/slice@1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@times-components/slice/-/slice-1.0.1.tgz#f95436a6ea86e8b3a1effe5ebaa045a0d4d539b7"
+"@times-components/slice@1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@times-components/slice/-/slice-1.0.2.tgz#520f6175875e0f5deea5fbdc9f8c02149574a946"
   dependencies:
-    "@times-components/responsive-styles" "1.0.1"
-    "@times-components/styleguide" "1.1.0"
+    "@times-components/responsive-styles" "1.0.2"
+    "@times-components/styleguide" "1.1.1"
     prop-types "15.6.0"
 
-"@times-components/styleguide@1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@times-components/styleguide/-/styleguide-1.1.0.tgz#529895a4a2a76a4efeb415e4d9586d335afc49c5"
+"@times-components/styleguide@1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@times-components/styleguide/-/styleguide-1.1.1.tgz#2f94ae9b3ab8976cc9c192ed14a4fbd0d58f7d3b"
   dependencies:
-    "@times-components/responsive-styles" "1.0.1"
+    "@times-components/responsive-styles" "1.0.2"
     prop-types "15.6.0"
 
-"@times-components/svgs@1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@times-components/svgs/-/svgs-1.0.1.tgz#f7dfc4cd87af7ae3418c8c5fbf681d7e755cc110"
+"@times-components/svgs@1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@times-components/svgs/-/svgs-1.0.2.tgz#4eeadc596988eb4d5e92868b80afcf2090321fdb"
   dependencies:
     prop-types "15.6.0"
     svgs "3.2.1"
 
-"@times-components/topic@1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@times-components/topic/-/topic-1.2.0.tgz#b60144c605de593d70d9e726d329ff4a1283d3e3"
+"@times-components/topic@1.2.3":
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/@times-components/topic/-/topic-1.2.3.tgz#8dc54891dcebb98ab9a23c9c81bd15d244b97613"
   dependencies:
-    "@times-components/article-list" "2.2.0"
-    "@times-components/gradient" "1.0.2"
-    "@times-components/pagination" "1.0.1"
-    "@times-components/provider" "0.36.1"
-    "@times-components/responsive-styles" "1.0.1"
-    "@times-components/styleguide" "1.1.0"
-    "@times-components/tracking" "1.0.1"
-    "@times-components/utils" "1.1.0"
+    "@times-components/article-list" "2.2.3"
+    "@times-components/gradient" "1.0.3"
+    "@times-components/pagination" "1.0.2"
+    "@times-components/provider" "0.36.3"
+    "@times-components/responsive-styles" "1.0.2"
+    "@times-components/styleguide" "1.1.1"
+    "@times-components/tracking" "1.0.2"
+    "@times-components/utils" "1.1.1"
     lodash.get "4.4.2"
     prop-types "15.6.0"
 
-"@times-components/tracking@1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@times-components/tracking/-/tracking-1.0.1.tgz#e14926e7604247ec34b66e75048c744138f67aba"
+"@times-components/tracking@1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@times-components/tracking/-/tracking-1.0.2.tgz#82496d3b0b81ac3be76c26ede0a3a1f6c169896f"
   dependencies:
     hoist-non-react-statics "2.5.0"
     lodash.get "4.4.2"
     prop-types "15.6.0"
     react-display-name "0.2.3"
 
-"@times-components/utils@1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@times-components/utils/-/utils-1.1.0.tgz#6909f85e15b2867e003614fb5180e3ed3959f6e3"
+"@times-components/utils@1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@times-components/utils/-/utils-1.1.1.tgz#80f7ca79fc87c7051ea7e52b6f237eab8a8ca734"
   dependencies:
     apollo-cache-inmemory "1.1.10"
     apollo-client "2.3.2"
@@ -750,32 +750,32 @@
     react "16.3.1"
     react-apollo "2.1.4"
 
-"@times-components/video-label@1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@times-components/video-label/-/video-label-1.2.0.tgz#551b384ed7441ac842b14e43fe312f5cefebb95a"
+"@times-components/video-label@1.2.2":
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/@times-components/video-label/-/video-label-1.2.2.tgz#6dc0779a91ef3b773314666df0be389eb64b4dd4"
   dependencies:
-    "@times-components/icons" "1.0.2"
-    "@times-components/styleguide" "1.1.0"
+    "@times-components/icons" "1.0.3"
+    "@times-components/styleguide" "1.1.1"
     lodash.invert "4.3.0"
     prop-types "15.6.0"
 
-"@times-components/video@2.0.2":
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/@times-components/video/-/video-2.0.2.tgz#4b0e6a8a2d76f94cfb7d24f4ccac8741020ebb31"
+"@times-components/video@2.0.3":
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/@times-components/video/-/video-2.0.3.tgz#33ef72f02631cf292d8f33907ffae333deb374e2"
   dependencies:
-    "@times-components/error-view" "1.0.1"
-    "@times-components/image" "2.0.2"
-    "@times-components/styleguide" "1.1.0"
-    "@times-components/utils" "1.1.0"
+    "@times-components/error-view" "1.0.2"
+    "@times-components/image" "2.0.3"
+    "@times-components/styleguide" "1.1.1"
+    "@times-components/utils" "1.1.1"
     prop-types "15.6.0"
     react-native-svg "6.3.1"
     svgs "3.2.1"
 
-"@times-components/watermark@1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@times-components/watermark/-/watermark-1.0.1.tgz#b03e6ae88ab54bbff8dcfb6aab16b3787e82b005"
+"@times-components/watermark@1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@times-components/watermark/-/watermark-1.0.2.tgz#7b21e271f160afce601c21f922f49017e43ac51a"
   dependencies:
-    "@times-components/styleguide" "1.1.0"
+    "@times-components/styleguide" "1.1.1"
     prop-types "15.6.0"
     react-native-svg "6.3.1"
     svgs "3.2.1"

@@ -1,6 +1,7 @@
-module.exports = ({ platform }, {module}) => ({
-  context: __dirname + "/js",
-  entry: `./index.${platform}.js`,
+module.exports = (options, { module, resolve }) => ({
+  context: __dirname,
+  entry: `./index.${options.platform}.js`,
+  resolve: resolve,
   module: {
     ...module,
     rules: [
