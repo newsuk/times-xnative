@@ -1,6 +1,6 @@
 {
   "name": "@thetimes/ios-app",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "private": true,
   "license": "BSD-3-Clause",
   "scripts": {
@@ -13,9 +13,9 @@
     "lint": "yarn lint:prettier"
   },
   "dependencies": {
-    "@thetimes/article": "1.0.24",
-    "@thetimes/author-profile": "1.0.19",
-    "@thetimes/topic": "0.0.9",
+    "@thetimes/article": "1.0.25",
+    "@thetimes/author-profile": "1.0.20",
+    "@thetimes/topic": "0.0.10",
     "react": "16.3.1",
     "react-native": "0.54.2",
     "react-native-svg": "6.3.1"
