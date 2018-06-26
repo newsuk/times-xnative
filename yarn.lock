@@ -392,172 +392,172 @@
     lodash "^4.2.0"
     to-fast-properties "^2.0.0"
 
-"@times-components/ad@1.1.2":
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/@times-components/ad/-/ad-1.1.2.tgz#7b8d710d88616539d03ea7b6fedd32e7568ed581"
+"@times-components/ad@1.1.6":
+  version "1.1.6"
+  resolved "https://registry.yarnpkg.com/@times-components/ad/-/ad-1.1.6.tgz#793d8936f00a3aa2a9c0ac42b1887aa074159273"
   dependencies:
-    "@times-components/styleguide" "1.1.0"
-    "@times-components/utils" "1.1.0"
-    "@times-components/watermark" "1.0.1"
+    "@times-components/styleguide" "1.1.2"
+    "@times-components/utils" "1.1.2"
+    "@times-components/watermark" "1.0.3"
     prop-types "15.6.0"
     react-broadcast "0.5.2"
 
-"@times-components/article-byline@1.0.4":
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/@times-components/article-byline/-/article-byline-1.0.4.tgz#72fcd105cee59e616920576f1015b94b5cc2dae1"
+"@times-components/article-byline@1.0.8":
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/@times-components/article-byline/-/article-byline-1.0.8.tgz#c3dcd471d1501dad3abab435ffbf8f45bb123220"
   dependencies:
-    "@times-components/link" "1.0.1"
-    "@times-components/markup" "1.0.4"
-    "@times-components/styleguide" "1.1.0"
+    "@times-components/link" "1.0.3"
+    "@times-components/markup" "1.0.8"
+    "@times-components/styleguide" "1.1.2"
     prop-types "15.6.0"
 
-"@times-components/article-flag@1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@times-components/article-flag/-/article-flag-1.0.2.tgz#a8121fc9bfd0baeb4a8496250789bb60d0c4357a"
+"@times-components/article-flag@1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@times-components/article-flag/-/article-flag-1.0.4.tgz#3b38aaf68c4064677e4224d2ed7a9b148c4cd68f"
   dependencies:
-    "@times-components/icons" "1.0.2"
-    "@times-components/styleguide" "1.1.0"
+    "@times-components/icons" "1.0.4"
+    "@times-components/styleguide" "1.1.2"
     prop-types "15.6.0"
     react-native-svg "6.3.1"
 
-"@times-components/article-image@1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@times-components/article-image/-/article-image-1.0.2.tgz#c704e6812c72235149d39de15fdc9f3a420ef961"
+"@times-components/article-image@1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@times-components/article-image/-/article-image-1.0.4.tgz#d4da3412e2851ed725a98ba1ab8939cf50faa95f"
   dependencies:
-    "@times-components/caption" "1.0.2"
-    "@times-components/image" "2.0.2"
-    "@times-components/responsive-styles" "1.0.1"
-    "@times-components/styleguide" "1.1.0"
+    "@times-components/caption" "1.0.4"
+    "@times-components/image" "2.0.4"
+    "@times-components/responsive-styles" "1.0.3"
+    "@times-components/styleguide" "1.1.2"
     prop-types "15.6.0"
 
-"@times-components/article-label@1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@times-components/article-label/-/article-label-1.0.1.tgz#ca8314aaa53983039058616a8f2d18d6b3fcd8e1"
+"@times-components/article-label@1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@times-components/article-label/-/article-label-1.0.3.tgz#8d1469279efd474e7bc643a209c3d546f62390ec"
   dependencies:
-    "@times-components/styleguide" "1.1.0"
-    "@times-components/utils" "1.1.0"
+    "@times-components/styleguide" "1.1.2"
+    "@times-components/utils" "1.1.2"
     lodash.invert "4.3.0"
     prop-types "15.6.0"
 
-"@times-components/article-list@2.2.0":
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@times-components/article-list/-/article-list-2.2.0.tgz#e7cbd29cc8ddfe2ab2372e466b760b4ccbec08c5"
+"@times-components/article-list@2.2.6":
+  version "2.2.6"
+  resolved "https://registry.yarnpkg.com/@times-components/article-list/-/article-list-2.2.6.tgz#9a2bc24c7fb9bea128dd961b4595a395294d24f9"
   dependencies:
-    "@times-components/ad" "1.1.2"
-    "@times-components/article-summary" "1.1.1"
-    "@times-components/button" "1.1.0"
-    "@times-components/card" "1.0.2"
-    "@times-components/error-view" "1.0.1"
-    "@times-components/image" "2.0.2"
-    "@times-components/link" "1.0.1"
-    "@times-components/pagination" "1.0.1"
-    "@times-components/responsive-styles" "1.0.1"
-    "@times-components/styleguide" "1.1.0"
-    "@times-components/tracking" "1.0.1"
-    "@times-components/utils" "1.1.0"
-    "@times-components/watermark" "1.0.1"
+    "@times-components/ad" "1.1.6"
+    "@times-components/article-summary" "1.1.5"
+    "@times-components/button" "1.1.2"
+    "@times-components/card" "1.0.4"
+    "@times-components/error-view" "1.0.3"
+    "@times-components/image" "2.0.4"
+    "@times-components/link" "1.0.3"
+    "@times-components/pagination" "1.0.3"
+    "@times-components/responsive-styles" "1.0.3"
+    "@times-components/styleguide" "1.1.2"
+    "@times-components/tracking" "1.0.3"
+    "@times-components/utils" "1.1.2"
+    "@times-components/watermark" "1.0.3"
     lodash.get "4.4.2"
     prop-types "15.6.0"
 
-"@times-components/article-summary@1.1.1":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@times-components/article-summary/-/article-summary-1.1.1.tgz#d8371dfa8e03aabba24404f2ed620ec3ec80912d"
+"@times-components/article-summary@1.1.5":
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/@times-components/article-summary/-/article-summary-1.1.5.tgz#7b81671da35a7f5902034826c89d0ef2aee20a4b"
   dependencies:
-    "@times-components/article-byline" "1.0.4"
-    "@times-components/article-label" "1.0.1"
-    "@times-components/date-publication" "0.16.12"
-    "@times-components/markup" "1.0.4"
-    "@times-components/responsive-styles" "1.0.1"
-    "@times-components/styleguide" "1.1.0"
-    "@times-components/video-label" "1.2.0"
+    "@times-components/article-byline" "1.0.8"
+    "@times-components/article-label" "1.0.3"
+    "@times-components/date-publication" "0.16.14"
+    "@times-components/markup" "1.0.8"
+    "@times-components/responsive-styles" "1.0.3"
+    "@times-components/styleguide" "1.1.2"
+    "@times-components/video-label" "1.2.3"
     prop-types "15.6.0"
 
-"@times-components/article-topics@2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@times-components/article-topics/-/article-topics-2.0.1.tgz#fa661b2e92a0ec48c0d6a32c8f55067c2bfd9b64"
+"@times-components/article-topics@2.0.3":
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/@times-components/article-topics/-/article-topics-2.0.3.tgz#9a5858ca0bd69e465a2a6740093a8801021f30a3"
   dependencies:
-    "@times-components/link" "1.0.1"
-    "@times-components/styleguide" "1.1.0"
-    "@times-components/tracking" "1.0.1"
+    "@times-components/link" "1.0.3"
+    "@times-components/styleguide" "1.1.2"
+    "@times-components/tracking" "1.0.3"
     lodash.orderby "4.6.0"
     prop-types "15.6.0"
 
-"@times-components/article@2.0.5":
-  version "2.0.5"
-  resolved "https://registry.yarnpkg.com/@times-components/article/-/article-2.0.5.tgz#96e5cf3ddaafc1a498e29f9d77617547595e4efd"
+"@times-components/article@2.0.9":
+  version "2.0.9"
+  resolved "https://registry.yarnpkg.com/@times-components/article/-/article-2.0.9.tgz#94900441ecdc2ee8b57ed51be857705e62901de2"
   dependencies:
-    "@times-components/ad" "1.1.2"
-    "@times-components/article-byline" "1.0.4"
-    "@times-components/article-flag" "1.0.2"
-    "@times-components/article-image" "1.0.2"
-    "@times-components/article-label" "1.0.1"
-    "@times-components/article-topics" "2.0.1"
-    "@times-components/caption" "1.0.2"
-    "@times-components/date-publication" "0.16.12"
-    "@times-components/image" "2.0.2"
-    "@times-components/link" "1.0.1"
-    "@times-components/markup" "1.0.4"
-    "@times-components/provider" "0.36.1"
-    "@times-components/pull-quote" "1.0.2"
-    "@times-components/related-articles" "1.1.1"
-    "@times-components/responsive-styles" "1.0.1"
-    "@times-components/styleguide" "1.1.0"
-    "@times-components/tracking" "1.0.1"
-    "@times-components/utils" "1.1.0"
-    "@times-components/video" "2.0.2"
-    "@times-components/video-label" "1.2.0"
+    "@times-components/ad" "1.1.6"
+    "@times-components/article-byline" "1.0.8"
+    "@times-components/article-flag" "1.0.4"
+    "@times-components/article-image" "1.0.4"
+    "@times-components/article-label" "1.0.3"
+    "@times-components/article-topics" "2.0.3"
+    "@times-components/caption" "1.0.4"
+    "@times-components/date-publication" "0.16.14"
+    "@times-components/image" "2.0.4"
+    "@times-components/link" "1.0.3"
+    "@times-components/markup" "1.0.8"
+    "@times-components/provider" "0.36.4"
+    "@times-components/pull-quote" "1.0.4"
+    "@times-components/related-articles" "1.1.5"
+    "@times-components/responsive-styles" "1.0.3"
+    "@times-components/styleguide" "1.1.2"
+    "@times-components/tracking" "1.0.3"
+    "@times-components/utils" "1.1.2"
+    "@times-components/video" "2.0.4"
+    "@times-components/video-label" "1.2.3"
     lodash.get "4.4.2"
     prop-types "15.6.0"
 
-"@times-components/author-profile@2.2.0":
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@times-components/author-profile/-/author-profile-2.2.0.tgz#8d799921e301e2535578fd3c7aed88a6d8be8757"
+"@times-components/author-profile@2.2.7":
+  version "2.2.7"
+  resolved "https://registry.yarnpkg.com/@times-components/author-profile/-/author-profile-2.2.7.tgz#594383c1d638b71bf094d65bd693462ec2ea7eb3"
   dependencies:
-    "@times-components/article-list" "2.2.0"
-    "@times-components/gradient" "1.0.2"
-    "@times-components/icons" "1.0.2"
-    "@times-components/image" "2.0.2"
-    "@times-components/link" "1.0.1"
-    "@times-components/markup" "1.0.4"
-    "@times-components/pagination" "1.0.1"
-    "@times-components/provider" "0.36.1"
-    "@times-components/responsive-styles" "1.0.1"
-    "@times-components/styleguide" "1.1.0"
-    "@times-components/tracking" "1.0.1"
-    "@times-components/utils" "1.1.0"
+    "@times-components/article-list" "2.2.6"
+    "@times-components/gradient" "1.0.4"
+    "@times-components/icons" "1.0.4"
+    "@times-components/image" "2.0.4"
+    "@times-components/link" "1.0.3"
+    "@times-components/markup" "1.0.8"
+    "@times-components/pagination" "1.0.3"
+    "@times-components/provider" "0.36.4"
+    "@times-components/responsive-styles" "1.0.3"
+    "@times-components/styleguide" "1.1.2"
+    "@times-components/tracking" "1.0.3"
+    "@times-components/utils" "1.1.2"
     lodash.get "4.4.2"
     prop-types "15.6.0"
 
-"@times-components/button@1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@times-components/button/-/button-1.1.0.tgz#3619ed2a86a3046048fcf58e45a399b43595ad7a"
+"@times-components/button@1.1.2":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@times-components/button/-/button-1.1.2.tgz#fb8d4c79f1987e551644e6736d3f6df75cdbe8fc"
   dependencies:
-    "@times-components/styleguide" "1.1.0"
-    "@times-components/utils" "1.1.0"
+    "@times-components/styleguide" "1.1.2"
+    "@times-components/utils" "1.1.2"
     prop-types "15.6.0"
 
-"@times-components/caption@1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@times-components/caption/-/caption-1.0.2.tgz#0075803cb3c1b8bcce05b7663683c136d855eaa9"
+"@times-components/caption@1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@times-components/caption/-/caption-1.0.4.tgz#c47f28b14e54bda37e550db45cbc66c0a977cc3a"
   dependencies:
-    "@times-components/styleguide" "1.1.0"
+    "@times-components/styleguide" "1.1.2"
     prop-types "15.6.0"
 
-"@times-components/card@1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@times-components/card/-/card-1.0.2.tgz#571ed5ae1b0efb8ecf6f5c8d0d1e3b38be4dbe0e"
+"@times-components/card@1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@times-components/card/-/card-1.0.4.tgz#1974af1b511731af674fa53ed12d7f9c00583a37"
   dependencies:
-    "@times-components/gradient" "1.0.2"
-    "@times-components/image" "2.0.2"
-    "@times-components/responsive-styles" "1.0.1"
-    "@times-components/styleguide" "1.1.0"
+    "@times-components/gradient" "1.0.4"
+    "@times-components/image" "2.0.4"
+    "@times-components/responsive-styles" "1.0.3"
+    "@times-components/styleguide" "1.1.2"
     prop-types "15.6.0"
 
-"@times-components/date-publication@0.16.12":
-  version "0.16.12"
-  resolved "https://registry.yarnpkg.com/@times-components/date-publication/-/date-publication-0.16.12.tgz#674e6c402417dd6c99c4476b27bdf8eccd340156"
+"@times-components/date-publication@0.16.14":
+  version "0.16.14"
+  resolved "https://registry.yarnpkg.com/@times-components/date-publication/-/date-publication-0.16.14.tgz#ac23c49fcab93d2f495afd92841f789f2c9dade3"
   dependencies:
-    "@times-components/styleguide" "1.1.0"
+    "@times-components/styleguide" "1.1.2"
     date-fns "1.28.5"
     prop-types "15.6.0"
     react-native-device-info "0.13.0"
@@ -576,82 +576,82 @@
     minimatch "3.0.4"
     semver "5.5.0"
 
-"@times-components/error-view@1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@times-components/error-view/-/error-view-1.0.1.tgz#2b977082ef85d0fc2ee55a680a14d5a3295c3f4b"
+"@times-components/error-view@1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@times-components/error-view/-/error-view-1.0.3.tgz#f9858b2149f7fc8fc524cdd18012e9e917f62875"
   dependencies:
-    "@times-components/styleguide" "1.1.0"
+    "@times-components/styleguide" "1.1.2"
     prop-types "15.6.0"
 
-"@times-components/gestures@2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@times-components/gestures/-/gestures-2.0.1.tgz#13a304fc8a6971e9dad57f034604b239baf04014"
+"@times-components/gestures@2.0.3":
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/@times-components/gestures/-/gestures-2.0.3.tgz#683a50f85209e8ca82ec1b3d5978b51b7bbaf6dc"
   dependencies:
-    "@times-components/styleguide" "1.1.0"
+    "@times-components/styleguide" "1.1.2"
     prop-types "15.6.0"
 
-"@times-components/gradient@1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@times-components/gradient/-/gradient-1.0.2.tgz#e154e6dce134f3e51a25336b16d41e399b9ca267"
+"@times-components/gradient@1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@times-components/gradient/-/gradient-1.0.4.tgz#6caf73f401ec85d8aeb0c241defe482857ab741c"
   dependencies:
-    "@times-components/styleguide" "1.1.0"
+    "@times-components/styleguide" "1.1.2"
     prop-types "15.6.0"
 
-"@times-components/icons@1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@times-components/icons/-/icons-1.0.2.tgz#19f85b73b0c41b91a6e1f167d4d492715334d2a9"
+"@times-components/icons@1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@times-components/icons/-/icons-1.0.4.tgz#ce204f551fa7a428db1bf59e6830ede1a1af7e93"
   dependencies:
-    "@times-components/styleguide" "1.1.0"
-    "@times-components/svgs" "1.0.1"
-    "@times-components/utils" "1.1.0"
+    "@times-components/styleguide" "1.1.2"
+    "@times-components/svgs" "1.0.3"
+    "@times-components/utils" "1.1.2"
     prop-types "15.6.0"
 
-"@times-components/image@2.0.2":
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/@times-components/image/-/image-2.0.2.tgz#e09319d95795789da571e80afc7f01b747585976"
+"@times-components/image@2.0.4":
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/@times-components/image/-/image-2.0.4.tgz#09051ac55cd24d74aebac2271119e6a5d6773533"
   dependencies:
-    "@times-components/gestures" "2.0.1"
-    "@times-components/gradient" "1.0.2"
-    "@times-components/link" "1.0.1"
-    "@times-components/styleguide" "1.1.0"
-    "@times-components/svgs" "1.0.1"
-    "@times-components/utils" "1.1.0"
+    "@times-components/gestures" "2.0.3"
+    "@times-components/gradient" "1.0.4"
+    "@times-components/link" "1.0.3"
+    "@times-components/styleguide" "1.1.2"
+    "@times-components/svgs" "1.0.3"
+    "@times-components/utils" "1.1.2"
     prop-types "15.6.0"
     react-native-svg "6.3.1"
 
-"@times-components/link@1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@times-components/link/-/link-1.0.1.tgz#9fabe2ae070e6ca4265b8cecefa6c2dd183f7a94"
+"@times-components/link@1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@times-components/link/-/link-1.0.3.tgz#d243abc24074f2810eebd3ff0de980e05641a477"
   dependencies:
-    "@times-components/responsive-styles" "1.0.1"
-    "@times-components/styleguide" "1.1.0"
+    "@times-components/responsive-styles" "1.0.3"
+    "@times-components/styleguide" "1.1.2"
     prop-types "15.6.0"
 
-"@times-components/markup@1.0.4":
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/@times-components/markup/-/markup-1.0.4.tgz#8aba2a886b4426aa312c52ff2ed8a7cff1f0b2c8"
+"@times-components/markup@1.0.8":
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/@times-components/markup/-/markup-1.0.8.tgz#884d6da9dad04a308a764dcfcc81f89ecf23df9a"
   dependencies:
-    "@times-components/ad" "1.1.2"
-    "@times-components/pull-quote" "1.0.2"
-    "@times-components/styleguide" "1.1.0"
+    "@times-components/ad" "1.1.6"
+    "@times-components/pull-quote" "1.0.4"
+    "@times-components/styleguide" "1.1.2"
     prop-types "15.6.0"
 
-"@times-components/pagination@1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@times-components/pagination/-/pagination-1.0.1.tgz#2fa8adc0569be6e14366df1019f58f659ec9b258"
+"@times-components/pagination@1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@times-components/pagination/-/pagination-1.0.3.tgz#14493d53bed52ec49c7669f6e15f6191e148db69"
   dependencies:
-    "@times-components/link" "1.0.1"
-    "@times-components/responsive-styles" "1.0.1"
-    "@times-components/styleguide" "1.1.0"
-    "@times-components/tracking" "1.0.1"
+    "@times-components/link" "1.0.3"
+    "@times-components/responsive-styles" "1.0.3"
+    "@times-components/styleguide" "1.1.2"
+    "@times-components/tracking" "1.0.3"
     prop-types "15.6.0"
     react-display-name "0.2.3"
     react-native-svg "6.3.1"
     svgs "3.2.1"
 
-"@times-components/provider@0.36.1":
-  version "0.36.1"
-  resolved "https://registry.yarnpkg.com/@times-components/provider/-/provider-0.36.1.tgz#8c5435dd6bbb1baadfa9d1d56ac2fbfd674b867d"
+"@times-components/provider@0.36.4":
+  version "0.36.4"
+  resolved "https://registry.yarnpkg.com/@times-components/provider/-/provider-0.36.4.tgz#24cc56df4873b01a3ede0b225cddeea61091d270"
   dependencies:
     graphql-tag "2.8.0"
     hoist-non-react-statics "2.5.0"
@@ -661,86 +661,86 @@
     react-apollo "2.1.4"
     react-display-name "0.2.3"
 
-"@times-components/pull-quote@1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@times-components/pull-quote/-/pull-quote-1.0.2.tgz#bfbfd52f9d62f8912332fba22f84636ebfca0591"
+"@times-components/pull-quote@1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@times-components/pull-quote/-/pull-quote-1.0.4.tgz#5069b8e53fe28356df28f0585cd865fb2c35f055"
   dependencies:
-    "@times-components/icons" "1.0.2"
-    "@times-components/link" "1.0.1"
-    "@times-components/responsive-styles" "1.0.1"
-    "@times-components/styleguide" "1.1.0"
+    "@times-components/icons" "1.0.4"
+    "@times-components/link" "1.0.3"
+    "@times-components/responsive-styles" "1.0.3"
+    "@times-components/styleguide" "1.1.2"
     prop-types "15.6.0"
 
-"@times-components/related-articles@1.1.1":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@times-components/related-articles/-/related-articles-1.1.1.tgz#199bec1b73d35143ae64fe1b194ae5e008991af4"
+"@times-components/related-articles@1.1.5":
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/@times-components/related-articles/-/related-articles-1.1.5.tgz#e104aaa17913cfc16160ed61ff225daad9f12611"
   dependencies:
-    "@times-components/article-summary" "1.1.1"
-    "@times-components/card" "1.0.2"
-    "@times-components/link" "1.0.1"
-    "@times-components/markup" "1.0.4"
-    "@times-components/slice" "1.0.1"
-    "@times-components/styleguide" "1.1.0"
-    "@times-components/tracking" "1.0.1"
+    "@times-components/article-summary" "1.1.5"
+    "@times-components/card" "1.0.4"
+    "@times-components/link" "1.0.3"
+    "@times-components/markup" "1.0.8"
+    "@times-components/slice" "1.0.3"
+    "@times-components/styleguide" "1.1.2"
+    "@times-components/tracking" "1.0.3"
     lodash.get "4.4.2"
     prop-types "15.6.0"
 
-"@times-components/responsive-styles@1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@times-components/responsive-styles/-/responsive-styles-1.0.1.tgz#fa81873ef80ed5f7a3258421301d8c14dd7c116d"
+"@times-components/responsive-styles@1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@times-components/responsive-styles/-/responsive-styles-1.0.3.tgz#d1131a4c79ea47998cf183ec37abb57ea195b839"
   dependencies:
     prop-types "15.6.0"
     styled-components "3.2.6"
 
-"@times-components/slice@1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@times-components/slice/-/slice-1.0.1.tgz#f95436a6ea86e8b3a1effe5ebaa045a0d4d539b7"
+"@times-components/slice@1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@times-components/slice/-/slice-1.0.3.tgz#b9e311bb8be7f8ed2e0a620539bab07c7f591527"
   dependencies:
-    "@times-components/responsive-styles" "1.0.1"
-    "@times-components/styleguide" "1.1.0"
+    "@times-components/responsive-styles" "1.0.3"
+    "@times-components/styleguide" "1.1.2"
     prop-types "15.6.0"
 
-"@times-components/styleguide@1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@times-components/styleguide/-/styleguide-1.1.0.tgz#529895a4a2a76a4efeb415e4d9586d335afc49c5"
+"@times-components/styleguide@1.1.2":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@times-components/styleguide/-/styleguide-1.1.2.tgz#6421e99d8f42c7d7d01a25d53ea53d4ca0ad4c3e"
   dependencies:
-    "@times-components/responsive-styles" "1.0.1"
+    "@times-components/responsive-styles" "1.0.3"
     prop-types "15.6.0"
 
-"@times-components/svgs@1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@times-components/svgs/-/svgs-1.0.1.tgz#f7dfc4cd87af7ae3418c8c5fbf681d7e755cc110"
+"@times-components/svgs@1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@times-components/svgs/-/svgs-1.0.3.tgz#8d17825e6b28885dc533a82a11532ef5826bb8fc"
   dependencies:
     prop-types "15.6.0"
     svgs "3.2.1"
 
-"@times-components/topic@1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@times-components/topic/-/topic-1.2.0.tgz#b60144c605de593d70d9e726d329ff4a1283d3e3"
+"@times-components/topic@1.2.7":
+  version "1.2.7"
+  resolved "https://registry.yarnpkg.com/@times-components/topic/-/topic-1.2.7.tgz#155b33e535fff51577b73de962630c79db639f61"
   dependencies:
-    "@times-components/article-list" "2.2.0"
-    "@times-components/gradient" "1.0.2"
-    "@times-components/pagination" "1.0.1"
-    "@times-components/provider" "0.36.1"
-    "@times-components/responsive-styles" "1.0.1"
-    "@times-components/styleguide" "1.1.0"
-    "@times-components/tracking" "1.0.1"
-    "@times-components/utils" "1.1.0"
+    "@times-components/article-list" "2.2.6"
+    "@times-components/gradient" "1.0.4"
+    "@times-components/pagination" "1.0.3"
+    "@times-components/provider" "0.36.4"
+    "@times-components/responsive-styles" "1.0.3"
+    "@times-components/styleguide" "1.1.2"
+    "@times-components/tracking" "1.0.3"
+    "@times-components/utils" "1.1.2"
     lodash.get "4.4.2"
     prop-types "15.6.0"
 
-"@times-components/tracking@1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@times-components/tracking/-/tracking-1.0.1.tgz#e14926e7604247ec34b66e75048c744138f67aba"
+"@times-components/tracking@1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@times-components/tracking/-/tracking-1.0.3.tgz#616c73ce2c779a3f8b334bb8634ff578c6cf1717"
   dependencies:
     hoist-non-react-statics "2.5.0"
     lodash.get "4.4.2"
     prop-types "15.6.0"
     react-display-name "0.2.3"
 
-"@times-components/utils@1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@times-components/utils/-/utils-1.1.0.tgz#6909f85e15b2867e003614fb5180e3ed3959f6e3"
+"@times-components/utils@1.1.2":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@times-components/utils/-/utils-1.1.2.tgz#adde9e3bb80a3d4c2ef4dfb8bebbe4605b24710e"
   dependencies:
     apollo-cache-inmemory "1.1.10"
     apollo-client "2.3.2"
@@ -750,32 +750,32 @@
     react "16.3.1"
     react-apollo "2.1.4"
 
-"@times-components/video-label@1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@times-components/video-label/-/video-label-1.2.0.tgz#551b384ed7441ac842b14e43fe312f5cefebb95a"
+"@times-components/video-label@1.2.3":
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/@times-components/video-label/-/video-label-1.2.3.tgz#afc9f2c74ada2efd31727702fa6115f09fc31bde"
   dependencies:
-    "@times-components/icons" "1.0.2"
-    "@times-components/styleguide" "1.1.0"
+    "@times-components/icons" "1.0.4"
+    "@times-components/styleguide" "1.1.2"
     lodash.invert "4.3.0"
     prop-types "15.6.0"
 
-"@times-components/video@2.0.2":
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/@times-components/video/-/video-2.0.2.tgz#4b0e6a8a2d76f94cfb7d24f4ccac8741020ebb31"
+"@times-components/video@2.0.4":
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/@times-components/video/-/video-2.0.4.tgz#278e974f35746b34e156bd56d7042f9d2e9d4cb5"
   dependencies:
-    "@times-components/error-view" "1.0.1"
-    "@times-components/image" "2.0.2"
-    "@times-components/styleguide" "1.1.0"
-    "@times-components/utils" "1.1.0"
+    "@times-components/error-view" "1.0.3"
+    "@times-components/image" "2.0.4"
+    "@times-components/styleguide" "1.1.2"
+    "@times-components/utils" "1.1.2"
     prop-types "15.6.0"
     react-native-svg "6.3.1"
     svgs "3.2.1"
 
-"@times-components/watermark@1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@times-components/watermark/-/watermark-1.0.1.tgz#b03e6ae88ab54bbff8dcfb6aab16b3787e82b005"
+"@times-components/watermark@1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@times-components/watermark/-/watermark-1.0.3.tgz#d071629046f0c3ccd0dc051cfda1113af56a5fb7"
   dependencies:
-    "@times-components/styleguide" "1.1.0"
+    "@times-components/styleguide" "1.1.2"
     prop-types "15.6.0"
     react-native-svg "6.3.1"
     svgs "3.2.1"
@@ -791,6 +791,142 @@
 "@types/zen-observable@^0.5.3":
   version "0.5.3"
   resolved "https://registry.yarnpkg.com/@types/zen-observable/-/zen-observable-0.5.3.tgz#91b728599544efbb7386d8b6633693a3c2e7ade5"
+
+"@webassemblyjs/ast@1.5.12":
+  version "1.5.12"
+  resolved "https://registry.yarnpkg.com/@webassemblyjs/ast/-/ast-1.5.12.tgz#a9acbcb3f25333c4edfa1fdf3186b1ccf64e6664"
+  dependencies:
+    "@webassemblyjs/helper-module-context" "1.5.12"
+    "@webassemblyjs/helper-wasm-bytecode" "1.5.12"
+    "@webassemblyjs/wast-parser" "1.5.12"
+    debug "^3.1.0"
+    mamacro "^0.0.3"
+
+"@webassemblyjs/floating-point-hex-parser@1.5.12":
+  version "1.5.12"
+  resolved "https://registry.yarnpkg.com/@webassemblyjs/floating-point-hex-parser/-/floating-point-hex-parser-1.5.12.tgz#0f36044ffe9652468ce7ae5a08716a4eeff9cd9c"
+
+"@webassemblyjs/helper-api-error@1.5.12":
+  version "1.5.12"
+  resolved "https://registry.yarnpkg.com/@webassemblyjs/helper-api-error/-/helper-api-error-1.5.12.tgz#05466833ff2f9d8953a1a327746e1d112ea62aaf"
+
+"@webassemblyjs/helper-buffer@1.5.12":
+  version "1.5.12"
+  resolved "https://registry.yarnpkg.com/@webassemblyjs/helper-buffer/-/helper-buffer-1.5.12.tgz#1f0de5aaabefef89aec314f7f970009cd159c73d"
+  dependencies:
+    debug "^3.1.0"
+
+"@webassemblyjs/helper-code-frame@1.5.12":
+  version "1.5.12"
+  resolved "https://registry.yarnpkg.com/@webassemblyjs/helper-code-frame/-/helper-code-frame-1.5.12.tgz#3cdc1953093760d1c0f0caf745ccd62bdb6627c7"
+  dependencies:
+    "@webassemblyjs/wast-printer" "1.5.12"
+
+"@webassemblyjs/helper-fsm@1.5.12":
+  version "1.5.12"
+  resolved "https://registry.yarnpkg.com/@webassemblyjs/helper-fsm/-/helper-fsm-1.5.12.tgz#6bc1442b037f8e30f2e57b987cee5c806dd15027"
+
+"@webassemblyjs/helper-module-context@1.5.12":
+  version "1.5.12"
+  resolved "https://registry.yarnpkg.com/@webassemblyjs/helper-module-context/-/helper-module-context-1.5.12.tgz#b5588ca78b33b8a0da75f9ab8c769a3707baa861"
+  dependencies:
+    debug "^3.1.0"
+    mamacro "^0.0.3"
+
+"@webassemblyjs/helper-wasm-bytecode@1.5.12":
+  version "1.5.12"
+  resolved "https://registry.yarnpkg.com/@webassemblyjs/helper-wasm-bytecode/-/helper-wasm-bytecode-1.5.12.tgz#d12a3859db882a448891a866a05d0be63785b616"
+
+"@webassemblyjs/helper-wasm-section@1.5.12":
+  version "1.5.12"
+  resolved "https://registry.yarnpkg.com/@webassemblyjs/helper-wasm-section/-/helper-wasm-section-1.5.12.tgz#ff9fe1507d368ad437e7969d25e8c1693dac1884"
+  dependencies:
+    "@webassemblyjs/ast" "1.5.12"
+    "@webassemblyjs/helper-buffer" "1.5.12"
+    "@webassemblyjs/helper-wasm-bytecode" "1.5.12"
+    "@webassemblyjs/wasm-gen" "1.5.12"
+    debug "^3.1.0"
+
+"@webassemblyjs/ieee754@1.5.12":
+  version "1.5.12"
+  resolved "https://registry.yarnpkg.com/@webassemblyjs/ieee754/-/ieee754-1.5.12.tgz#ee9574bc558888f13097ce3e7900dff234ea19a4"
+  dependencies:
+    ieee754 "^1.1.11"
+
+"@webassemblyjs/leb128@1.5.12":
+  version "1.5.12"
+  resolved "https://registry.yarnpkg.com/@webassemblyjs/leb128/-/leb128-1.5.12.tgz#0308eec652765ee567d8a5fa108b4f0b25b458e1"
+  dependencies:
+    leb "^0.3.0"
+
+"@webassemblyjs/utf8@1.5.12":
+  version "1.5.12"
+  resolved "https://registry.yarnpkg.com/@webassemblyjs/utf8/-/utf8-1.5.12.tgz#d5916222ef314bf60d6806ed5ac045989bfd92ce"
+
+"@webassemblyjs/wasm-edit@1.5.12":
+  version "1.5.12"
+  resolved "https://registry.yarnpkg.com/@webassemblyjs/wasm-edit/-/wasm-edit-1.5.12.tgz#821c9358e644a166f2c910e5af1b46ce795a17aa"
+  dependencies:
+    "@webassemblyjs/ast" "1.5.12"
+    "@webassemblyjs/helper-buffer" "1.5.12"
+    "@webassemblyjs/helper-wasm-bytecode" "1.5.12"
+    "@webassemblyjs/helper-wasm-section" "1.5.12"
+    "@webassemblyjs/wasm-gen" "1.5.12"
+    "@webassemblyjs/wasm-opt" "1.5.12"
+    "@webassemblyjs/wasm-parser" "1.5.12"
+    "@webassemblyjs/wast-printer" "1.5.12"
+    debug "^3.1.0"
+
+"@webassemblyjs/wasm-gen@1.5.12":
+  version "1.5.12"
+  resolved "https://registry.yarnpkg.com/@webassemblyjs/wasm-gen/-/wasm-gen-1.5.12.tgz#0b7ccfdb93dab902cc0251014e2e18bae3139bcb"
+  dependencies:
+    "@webassemblyjs/ast" "1.5.12"
+    "@webassemblyjs/helper-wasm-bytecode" "1.5.12"
+    "@webassemblyjs/ieee754" "1.5.12"
+    "@webassemblyjs/leb128" "1.5.12"
+    "@webassemblyjs/utf8" "1.5.12"
+
+"@webassemblyjs/wasm-opt@1.5.12":
+  version "1.5.12"
+  resolved "https://registry.yarnpkg.com/@webassemblyjs/wasm-opt/-/wasm-opt-1.5.12.tgz#bd758a8bc670f585ff1ae85f84095a9e0229cbc9"
+  dependencies:
+    "@webassemblyjs/ast" "1.5.12"
+    "@webassemblyjs/helper-buffer" "1.5.12"
+    "@webassemblyjs/wasm-gen" "1.5.12"
+    "@webassemblyjs/wasm-parser" "1.5.12"
+    debug "^3.1.0"
+
+"@webassemblyjs/wasm-parser@1.5.12":
+  version "1.5.12"
+  resolved "https://registry.yarnpkg.com/@webassemblyjs/wasm-parser/-/wasm-parser-1.5.12.tgz#7b10b4388ecf98bd7a22e702aa62ec2f46d0c75e"
+  dependencies:
+    "@webassemblyjs/ast" "1.5.12"
+    "@webassemblyjs/helper-api-error" "1.5.12"
+    "@webassemblyjs/helper-wasm-bytecode" "1.5.12"
+    "@webassemblyjs/ieee754" "1.5.12"
+    "@webassemblyjs/leb128" "1.5.12"
+    "@webassemblyjs/utf8" "1.5.12"
+
+"@webassemblyjs/wast-parser@1.5.12":
+  version "1.5.12"
+  resolved "https://registry.yarnpkg.com/@webassemblyjs/wast-parser/-/wast-parser-1.5.12.tgz#9cf5ae600ecae0640437b5d4de5dd6b6088d0d8b"
+  dependencies:
+    "@webassemblyjs/ast" "1.5.12"
+    "@webassemblyjs/floating-point-hex-parser" "1.5.12"
+    "@webassemblyjs/helper-api-error" "1.5.12"
+    "@webassemblyjs/helper-code-frame" "1.5.12"
+    "@webassemblyjs/helper-fsm" "1.5.12"
+    long "^3.2.0"
+    mamacro "^0.0.3"
+
+"@webassemblyjs/wast-printer@1.5.12":
+  version "1.5.12"
+  resolved "https://registry.yarnpkg.com/@webassemblyjs/wast-printer/-/wast-printer-1.5.12.tgz#563ca4d01b22d21640b2463dc5e3d7f7d9dac520"
+  dependencies:
+    "@webassemblyjs/ast" "1.5.12"
+    "@webassemblyjs/wast-parser" "1.5.12"
+    long "^3.2.0"
 
 "@zamotany/react-proxy@3.0.0-alpha.4":
   version "3.0.0-alpha.4"
@@ -839,6 +975,10 @@ acorn@^4.0.3:
 acorn@^5.0.0:
   version "5.5.3"
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.5.3.tgz#f473dd47e0277a08e28e9bec5aeeb04751f0b8c9"
+
+acorn@^5.6.2:
+  version "5.7.1"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.7.1.tgz#f095829297706a7c9776958c0afc8930a9b9d9d8"
 
 add-stream@^1.0.0:
   version "1.0.0"
@@ -906,6 +1046,10 @@ ansi-gray@^0.1.1:
 ansi-html@0.0.7:
   version "0.0.7"
   resolved "https://registry.yarnpkg.com/ansi-html/-/ansi-html-0.0.7.tgz#813584021962a9e9e6fd039f940d12f56ca7859e"
+
+ansi-parser@^3.2.8:
+  version "3.2.8"
+  resolved "https://registry.yarnpkg.com/ansi-parser/-/ansi-parser-3.2.8.tgz#ad80a6351ac5e58cc7e8a761abc037b5505041d0"
 
 ansi-regex@^2.0.0:
   version "2.1.1"
@@ -1141,6 +1285,10 @@ assign-symbols@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/assign-symbols/-/assign-symbols-1.0.0.tgz#59667f41fadd4f20ccbc2bb96b8d4f7f78ec0367"
 
+astral-regex@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/astral-regex/-/astral-regex-1.0.0.tgz#6c8c3fb827dd43ee3918f27b82782ab7658a6fd9"
+
 async-each@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/async-each/-/async-each-1.0.1.tgz#19d386a1d9edc6e7c1c85d388aedbcc56d33602d"
@@ -1367,7 +1515,7 @@ babel-helpers@^6.24.1:
     babel-runtime "^6.22.0"
     babel-template "^6.24.1"
 
-babel-loader@7.1.4, babel-loader@^7.1.2:
+babel-loader@7.1.4, babel-loader@^7.1.2, babel-loader@^7.1.4:
   version "7.1.4"
   resolved "https://registry.yarnpkg.com/babel-loader/-/babel-loader-7.1.4.tgz#e3463938bd4e6d55d1c174c5485d406a188ed015"
   dependencies:
@@ -2337,7 +2485,7 @@ capture-stack-trace@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/capture-stack-trace/-/capture-stack-trace-1.0.0.tgz#4a6fa07399c26bba47f0b2496b4d0fb408c5550d"
 
-case-sensitive-paths-webpack-plugin@^2.1.1:
+case-sensitive-paths-webpack-plugin@^2.1.1, case-sensitive-paths-webpack-plugin@^2.1.2:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/case-sensitive-paths-webpack-plugin/-/case-sensitive-paths-webpack-plugin-2.1.2.tgz#c899b52175763689224571dad778742e133f0192"
 
@@ -2431,6 +2579,12 @@ chrome-trace-event@^0.1.1:
   version "0.1.3"
   resolved "https://registry.yarnpkg.com/chrome-trace-event/-/chrome-trace-event-0.1.3.tgz#d395af2d31c87b90a716c831fe326f69768ec084"
 
+chrome-trace-event@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/chrome-trace-event/-/chrome-trace-event-1.0.0.tgz#45a91bd2c20c9411f0963b5aaeb9a1b95e09cc48"
+  dependencies:
+    tslib "^1.9.0"
+
 ci-info@^1.0.0:
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/ci-info/-/ci-info-1.1.3.tgz#710193264bb05c77b8c90d02f5aaf22216a667b2"
@@ -2473,7 +2627,7 @@ cli-cursor@^2.1.0:
   dependencies:
     restore-cursor "^2.0.0"
 
-cli-spinners@^1.0.1:
+cli-spinners@^1.0.1, cli-spinners@^1.1.0:
   version "1.3.1"
   resolved "https://registry.yarnpkg.com/cli-spinners/-/cli-spinners-1.3.1.tgz#002c1990912d0d59580c93bd36c056de99e4259a"
 
@@ -3596,6 +3750,10 @@ fast-json-stable-stringify@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/fast-json-stable-stringify/-/fast-json-stable-stringify-2.0.0.tgz#d5142c0caee6b1189f87d3a76111064f86c8bbf2"
 
+fast-memoize@^2.2.8:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/fast-memoize/-/fast-memoize-2.4.0.tgz#2f79eca41c41112b0b70cf53ac3940e206574648"
+
 fb-watchman@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/fb-watchman/-/fb-watchman-2.0.0.tgz#54e9abf7dfa2f26cd9b1636c588c1afc05de5d58"
@@ -4227,6 +4385,63 @@ hasha@^2.2.0:
     is-stream "^1.0.1"
     pinkie-promise "^2.0.0"
 
+haul@1.0.0-rc.4:
+  version "1.0.0-rc.4"
+  resolved "https://registry.yarnpkg.com/haul/-/haul-1.0.0-rc.4.tgz#85e80a39df3ac3f0181de6057413d33749b8b883"
+  dependencies:
+    "@zamotany/react-proxy" "3.0.0-alpha.4"
+    babel-core "^6.24.0"
+    babel-loader "^7.1.4"
+    babel-plugin-transform-flow-strip-types "^6.22.0"
+    babel-plugin-transform-object-rest-spread "^6.23.0"
+    babel-plugin-transform-react-jsx "^6.24.1"
+    babel-polyfill "^6.26.0"
+    babel-preset-env "^1.2.2"
+    babel-register "^6.24.0"
+    camelcase-keys "^4.0.0"
+    case-sensitive-paths-webpack-plugin "^2.1.2"
+    chalk "1.1.3"
+    clear "^0.0.1"
+    cliui "^3.2.0"
+    clone "^2.1.1"
+    core-js "^2.5.3"
+    decamelize "^1.2.0"
+    dedent "^0.7.0"
+    escape-string-regexp "^1.0.5"
+    express "^4.15.2"
+    hasha "^2.2.0"
+    hoist-non-react-statics "^2.2.1"
+    image-size "^0.5.1"
+    inquirer "^3.0.6"
+    loader-utils "^1.1.0"
+    memory-fs "^0.4.1"
+    mime-types "^2.1.18"
+    minimist "^1.2.0"
+    morgan "^1.8.1"
+    multi-progress "^2.0.0"
+    node-emoji "^1.8.1"
+    node-fetch "^2.0.0"
+    open-in-editor "^2.2.0"
+    opn "^5.3.0"
+    ora "^1.2.0"
+    platform-select "^1.1.0"
+    react "^16.2.0"
+    react-deep-force-update "^2.0.1"
+    react-hot-loader "3.0.0-beta.7"
+    react-slate "^0.5.1"
+    react-slate-utils "^0.2.0"
+    resolve "^1.3.3"
+    resolve-from "^4.0.0"
+    rxjs "^5.4.2"
+    semver "^5.5.0"
+    source-map "^0.5.6"
+    strip-ansi "^3.0.1"
+    thread-loader "^1.1.5"
+    webpack "^4.12.0"
+    webpack-hot-middleware "^2.22.1"
+    ws "^2.2.2"
+    xpipe "^1.0.5"
+
 haul@^1.0.0-beta.13:
   version "1.0.0-beta.14"
   resolved "https://registry.yarnpkg.com/haul/-/haul-1.0.0-beta.14.tgz#ce261d8cee74e5b37c1a137ae91b182946a96bb6"
@@ -4381,6 +4596,10 @@ iconv-lite@^0.4.17, iconv-lite@~0.4.13:
   resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.21.tgz#c47f8733d02171189ebc4a400f3218d348094798"
   dependencies:
     safer-buffer "^2.1.0"
+
+ieee754@^1.1.11:
+  version "1.1.12"
+  resolved "https://registry.yarnpkg.com/ieee754/-/ieee754-1.1.12.tgz#50bf24e5b9c8bb98af4964c941cdb0918da7b60b"
 
 ieee754@^1.1.4:
   version "1.1.11"
@@ -4709,6 +4928,10 @@ is-windows@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/is-windows/-/is-windows-1.0.2.tgz#d1850eb9791ecd18e6182ce12a30f396634bb19d"
 
+is-wsl@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/is-wsl/-/is-wsl-1.1.0.tgz#1f16e4aa22b04d1336b66188a66af3c600c3a66d"
+
 isarray@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/isarray/-/isarray-0.0.1.tgz#8a18acfca9a8f4177e09abfc6038939b05d1eedf"
@@ -4810,7 +5033,7 @@ json-loader@^0.5.4:
   version "0.5.7"
   resolved "https://registry.yarnpkg.com/json-loader/-/json-loader-0.5.7.tgz#dca14a70235ff82f0ac9a3abeb60d337a365185d"
 
-json-parse-better-errors@^1.0.1:
+json-parse-better-errors@^1.0.1, json-parse-better-errors@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/json-parse-better-errors/-/json-parse-better-errors-1.0.2.tgz#bb867cfb3450e69107c131d1c514bab3dc8bcaa9"
 
@@ -4904,6 +5127,10 @@ lcid@^1.0.0:
   resolved "https://registry.yarnpkg.com/lcid/-/lcid-1.0.0.tgz#308accafa0bc483a3867b4b6f2b9506251d1b835"
   dependencies:
     invert-kv "^1.0.0"
+
+leb@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/leb/-/leb-0.3.0.tgz#32bee9fad168328d6aea8522d833f4180eed1da3"
 
 left-pad@^1.1.3:
   version "1.3.0"
@@ -5140,6 +5367,10 @@ lodash.throttle@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/lodash.throttle/-/lodash.throttle-4.1.1.tgz#c23e91b710242ac70c37f1e1cda9274cc39bf2f4"
 
+lodash.toarray@^4.4.0:
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/lodash.toarray/-/lodash.toarray-4.4.0.tgz#24c4bfcd6b2fba38bfd0594db1179d8e9b656561"
+
 lodash@4.17.2:
   version "4.17.2"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.2.tgz#34a3055babe04ce42467b607d700072c7ff6bf42"
@@ -5157,6 +5388,10 @@ log-symbols@^2.1.0:
   resolved "https://registry.yarnpkg.com/log-symbols/-/log-symbols-2.2.0.tgz#5740e1c5d6f0dfda4ad9323b5332107ef6b4c40a"
   dependencies:
     chalk "^2.0.1"
+
+long@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/long/-/long-3.2.0.tgz#d821b7138ca1cb581c172990ef14db200b5c474b"
 
 longest@^1.0.1:
   version "1.0.1"
@@ -5209,6 +5444,10 @@ makeerror@1.0.x:
   dependencies:
     tmpl "1.0.x"
 
+mamacro@^0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/mamacro/-/mamacro-0.0.3.tgz#ad2c9576197c9f1abf308d0787865bd975a3f3e4"
+
 map-cache@^0.2.2:
   version "0.2.2"
   resolved "https://registry.yarnpkg.com/map-cache/-/map-cache-0.2.2.tgz#c32abd0bd6525d9b051645bb4f26ac5dc98a0dbf"
@@ -5244,7 +5483,7 @@ mem@^1.1.0:
   dependencies:
     mimic-fn "^1.0.0"
 
-memory-fs@^0.4.0, memory-fs@~0.4.1:
+memory-fs@^0.4.0, memory-fs@^0.4.1, memory-fs@~0.4.1:
   version "0.4.1"
   resolved "https://registry.yarnpkg.com/memory-fs/-/memory-fs-0.4.1.tgz#3a9a20b8462523e447cfbc7e8bb80ed667bfc552"
   dependencies:
@@ -5475,7 +5714,7 @@ mime-types@2.1.11:
   dependencies:
     mime-db "~1.23.0"
 
-mime-types@^2.1.12, mime-types@~2.1.17, mime-types@~2.1.18, mime-types@~2.1.7:
+mime-types@^2.1.12, mime-types@^2.1.18, mime-types@~2.1.17, mime-types@~2.1.18, mime-types@~2.1.7:
   version "2.1.18"
   resolved "https://registry.yarnpkg.com/mime-types/-/mime-types-2.1.18.tgz#6f323f60a83d11146f831ff11fd66e2fe5503bb8"
   dependencies:
@@ -5650,12 +5889,22 @@ next-tick@1:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/next-tick/-/next-tick-1.0.0.tgz#ca86d1fe8828169b0120208e3dc8424b9db8342c"
 
+node-emoji@^1.8.1:
+  version "1.8.1"
+  resolved "https://registry.yarnpkg.com/node-emoji/-/node-emoji-1.8.1.tgz#6eec6bfb07421e2148c75c6bba72421f8530a826"
+  dependencies:
+    lodash.toarray "^4.4.0"
+
 node-fetch@^1.0.1, node-fetch@^1.3.3:
   version "1.7.3"
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-1.7.3.tgz#980f6f72d85211a5347c6b2bc18c5b84c3eb47ef"
   dependencies:
     encoding "^0.1.11"
     is-stream "^1.0.1"
+
+node-fetch@^2.0.0:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.1.2.tgz#ab884e8e7e57e38a944753cec706f788d1768bb5"
 
 node-int64@^0.4.0:
   version "0.4.0"
@@ -5847,6 +6096,12 @@ opn@^4.0.2:
   dependencies:
     object-assign "^4.0.1"
     pinkie-promise "^2.0.0"
+
+opn@^5.3.0:
+  version "5.3.0"
+  resolved "https://registry.yarnpkg.com/opn/-/opn-5.3.0.tgz#64871565c863875f052cfdf53d3e3cb5adb53b1c"
+  dependencies:
+    is-wsl "^1.1.0"
 
 optimist@^0.6.1:
   version "0.6.1"
@@ -6114,6 +6369,10 @@ pkg-up@^2.0.0:
   resolved "https://registry.yarnpkg.com/pkg-up/-/pkg-up-2.0.0.tgz#c819ac728059a461cab1c3889a2be3c49a004d7f"
   dependencies:
     find-up "^2.1.0"
+
+platform-select@^1.1.0:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/platform-select/-/platform-select-1.1.2.tgz#d5b5d67f7b7a4d25f70c72ab77e21cfaa63f720c"
 
 plist@2.0.1:
   version "2.0.1"
@@ -6463,6 +6722,38 @@ react-proxy@^3.0.0-alpha.0:
   dependencies:
     lodash "^4.6.1"
 
+react-reconciler@0.3.0-beta.1:
+  version "0.3.0-beta.1"
+  resolved "https://registry.yarnpkg.com/react-reconciler/-/react-reconciler-0.3.0-beta.1.tgz#035b2211bbdaff0e2b018b9197e88381abcb5b23"
+  dependencies:
+    fbjs "^0.8.16"
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+    prop-types "^15.6.0"
+
+react-slate-utils@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/react-slate-utils/-/react-slate-utils-0.2.0.tgz#951747f992984812e91c4b7741386be0b6c8b345"
+  dependencies:
+    mkdirp "^0.5.1"
+
+react-slate@^0.5.1:
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/react-slate/-/react-slate-0.5.1.tgz#a0e9b8558690a69ba8f5744d01d0ebf7bcb7dc44"
+  dependencies:
+    ansi-parser "^3.2.8"
+    ansi-styles "^3.2.0"
+    astral-regex "^1.0.0"
+    chalk "^2.1.0"
+    cli-spinners "^1.1.0"
+    fast-memoize "^2.2.8"
+    fbjs "^0.8.16"
+    is-fullwidth-code-point "^2.0.0"
+    mkdirp "^0.5.1"
+    prop-types "^15.6.0"
+    react-reconciler "0.3.0-beta.1"
+    strip-ansi "^4.0.0"
+
 react-timer-mixin@^0.13.2:
   version "0.13.3"
   resolved "https://registry.yarnpkg.com/react-timer-mixin/-/react-timer-mixin-0.13.3.tgz#0da8b9f807ec07dc3e854d082c737c65605b3d22"
@@ -6477,6 +6768,15 @@ react-transform-hmr@^1.0.4:
 react@16.3.1:
   version "16.3.1"
   resolved "https://registry.yarnpkg.com/react/-/react-16.3.1.tgz#4a2da433d471251c69b6033ada30e2ed1202cfd8"
+  dependencies:
+    fbjs "^0.8.16"
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+    prop-types "^15.6.0"
+
+react@^16.2.0:
+  version "16.4.1"
+  resolved "https://registry.yarnpkg.com/react/-/react-16.4.1.tgz#de51ba5764b5dbcd1f9079037b862bd26b82fe32"
   dependencies:
     fbjs "^0.8.16"
     loose-envify "^1.1.0"
@@ -7461,7 +7761,7 @@ text-extensions@^1.0.0:
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/text-extensions/-/text-extensions-1.7.0.tgz#faaaba2625ed746d568a23e4d0aacd9bf08a8b39"
 
-thread-loader@^1.1.1:
+thread-loader@^1.1.1, thread-loader@^1.1.5:
   version "1.1.5"
   resolved "https://registry.yarnpkg.com/thread-loader/-/thread-loader-1.1.5.tgz#7f9d6701f773734fff1832586779021ab8571917"
   dependencies:
@@ -7573,6 +7873,10 @@ trim-off-newlines@^1.0.0:
 trim-right@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/trim-right/-/trim-right-1.0.1.tgz#cb2e1203067e0c8de1f614094b9fe45704ea6003"
+
+tslib@^1.9.0:
+  version "1.9.3"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.9.3.tgz#d7e4dd79245d85428c4d7e4822a79917954ca286"
 
 tty-browserify@0.0.0:
   version "0.0.0"
@@ -7852,6 +8156,15 @@ webpack-hot-middleware@^2.19.1:
     querystring "^0.2.0"
     strip-ansi "^3.0.0"
 
+webpack-hot-middleware@^2.22.1:
+  version "2.22.2"
+  resolved "https://registry.yarnpkg.com/webpack-hot-middleware/-/webpack-hot-middleware-2.22.2.tgz#623b77ce591fcd4e1fb99f18167781443e50afac"
+  dependencies:
+    ansi-html "0.0.7"
+    html-entities "^1.2.0"
+    querystring "^0.2.0"
+    strip-ansi "^3.0.0"
+
 webpack-sources@^1.0.1, webpack-sources@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/webpack-sources/-/webpack-sources-1.1.0.tgz#a101ebae59d6507354d71d8013950a3a8b7a5a54"
@@ -7886,6 +8199,36 @@ webpack@3.8.1:
     webpack-sources "^1.0.1"
     yargs "^8.0.2"
 
+webpack@4.12.0:
+  version "4.12.0"
+  resolved "https://registry.yarnpkg.com/webpack/-/webpack-4.12.0.tgz#14758e035ae69747f68dd0edf3c5a572a82bdee9"
+  dependencies:
+    "@webassemblyjs/ast" "1.5.12"
+    "@webassemblyjs/helper-module-context" "1.5.12"
+    "@webassemblyjs/wasm-edit" "1.5.12"
+    "@webassemblyjs/wasm-opt" "1.5.12"
+    "@webassemblyjs/wasm-parser" "1.5.12"
+    acorn "^5.6.2"
+    acorn-dynamic-import "^3.0.0"
+    ajv "^6.1.0"
+    ajv-keywords "^3.1.0"
+    chrome-trace-event "^1.0.0"
+    enhanced-resolve "^4.0.0"
+    eslint-scope "^3.7.1"
+    json-parse-better-errors "^1.0.2"
+    loader-runner "^2.3.0"
+    loader-utils "^1.1.0"
+    memory-fs "~0.4.1"
+    micromatch "^3.1.8"
+    mkdirp "~0.5.0"
+    neo-async "^2.5.0"
+    node-libs-browser "^2.0.0"
+    schema-utils "^0.4.4"
+    tapable "^1.0.0"
+    uglifyjs-webpack-plugin "^1.2.4"
+    watchpack "^1.5.0"
+    webpack-sources "^1.0.1"
+
 webpack@4.6.0:
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/webpack/-/webpack-4.6.0.tgz#363eafa733710eb0ed28c512b2b9b9f5fb01e69b"
@@ -7897,6 +8240,36 @@ webpack@4.6.0:
     chrome-trace-event "^0.1.1"
     enhanced-resolve "^4.0.0"
     eslint-scope "^3.7.1"
+    loader-runner "^2.3.0"
+    loader-utils "^1.1.0"
+    memory-fs "~0.4.1"
+    micromatch "^3.1.8"
+    mkdirp "~0.5.0"
+    neo-async "^2.5.0"
+    node-libs-browser "^2.0.0"
+    schema-utils "^0.4.4"
+    tapable "^1.0.0"
+    uglifyjs-webpack-plugin "^1.2.4"
+    watchpack "^1.5.0"
+    webpack-sources "^1.0.1"
+
+webpack@^4.12.0:
+  version "4.12.1"
+  resolved "https://registry.yarnpkg.com/webpack/-/webpack-4.12.1.tgz#9108078c67fdd72c2609cea22af87d7aed2acb08"
+  dependencies:
+    "@webassemblyjs/ast" "1.5.12"
+    "@webassemblyjs/helper-module-context" "1.5.12"
+    "@webassemblyjs/wasm-edit" "1.5.12"
+    "@webassemblyjs/wasm-opt" "1.5.12"
+    "@webassemblyjs/wasm-parser" "1.5.12"
+    acorn "^5.6.2"
+    acorn-dynamic-import "^3.0.0"
+    ajv "^6.1.0"
+    ajv-keywords "^3.1.0"
+    chrome-trace-event "^1.0.0"
+    enhanced-resolve "^4.0.0"
+    eslint-scope "^3.7.1"
+    json-parse-better-errors "^1.0.2"
     loader-runner "^2.3.0"
     loader-utils "^1.1.0"
     memory-fs "~0.4.1"
