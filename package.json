@@ -18,7 +18,8 @@
   "workspaces": {
     "packages": [
       "packages/*",
-      "android"
+      "android",
+      "../times-components/packages/*"
     ]
   },
   "devDependencies": {

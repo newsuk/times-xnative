@@ -1,6 +1,6 @@
 {
   "name": "@thetimes/android-app",
-  "version": "0.0.12",
+  "version": "0.1.0",
   "private": true,
   "license": "BSD-3-Clause",
   "scripts": {
