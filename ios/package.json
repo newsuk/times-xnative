@@ -4,7 +4,7 @@
   "private": true,
   "license": "BSD-3-Clause",
   "scripts": {
-    "bundle:js": "haul bundle --platform ios --dev false --entry-file js/index.ios.js --bundle-output assets/js/index.ios.bundle --assets-dest assets/res/",
+    "bundle:js": "NODE_ENV=production haul bundle --platform ios --dev false --minimize true --entry-file js/index.ios.js --bundle-output assets/js/index.ios.bundle --assets-dest assets/res/",
     "bundle:meta": "cat package.json | grep version | head -1 | sed 's/[\",\t ]//g' | awk -F: '{ print \"Bundle Version: \" $2 }' > assets/js/index.ios.bundle.meta",
     "bundle": "yarn bundle:js && yarn bundle:meta",
     "fmt": "prettier --write 'js/**/*.*'",
@@ -35,7 +35,7 @@
     "babel-preset-react-native": "4.0.0",
     "babel-preset-stage-2": "6.24.1",
     "flow-bin": "0.63.1",
-    "haul": "^1.0.0-beta.13",
+    "haul": "1.0.0-rc.4",
     "prettier": "1.8.2",
     "webpack": "4.6.0"
   }

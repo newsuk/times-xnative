@@ -5,7 +5,7 @@
       "module-resolver",
       {
         "alias": {
-          "react-dom/server": "../../node_modules/react-apollo/react-apollo.browser.umd.js"
+          "react-dom/server": "../node_modules/react-apollo/react-apollo.browser.umd.js"
         }
       }
     ]]

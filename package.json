@@ -8,8 +8,8 @@
     "deps:fix": "npx @times-components/depend -l . -e '{node_modules/@times-components/*,.}/package.json' -s progressive --fix",
     "deps:lint": "npx @times-components/depend -l . -e '{node_modules/@times-components/*,.}/package.json' -s progressive --hint --bail",
     "deps:list": "npx @times-components/depend -l . -e '{node_modules/@times-components/*,.}/package.json' -s progressive --list",
-    "ios": "cd packages/ios-app && yarn start",
-    "ios:bundle": "cd packages/ios-app && yarn bundle",
+    "ios": "cd ios && yarn start",
+    "ios:bundle": "cd ios && yarn bundle",
     "prelint": "yarn deps:lint",
     "lint": "lerna run lint",
     "postinstall": "lerna run build",
@@ -19,6 +19,7 @@
     "packages": [
       "packages/*",
       "android",
+      "ios",
       "../times-components/packages/*"
     ]
   },

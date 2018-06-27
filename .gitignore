@@ -1,4 +1,4 @@
 node_modules/
 .vscode/
 *.log
-packages/android-app/assets/js/index.android.bundle.map
+android/assets/js/index.android.bundle.map
