@@ -1,4 +1,3 @@
 node_modules/
 .vscode/
 *.log
-android/assets/js/index.android.bundle.map
