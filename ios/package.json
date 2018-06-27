@@ -7,9 +7,9 @@
     "bundle:js": "NODE_ENV=production haul bundle --platform ios --dev false --minimize true --entry-file js/index.ios.js --bundle-output assets/js/index.ios.bundle --assets-dest assets/res/",
     "bundle:meta": "cat package.json | grep version | head -1 | sed 's/[\",\t ]//g' | awk -F: '{ print \"Bundle Version: \" $2 }' > assets/js/index.ios.bundle.meta",
     "bundle": "yarn bundle:js && yarn bundle:meta",
-    "fmt": "prettier --write 'js/**/*.*'",
+    "fmt": "prettier --write '**/*.js'",
     "start": "haul start --platform ios",
-    "lint:prettier": "prettier --list-different js/**/*.*",
+    "lint:prettier": "prettier --list-different **/*.js",
     "lint": "yarn lint:prettier"
   },
   "dependencies": {

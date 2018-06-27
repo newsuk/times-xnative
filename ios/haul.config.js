@@ -6,9 +6,10 @@ export default {
       entry: `./index.${platform}.js`
     }))({
       ...env,
-      initializeCoreLocation: "../node_modules/react-native/Libraries/Core/InitializeCore.js"
+      initializeCoreLocation:
+        "../node_modules/react-native/Libraries/Core/InitializeCore.js"
     });
-    
+
     config.module.rules[1].exclude = /\.\.\/node_modules(?!.*[\/\\](react|@expo|pretty-format|haul|metro))/;
 
     return config;

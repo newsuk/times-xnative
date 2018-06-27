@@ -9,9 +9,9 @@
     "bundle:move-map": "mkdir -p build && mv xnative/src/main/assets/index.android.bundle.map build/",
     "bundle:all": "yarn bundle && yarn bundle:android",
     "bundle": "yarn bundle:js && yarn bundle:move-map",
-    "fmt": "prettier --write 'js/**/*.*'",
+    "fmt": "prettier --write '**/*.js'",
     "start": "haul start --platform android",
-    "lint:prettier": "prettier --list-different js/**/*.*",
+    "lint:prettier": "prettier --list-different **/*.js",
     "lint": "yarn lint:prettier"
   },
   "dependencies": {
