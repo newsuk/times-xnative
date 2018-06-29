@@ -44,14 +44,22 @@
 			// This is the endpoint to use if you're running a local TPA instance
 			// GRAPHQL_ENDPOINT = "http://localhost:4000/graphql";
 
-			/*
+			/* const ARTICLE_ID = "82bd9272-cb4a-11e4-a202-50ac5def393a";
+            const ARTICLE_URL = "localhost:8000/edition/news/learning-by-rote-will-put-pupils-off-poetry-3g63xnt5l";
+            const SPOT_ID = "sp_pCQgrRiN";
+            const AUTH_HEADER_NAME = "security_hole_user_id";
+            const AUTH_HEADER_VALUE = "ABC123";
+            const GRAPHQL_ENDPOINT = "http://localhost:4000/graphql"; */
+
+
 			const ARTICLE_ID = "%ARTICLE_ID%";
 			const ARTICLE_URL = "%ARTICLE_URL%";
 			const SPOT_ID = "%SPOT_ID%";
 			const AUTH_HEADER_NAME = "%AUTH_HEADER_NAME%";
 			const AUTH_HEADER_VALUE = "%AUTH_HEADER_VALUE%";
 			const GRAPHQL_ENDPOINT = "%GRAPHQL_ENDPOINT%";
-			*/
+
+
 
 			function beginSSOTransaction() {
 				window.SPOTIM.startSSO((codeA, completeSSOCallback) => {
@@ -98,6 +106,15 @@
 				script.setAttribute("data-livefyre-url", ARTICLE_ID);
 				document.body.appendChild(script);
 			});
+
+			document.addEventListener('spot-im-current-user-typing-start', () => {
+				window.webkit.messageHandlers.spotIMUserStartedTyping.postMessage('spot im : comment : start');
+			});
+
+			document.addEventListener('spot-im-current-user-sent-message', () => {
+				window.webkit.messageHandlers.spotIMUserMessageSent.postMessage('spot im : comment : complete');
+			});
+
 		</script>
 	</head>
 	<body>
