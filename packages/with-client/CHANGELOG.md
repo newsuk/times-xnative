@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="1.0.18"></a>
+## [1.0.18](https://github.com/newsuk/times-xnative/compare/@thetimes/with-client@1.0.17...@thetimes/with-client@1.0.18) (2018-06-29)
+
+
+
+
+**Note:** Version bump only for package @thetimes/with-client
+
 <a name="1.0.17"></a>
 ## [1.0.17](https://github.com/newsuk/times-xnative/compare/@thetimes/with-client@1.0.16...@thetimes/with-client@1.0.17) (2018-06-26)
 

@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="0.1.1"></a>
+## [0.1.1](https://github.com/newsuk/times-xnative/compare/@thetimes/android-app@0.0.12...@thetimes/android-app@0.1.1) (2018-06-29)
+
+
+
+
+**Note:** Version bump only for package @thetimes/android-app
+
 <a name="0.0.12"></a>
 ## [0.0.12](https://github.com/newsuk/times-xnative/compare/@thetimes/android-app@0.0.11...@thetimes/android-app@0.0.12) (2018-06-20)
 
