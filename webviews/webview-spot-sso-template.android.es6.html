@@ -44,25 +44,29 @@
 			// This is the endpoint to use if you're running a local TPA instance
 			// GRAPHQL_ENDPOINT = "http://localhost:4000/graphql";
 
-			var ARTICLE_ID = window.ANDROID.getArticleId();
-			var ARTICLE_URL = window.ANDROID.getArticleUrl();
-			var SPOT_ID = window.ANDROID.getSpotId();
-			var AUTH_HEADER_NAME = "Authorization";
-			var AUTH_HEADER_VALUE = window.ANDROID.getAuthHeaderValue();
-			var GRAPHQL_ENDPOINT = window.ANDROID.getGraphQlEndpoint();
-			var spotIamReadyEvent = "spot-im-api-ready";
+			const ARTICLE_ID = window.ANDROID.getArticleId();
+			const ARTICLE_URL = window.ANDROID.getArticleUrl();
+			const SPOT_ID = window.ANDROID.getSpotId();
+			const AUTH_HEADER_NAME = "Authorization";
+			const AUTH_HEADER_VALUE = window.ANDROID.getAuthHeaderValue();
+			const GRAPHQL_ENDPOINT = window.ANDROID.getGraphQlEndpoint();
+			const spotIamReadyEvent = "spot-im-api-ready";
 
 			function beginSSOTransaction() {
-				window.SPOTIM.startSSO(function (codeA, completeSSOCallback) {
+				window.SPOTIM.startSSO((codeA, completeSSOCallback) => {
 					console.log("Received Code A", codeA);
-					var query = "{viewer {spotimCodeB(codeA: " + JSON.stringify(codeA) + ")}}";
-					var url = GRAPHQL_ENDPOINT + "?query=" + encodeURIComponent(query);
-					var xhr = new XMLHttpRequest();
+					const query = `{
+						viewer {
+							spotimCodeB(codeA: ${JSON.stringify(codeA)})
+						}
+					}`;
+					const url = `${GRAPHQL_ENDPOINT}?query=${encodeURIComponent(query)}`;
+					const xhr = new XMLHttpRequest();
 
-					xhr.addEventListener("load", function () {
+					xhr.addEventListener("load", () => {
 						console.log("Received GraphQL response", xhr.response);
-						var response = JSON.parse(xhr.response);
-						var codeB = response.data.viewer.spotimCodeB;
+						const response = JSON.parse(xhr.response);
+						const codeB = response.data.viewer.spotimCodeB;
 						completeSSOCallback(codeB);
 					});
 
@@ -74,10 +78,10 @@
 				});
 			}
 
-			function addSpotScript() {
-				var script = document.createElement("script");
+			function addSpotScript () {
+				const script = document.createElement("script");
 				script.setAttribute("async", true);
-				script.setAttribute("src", "https://launcher.spot.im/spot/" + SPOT_ID);
+				script.setAttribute("src", `https://launcher.spot.im/spot/${SPOT_ID}`);
 				script.setAttribute("data-spotim-module", "spotim-launcher");
 				script.setAttribute("onerror", "displayErrorMessage()");
 				script.setAttribute("data-post-url", ARTICLE_URL);
@@ -87,8 +91,8 @@
 				document.body.appendChild(script);
 			}
 
-			function displayErrorMessage() {
-				var errorMessage = document.getElementById('error-message');
+			function displayErrorMessage () {
+				const errorMessage = document.getElementById('error-message');
 				errorMessage.className = errorMessage.className.replace('is-hidden', '');
 			}
 
@@ -101,11 +105,11 @@
 
 			document.addEventListener('DOMContentLoaded', addSpotScript);
 
-			document.addEventListener('spot-im-current-user-typing-start', function () {
+			document.addEventListener('spot-im-current-user-typing-start', () => {
 				window.ANDROID.track('spot im : comment : start');
 			});
 
-			document.addEventListener('spot-im-current-user-sent-message', function () {
+			document.addEventListener('spot-im-current-user-sent-message', () => {
 				window.ANDROID.track('spot im : comment : complete');
 			});
 		</script>
