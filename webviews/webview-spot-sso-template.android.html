@@ -7,28 +7,6 @@
 				padding: 0;
 				margin: 0;
 			}
-
-			.ErrorMessage.is-hidden {
-				display: none;
-			}
-
-			.ErrorMessage {
-				display: flex;
-				flex-direction: column;
-				justify-content: center;
-				align-items: center;
-				margin-top: 100px;
-
-				font-family: Georgia, serif;
-			}
-
-			.ErrorMessage-Heading {
-				font-size: 24px;
-			}
-
-			.ErrorMessage-Body {
-				font-size: 16px;
-			}
 		</style>
 		<script>
 			// Example values:
@@ -66,8 +44,6 @@
 						completeSSOCallback(codeB);
 					});
 
-					xhr.addEventListener("error", console.error);
-
 					xhr.open("GET", url);
 					xhr.setRequestHeader(AUTH_HEADER_NAME, AUTH_HEADER_VALUE);
 					xhr.send();
@@ -79,17 +55,11 @@
 				script.setAttribute("async", true);
 				script.setAttribute("src", "https://launcher.spot.im/spot/" + SPOT_ID);
 				script.setAttribute("data-spotim-module", "spotim-launcher");
-				script.setAttribute("onerror", "displayErrorMessage()");
 				script.setAttribute("data-post-url", ARTICLE_URL);
 				script.setAttribute("data-post-id", ARTICLE_ID);
 				script.setAttribute("data-seo-enabled", "true");
 				script.setAttribute("data-livefyre-url", ARTICLE_ID);
 				document.body.appendChild(script);
-			}
-
-			function displayErrorMessage() {
-				var errorMessage = document.getElementById('error-message');
-				errorMessage.className = errorMessage.className.replace('is-hidden', '');
 			}
 
 			function loaded() {
@@ -111,13 +81,5 @@
 		</script>
 	</head>
 	<body>
-		<div id="error-message" class="ErrorMessage is-hidden">
-			<p class="ErrorMessage-Heading">
-				Something went wrong.
-			</p>
-			<p class="ErrorMessage-Body">
-				If you are not connected to the internet please reconnect and try again.
-			</p>
-		</div>
 	</body>
 </html>
