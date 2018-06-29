@@ -44,28 +44,33 @@
 			// This is the endpoint to use if you're running a local TPA instance
 			// GRAPHQL_ENDPOINT = "http://localhost:4000/graphql";
 
-			const ARTICLE_ID = "%ARTICLE_ID%";
-			const ARTICLE_URL = "%ARTICLE_URL%";
-			const SPOT_ID = "%SPOT_ID%";
-			const AUTH_HEADER_NAME = "%AUTH_HEADER_NAME%";
-			const AUTH_HEADER_VALUE = "%AUTH_HEADER_VALUE%";
-			const GRAPHQL_ENDPOINT = "%GRAPHQL_ENDPOINT%";
+			const ARTICLE_ID = "82bd9272-cb4a-11e4-a202-50ac5def393a";
+            const ARTICLE_URL = "localhost:8000/edition/news/learning-by-rote-will-put-pupils-off-poetry-3g63xnt5l";
+            const SPOT_ID = "sp_pCQgrRiN";
+            const AUTH_HEADER_NAME = "security_hole_user_id";
+            const AUTH_HEADER_VALUE = "ABC123";
+            const GRAPHQL_ENDPOINT = "http://localhost:4000/graphql";
+
+			/*
+			var ARTICLE_ID = "%ARTICLE_ID%";
+			var ARTICLE_URL = "%ARTICLE_URL%";
+			var SPOT_ID = "%SPOT_ID%";
+			var AUTH_HEADER_NAME = "%AUTH_HEADER_NAME%";
+			var AUTH_HEADER_VALUE = "%AUTH_HEADER_VALUE%";
+			var GRAPHQL_ENDPOINT = "%GRAPHQL_ENDPOINT%";
+			*/
 
 			function beginSSOTransaction() {
-				window.SPOTIM.startSSO((codeA, completeSSOCallback) => {
+				window.SPOTIM.startSSO(function (codeA, completeSSOCallback) {
 					console.log("Received Code A", codeA);
-					const query = `{
-						viewer {
-							spotimCodeB(codeA: ${JSON.stringify(codeA)})
-						}
-					}`;
-					const url = `${GRAPHQL_ENDPOINT}?query=${encodeURIComponent(query)}`;
-					const xhr = new XMLHttpRequest();
+					var query = "{ viewer { spotimCodeB(codeA: " + JSON.stringify(codeA) + ") } }";
+					var url = GRAPHQL_ENDPOINT + "?query=" + encodeURIComponent(query);
+					var xhr = new XMLHttpRequest();
 
-					xhr.addEventListener("load", () => {
+					xhr.addEventListener("load", function () {
 						console.log("Received GraphQL response", xhr.response);
-						const response = JSON.parse(xhr.response);
-						const codeB = response.data.viewer.spotimCodeB;
+						var response = JSON.parse(xhr.response);
+						var codeB = response.data.viewer.spotimCodeB;
 						completeSSOCallback(codeB);
 					});
 
@@ -77,10 +82,10 @@
 				});
 			}
 
-			function addSpotScript () {
-				const script = document.createElement("script");
+			function addSpotScript() {
+				var script = document.createElement("script");
 				script.setAttribute("async", true);
-				script.setAttribute("src", `https://launcher.spot.im/spot/${SPOT_ID}`);
+				script.setAttribute("src", "https://launcher.spot.im/spot/" + SPOT_ID);
 				script.setAttribute("data-spotim-module", "spotim-launcher");
 				script.setAttribute("onerror", "displayErrorMessage()");
 				script.setAttribute("data-post-url", ARTICLE_URL);
@@ -90,20 +95,20 @@
 				document.body.appendChild(script);
 			}
 
-			function displayErrorMessage () {
-				const errorMessage = document.getElementById('error-message');
-				errorMessage.className = errorMessage.className.replace('is-hidden', '')
+			function displayErrorMessage() {
+				var errorMessage = document.getElementById('error-message');
+				errorMessage.className = errorMessage.className.replace('is-hidden', '');
 			}
 
 			document.addEventListener("spot-im-api-ready", beginSSOTransaction);
 
 			document.addEventListener('DOMContentLoaded', addSpotScript);
 
-			document.addEventListener('spot-im-current-user-typing-start', () => {
+			document.addEventListener('spot-im-current-user-typing-start', function () {
 				window.webkit.messageHandlers.spotIMUserStartedTyping.postMessage('spot im : comment : start');
 			});
 
-			document.addEventListener('spot-im-current-user-sent-message', () => {
+			document.addEventListener('spot-im-current-user-sent-message', function () {
 				window.webkit.messageHandlers.spotIMUserMessageSent.postMessage('spot im : comment : complete');
 			});
 		</script>

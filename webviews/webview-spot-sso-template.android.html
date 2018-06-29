@@ -44,6 +44,8 @@
 						completeSSOCallback(codeB);
 					});
 
+					xhr.addEventListener("error", console.error);
+
 					xhr.open("GET", url);
 					xhr.setRequestHeader(AUTH_HEADER_NAME, AUTH_HEADER_VALUE);
 					xhr.send();
