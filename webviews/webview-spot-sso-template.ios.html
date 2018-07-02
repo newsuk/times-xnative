@@ -8,26 +8,68 @@
 				margin: 0;
 			}
 
+			html {
+				width: 100%;
+				height: 100%;
+			}
+
+			body {
+				width: 100%;
+				height: 100%;
+
+				background-image: url('./layer-1.svg');
+				background-position: 40px 100%;
+				background-repeat: no-repeat;
+			}
+
 			.ErrorMessage.is-hidden {
 				display: none;
 			}
 
 			.ErrorMessage {
-				display: flex;
+				position: absolute;
+
+				display: -webkit-flex;
 				flex-direction: column;
 				justify-content: center;
 				align-items: center;
-				margin-top: 100px;
 
-				font-family: Georgia, serif;
+				text-align: center;
+
+				top: 30%;
+
+				/* check fonts on iOS device(s) */
+				font-family: "Gill Sans MT Std", Helvetica, sans-serif;
 			}
 
 			.ErrorMessage-Heading {
-				font-size: 24px;
+				margin-bottom: 18px;
+
+				font-family: "TimesDigitalW04", Georgia, serif;
+				font-size: 25px;
 			}
 
 			.ErrorMessage-Body {
-				font-size: 16px;
+				font-size: 15px;
+			}
+
+			.ErrorMessage-Button {
+				/* TODO: double check on 8.4 or earlier */
+				display: -webkit-flex;
+				justify-content: center;
+				align-items: center;
+
+				width: 165px;
+				height: 45px;
+
+				margin-top: 37px;
+
+				font-size: 15px;
+
+				border-radius: 2px;
+
+				color: white;
+				background-color: #006699;
 			}
 		</style>
 		<script>
@@ -44,12 +86,12 @@
 			// This is the endpoint to use if you're running a local TPA instance
 			// GRAPHQL_ENDPOINT = "http://localhost:4000/graphql";
 
-			const ARTICLE_ID = "82bd9272-cb4a-11e4-a202-50ac5def393a";
-            const ARTICLE_URL = "localhost:8000/edition/news/learning-by-rote-will-put-pupils-off-poetry-3g63xnt5l";
-            const SPOT_ID = "sp_pCQgrRiN";
-            const AUTH_HEADER_NAME = "security_hole_user_id";
-            const AUTH_HEADER_VALUE = "ABC123";
-            const GRAPHQL_ENDPOINT = "http://localhost:4000/graphql";
+			var ARTICLE_ID = "82bd9272-cb4a-11e4-a202-50ac5def393a";
+			var ARTICLE_URL = "localhost:8000/edition/news/learning-by-rote-will-put-pupils-off-poetry-3g63xnt5l";
+			var SPOT_ID = "sp_pCQgrRiN";
+			var AUTH_HEADER_NAME = "security_hole_user_id";
+			var AUTH_HEADER_VALUE = "ABC123";
+			var GRAPHQL_ENDPOINT = "http://localhost:4000/graphql";
 
 			/*
 			var ARTICLE_ID = "%ARTICLE_ID%";
@@ -103,6 +145,12 @@
 			document.addEventListener("spot-im-api-ready", beginSSOTransaction);
 
 			document.addEventListener('DOMContentLoaded', addSpotScript);
+			document.addEventListener('DOMContentLoaded', function () {
+				var refreshButton = document.getElementById('refresh-button');
+				refreshButton.addEventListener('click', function () {
+					window.location.reload();
+				});
+			});
 
 			document.addEventListener('spot-im-current-user-typing-start', function () {
 				window.webkit.messageHandlers.spotIMUserStartedTyping.postMessage('spot im : comment : start');
@@ -116,11 +164,14 @@
 	<body>
 		<div id="error-message" class="ErrorMessage is-hidden">
 			<p class="ErrorMessage-Heading">
-				Something went wrong.
+				Something's gone wrong.
 			</p>
 			<p class="ErrorMessage-Body">
-				If you are not connected to the internet please reconnect and try again.
+				Please check your network connection and retry to continue.
 			</p>
+			<div id="refresh-button" class="ErrorMessage-Button">
+				Retry
+			</div>
 		</div>
 	</body>
 </html>
