@@ -13,11 +13,11 @@
 				height: 100%;
 			}
 
-			.ErrorMessage.is-hidden {
+			.ErrorMessage-Background.is-hidden {
 				display: none;
 			}
 
-			.ErrorMessage {
+			.ErrorMessage-Background {
 				width: 100%;
 				height: 100%;
 
@@ -33,12 +33,22 @@
 				/* check fonts on iOS device(s) */
 				font-family: "Gill Sans MT Std", Helvetica, sans-serif;
 
-				background-image: url('./layer-1.svg');
+				background-image: url('./lion-masthead.png');
 				background-position: 40px 100%;
 				background-repeat: no-repeat;
+                background-size: 100%;
 			}
+        
+            .ErrorMessage-Container {
+                margin: 0 60px;
+                display: -webkit-flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center
+            }
 
 			.ErrorMessage-Heading {
+                color: #333333;
 				margin-bottom: 18px;
 
 				font-family: "TimesDigitalW04", Georgia, serif;
@@ -46,6 +56,7 @@
 			}
 
 			.ErrorMessage-Body {
+                color: #737373;
 				font-size: 15px;
 			}
 
@@ -86,31 +97,20 @@
 			// This is the endpoint to use if you're running a local TPA instance
 			// GRAPHQL_ENDPOINT = "http://localhost:4000/graphql";
 
-			var ARTICLE_ID = "82bd9272-cb4a-11e4-a202-50ac5def393a";
-			var ARTICLE_URL = "localhost:8000/edition/news/learning-by-rote-will-put-pupils-off-poetry-3g63xnt5l";
-			var SPOT_ID = "sp_pCQgrRiN";
-			var AUTH_HEADER_NAME = "security_hole_user_id";
-			var AUTH_HEADER_VALUE = "ABC123";
-			var GRAPHQL_ENDPOINT = "http://localhost:4000/graphql";
-
-			/*
-			var ARTICLE_ID = "%ARTICLE_ID%";
-			var ARTICLE_URL = "%ARTICLE_URL%";
-			var SPOT_ID = "%SPOT_ID%";
-			var AUTH_HEADER_NAME = "%AUTH_HEADER_NAME%";
-			var AUTH_HEADER_VALUE = "%AUTH_HEADER_VALUE%";
-			var GRAPHQL_ENDPOINT = "%GRAPHQL_ENDPOINT%";
-			*/
+            var ARTICLE_ID = "%ARTICLE_ID%";
+            var ARTICLE_URL = "%ARTICLE_URL%";
+            var SPOT_ID = "%SPOT_ID%";
+            var AUTH_HEADER_NAME = "%AUTH_HEADER_NAME%";
+            var AUTH_HEADER_VALUE = "%AUTH_HEADER_VALUE%";
+            var GRAPHQL_ENDPOINT = "%GRAPHQL_ENDPOINT%";
 
 			function beginSSOTransaction() {
 				window.SPOTIM.startSSO(function (codeA, completeSSOCallback) {
-					console.log("Received Code A", codeA);
 					var query = "{ viewer { spotimCodeB(codeA: " + JSON.stringify(codeA) + ") } }";
 					var url = GRAPHQL_ENDPOINT + "?query=" + encodeURIComponent(query);
 					var xhr = new XMLHttpRequest();
 
 					xhr.addEventListener("load", function () {
-						console.log("Received GraphQL response", xhr.response);
 						var response = JSON.parse(xhr.response);
 						var codeB = response.data.viewer.spotimCodeB;
 						completeSSOCallback(codeB);
@@ -162,17 +162,19 @@
 		</script>
 	</head>
 	<body>
-		<div id="error-message" class="ErrorMessage is-hidden">
-			<p class="ErrorMessage-Heading">
-				Something's gone wrong.
-			</p>
-			<p class="ErrorMessage-Body">
-				<span class="ErrorMessage-Body-Line">Please check your network connection</span>
-				<span class="ErrorMessage-Body-Line">and retry to continue.</span>
-			</p>
-			<div id="refresh-button" class="ErrorMessage-Button">
-				Retry
-			</div>
+		<div id="error-message" class="ErrorMessage-Background is-hidden">
+            <div class="ErrorMessage-Container">
+                <p class="ErrorMessage-Heading">
+                    Something's gone wrong.
+                </p>
+                <p class="ErrorMessage-Body">
+                    <span class="ErrorMessage-Body-Line">Please check your network connection</span>
+                    <span class="ErrorMessage-Body-Line">and retry to continue.</span>
+                </p>
+                <div id="refresh-button" class="ErrorMessage-Button">
+                    Retry
+                </div>
+            </div>
 		</div>
 	</body>
 </html>
